@@ -1,0 +1,169 @@
+////////////////////////////////////////////////////////////////////////////////
+// Filename: light.ps
+////////////////////////////////////////////////////////////////////////////////
+
+//////////////
+// TEXTURES //
+//////////////
+Texture2D shaderTexture : register(t0);
+Texture2D depthMapTexture : register(t1);
+
+
+/////////////
+// DEFINES //
+/////////////
+#define NUM_LIGHTS 4
+
+
+///////////////////
+// SAMPLE STATES //
+///////////////////
+SamplerState SampleTypeClamp : register(s0);
+SamplerState SampleTypeWrap  : register(s1);
+
+
+//////////////////////
+// CONSTANT BUFFERS //
+//////////////////////
+cbuffer LightBuffer
+{
+	float4 diffuseColor[NUM_LIGHTS];
+	float4 ambientColor;
+    float specularPower;
+    float4 specularColor;
+};
+
+cbuffer LightPositionBuffer
+{
+	float4 lightPosition[NUM_LIGHTS];
+};
+
+
+//////////////
+// TYPEDEFS //
+//////////////
+/*
+struct PixelInputType
+{
+    float4 position : SV_POSITION;
+    float2 tex : TEXCOORD0;
+	float3 normal : NORMAL;
+	float3 viewDirection : TEXCOORD1;
+	float4 worldPosition : POSITION;
+    //float4 lightViewPosition : TEXCOORD2;
+	float3 lightPos[NUM_LIGHTS]: TEXCOORD3;	
+};
+*/
+
+struct PSInput
+{
+    float4 PositionSS 		    : SV_Position;
+    float3 PositionWS 		    : POSITIONWS;
+    float2 TexCoord 		    : TEXCOORD;
+	float3 NormalWS 		    : NORMALWS;
+    float3 TangentWS 		    : TANGENTWS;
+    float3 BitangentWS 		    : BINORMALWS;
+	float DepthVS			    : DEPTHVS;
+    uint Coverage               : SV_Coverage;
+};
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Pixel Shader
+////////////////////////////////////////////////////////////////////////////////
+float4 LightPixelShader(PSInput input) : SV_TARGET
+{
+	float4 color;
+
+	float4 textureColor = shaderTexture.Sample(SampleTypeWrap, input.TexCoord);
+
+	color = textureColor;
+	return color;
+	/*
+	float lightIntensity[NUM_LIGHTS];
+	float4 color;
+	float3 reflection;
+	int i;
+	float d[NUM_LIGHTS];
+	float bias;
+    float2 projectTexCoord;
+    float depthValue;
+    float lightDepthValue;
+
+	// Sample the pixel color from the texture using the sampler at this texture coordinate location.
+	
+
+	// Set the default output color to the ambient light value for all pixels.
+    color = ambientColor;
+
+	float3 attV = float3(0.5f, 0.5f, 0.0f);
+
+	float4 diff, spec;
+
+	diff = float4(0.0f, 0.0f, 0.0f, 0.0f);
+	spec = float4(0.0f, 0.0f, 0.0f, 0.0f);
+
+	// Calculate the projected texture coordinates.
+    //projectTexCoord.x =  input.lightViewPosition.x / input.lightViewPosition.w / 2.0f + 0.5f;
+    //projectTexCoord.y = -input.lightViewPosition.y / input.lightViewPosition.w / 2.0f + 0.5f;
+
+	// Determine if the projected coordinates are in the 0 to 1 range.  If so then this pixel is in the view of the light.
+    if((saturate(projectTexCoord.x) == projectTexCoord.x) && (saturate(projectTexCoord.y) == projectTexCoord.y))
+    {
+		// Sample the shadow map depth value from the depth texture using the sampler at the projected texture coordinate location.
+        depthValue = depthMapTexture.Sample(SampleTypeClamp, projectTexCoord).r;
+
+		 // Calculate the depth of the light.
+        lightDepthValue = input.lightViewPosition.z / input.lightViewPosition.w;
+
+        // Calculate the different amounts of light on this pixel based on the positions of the lights.
+		for(i = 0 ; i < NUM_LIGHTS ; i++)
+		{
+			input.lightPos[i].xyz = lightPosition[i].xyz - input.worldPosition.xyz;	
+			d[i] = length(input.lightPos[i]);
+			input.lightPos[i] = normalize(input.lightPos[i]);
+
+			lightIntensity[i] = saturate(dot(input.normal, input.lightPos[i]));
+
+			bias = 0.005*tan(acos(lightIntensity[i]));
+			bias = saturate(bias);
+
+			// Subtract the bias from the lightDepthValue.
+			//lightDepthValue = lightDepthValue - bias;
+
+			// Compare the depth of the shadow map value and the depth of the light to determine whether to shadow or to light this pixel.
+			// If the light is in front of the object then light the pixel, if not then shadow this pixel since an object (occluder) is casting a shadow on it.
+			//if(lightDepthValue < depthValue)
+			//{			
+				if(lightIntensity[i] > 0.0f)
+				{
+					// Determine the final diffuse color based on the diffuse color and the amount of light intensity.
+					diff = (diffuseColor[i] * lightIntensity[i]);			
+
+					// Saturate the ambient and diffuse color.
+					diff = saturate(diff);
+
+					// Calculate the reflection vector based on the light intensity, normal vector, and light direction.
+					reflection = normalize(2 * lightIntensity[i] * input.normal - input.lightPos[i]); 
+			
+					// Determine the amount of specular light based on the reflection vector, viewing direction, and specular power.
+					spec = pow(saturate(dot(reflection, input.viewDirection)), specularPower);			
+				}
+
+				float att = 1.0f / dot(attV, float3(1.0f, d[i], d[i]*d[i]));				
+
+				diff = diff * att;
+				spec = spec * att;
+		
+				color += (diff + spec);					
+			}
+		//}
+	}
+
+	// Clamp the final color between 0 and 1
+    color = saturate(color);
+
+	// Multiply the texture pixel and the input color to get the textured result.
+    color = color * textureColor;
+	*/
+}

@@ -1,0 +1,13 @@
+Ok first consider a composite object like a door.
+Detach the door from the frame to have two separate objects.
+Convert both to poly to prep for skinning.
+For the door, create one bone using Animation>BoneTools (two minimum bones will show even if you want just one).
+After placing the bone, create another bone for the frame.
+Now go to the door object's modifiers and add Skin modifier.
+Within skin, go to Add bone and add the bones that correspond to the door.
+Go to the frame object's modifiers and skin that too.
+Now that skinning is complete, we can start keyframe animation.
+Select the door and make sure var is at frame 0.
+Select Auto key and create key at 0. Move to the desired frames (25, 50, 75 etc.). Make sure door is back to initial position.
+For the door frame, since it is static, click Set key and create key at 0 and at 100.
+That's it! Export to FBX.

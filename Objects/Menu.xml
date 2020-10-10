@@ -1,0 +1,36 @@
+<root>
+<!--
+	Frame types:
+	1: Finite Options Seingle Selection		(ex: radio buttons, drop down box)
+	2: Finite Options Multi-selection		(ex: check boxes)
+	3: Infinite Options Single Selection	(ex: a slider bar)
+-->
+	<Frames>
+		<Frame id="F1" title="Main Menu" type="1" top="1" >
+			<Option name="Level options" id="1">
+				<Graphics>
+				</Graphics>
+			</Option>
+			<Option name="Settings" id="2">
+				<Graphics>
+				</Graphics>
+			</Option>
+		</Frame>
+		<Frame id="F2" title="Main Menu2" type="3">
+			<Option name="Level options" id="1" min="1.23" max="10.23">
+				<Graphics>
+				</Graphics>
+			</Option>
+		</Frame>
+		<Frame id="F3" title="Main Menu3" type="1">
+			<Option name="Level options" id="1">
+				<Graphics>
+				</Graphics>
+			</Option>
+			<Option name="Settings" id="2">
+				<Graphics>
+				</Graphics>
+			</Option>
+		</Frame>
+	</Frames>
+</root>

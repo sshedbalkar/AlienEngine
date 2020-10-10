@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Archetypes>
+		<Archetype id ="GOC_Type_Domino">
+		  <Components>
+			<Component Type ="Transform">
+        <Scale>0.2,1.5,0.75</Scale>
+      </Component>
+      <Component Type ="CollisionBox">
+			  <HalfSize>0.1,2.5,0.5</HalfSize>
+			</Component>
+			<Component Type ="ModelComponent">
+			  <ModelName>domino</ModelName>
+        <TextureName>cream</TextureName>
+        <Alpha>0.3</Alpha>
+        <TexMultiplier>10</TexMultiplier>
+			</Component>
+			<Component Type="RigidBody">
+			  <density>100</density>
+			  <acceleration>0.0,-20.0,0.0</acceleration>
+			  <linearDamping>0.95</linearDamping>
+			  <angularDamping>0.8</angularDamping>
+			  <canSleep>1</canSleep>
+			  <isSleeping>1</isSleeping>
+			</Component>
+       <Component Type ="Domino"> </Component>
+        <Component Type ="HistoryComponent"> </Component> 
+        
+		  </Components>
+		</Archetype>
+	
+	</Archetypes>	
+</root>

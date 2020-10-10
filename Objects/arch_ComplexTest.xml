@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Archetypes>
+    <Archetype id="GOC_Type_ComplexTest">
+      <Components>
+        <Component Type ="Transform">
+          <Scale>1,1,1</Scale>
+        </Component>
+        <Component Type ="HistoryComponent"></Component>
+        <Component Type ="ComplexObject">
+          <PaPaJoe>
+            <index>0</index>
+            <connectedTo>0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0</connectedTo>
+            <mass>50</mass>
+            <Position>0.0,0.0,0.0</Position>
+            <Orientation>1.0,0.0,0.0,0.0</Orientation>
+            <halfSize>1.5,0.1,1.5</halfSize>
+            <GraphicsType>GOC_Type_TableTop</GraphicsType>
+          </PaPaJoe>
+
+          <PaPaJoe>
+            <index>1</index>
+            <connectedTo>1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</connectedTo>
+            <mass>50</mass>
+            <Position>1.4,-0.8,1.4</Position>
+            <Orientation>1.0,0.0,0.0,0.0</Orientation>
+            <halfSize>0.05,0.8,0.05</halfSize>
+            <GraphicsType>GOC_Type_TableLeg</GraphicsType>
+          </PaPaJoe>
+
+          <PaPaJoe>
+            <index>2</index>
+            <connectedTo>1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</connectedTo>
+            <mass>50</mass>
+            <Position>-1.4,-0.8,-1.4</Position>
+            <Orientation>1.0,0.0,0.0,0.0</Orientation>
+            <halfSize>0.05,0.8,0.05</halfSize>
+            <GraphicsType>GOC_Type_TableLeg</GraphicsType>
+          </PaPaJoe>
+
+          <PaPaJoe>
+            <index>3</index>
+            <connectedTo>1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</connectedTo>
+            <mass>50</mass>
+            <Position>1.4,-0.8,-1.4</Position>
+            <Orientation>1.0,0.0,0.0,0.0</Orientation>
+            <halfSize>0.05,0.8,0.05</halfSize>
+            <GraphicsType>GOC_Type_TableLeg</GraphicsType>
+          </PaPaJoe>
+
+          <PaPaJoe>
+            <index>4</index>
+            <connectedTo>1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</connectedTo>
+            <mass>50</mass>
+            <Position>-1.4,-0.8,1.4</Position>
+            <Orientation>1.0,0.0,0.0,0.0</Orientation>
+            <halfSize>0.05,0.8,0.05</halfSize>
+            <GraphicsType>GOC_Type_TableLeg</GraphicsType>
+          </PaPaJoe>
+          
+        </Component>
+                   
+        
+        <Component Type="RigidBody">
+          <density>1</density>
+          <acceleration>0.0,-5.0,0.0</acceleration>
+          <linearDamping>0.95</linearDamping>
+          <angularDamping>0.8</angularDamping>
+          <canSleep>1</canSleep>
+          <isSleeping>0</isSleeping>
+        </Component>
+        
+        
+      </Components>
+    </Archetype>
+  </Archetypes>
+</root>

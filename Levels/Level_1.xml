@@ -1,0 +1,2935 @@
+<root>
+  <constants>
+    <BloomThreshold>3.000000</BloomThreshold>
+    <BloomMagnitude>1.000000</BloomMagnitude>
+    <BloomBlurSigma>0.800000</BloomBlurSigma>
+    <AdaptationRate>0.000000</AdaptationRate>
+    <ExposureKeyValue>0.015000</ExposureKeyValue>
+    <SpecularIntensity>0.001000</SpecularIntensity>
+    <SpecularR>1.000000</SpecularR>
+    <SpecularG>1.000000</SpecularG>
+    <SpecularB>1.000000</SpecularB>
+    <Balance>0.500000</Balance>
+    <Roughness>0.500000</Roughness>
+    <ConstAmbient>1.0000,1.0000,1.0000,1.0000</ConstAmbient>
+    <SkyColor>1.0000,1.0000,1.0000,1.0000</SkyColor>
+    <GroundColor>0.2350,0.2350,0.2940,1.0000</GroundColor>
+    <HemiIntensity>0.600000</HemiIntensity>
+  </constants>
+  <items>
+    <item archetype="GOC_Type_Hero">
+      <GlobalID>1</GlobalID>
+      <Position>-31.0409,96.0885,15.0724</Position>
+      <Scale>2.0000,2.0000,2.0000</Scale>
+      <Orientation>0.1189,-0.2161,0.0265,0.9687</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>2</GlobalID>
+      <Position>-24.3223,89.4872,85.3816</Position>
+      <Scale>11.0000,1.0000,22.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>3</GlobalID>
+      <Position>-24.2697,90.5434,89.8843</Position>
+      <Scale>0.5000,1.4000,0.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Button2">
+      <GlobalID>4</GlobalID>
+      <Position>-24.2697,91.2319,89.8843</Position>
+      <Scale>0.3000,0.2000,0.3000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ObjectActivationId>1</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.800000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>-107374176.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Sphere_Thrower">
+      <GlobalID>5</GlobalID>
+      <Position>-29.0490,91.3729,82.1958</Position>
+      <Scale>0.5000,0.5000,0.5000</Scale>
+      <Orientation>0.0000,0.0000,-0.8245,-0.5659</Orientation>
+      <ObjectActivationId>2</ObjectActivationId>
+      <ActivatedBy>   1,   0,   0,   0</ActivatedBy>
+      <PointingTo>-19.00,95.50,82.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>17.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>6</GlobalID>
+      <Position>-16.7312,94.3441,83.1810</Position>
+      <Scale>15.0000,5.0000,16.5000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,-0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_Button1">
+      <GlobalID>7</GlobalID>
+      <Position>-19.2207,94.0057,82.1958</Position>
+      <Scale>1.0000,0.5000,1.0000</Scale>
+      <Orientation>0.7071,-0.7071,0.0000,0.0000</Orientation>
+      <ObjectActivationId>3</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>3.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>-107374176.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_VerticalSlider">
+      <GlobalID>8</GlobalID>
+      <Position>-24.2001,89.8691,76.6505</Position>
+      <Scale>3.0000,0.3000,3.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ObjectActivationId>4</ObjectActivationId>
+      <ActivatedBy>   3,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>5</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>-107374176.000000</ShootingSpeed>
+      <AutoCanRotate>1</AutoCanRotate>
+      <AutoCanMove>1</AutoCanMove>
+      <MovingAxis>   0,   1,   0</MovingAxis>
+      <RotationPoint>   0,   0,   0</RotationPoint>
+      <RotationAxis>   0,   0,   0</RotationAxis>
+      <MovingSpeed>2.500000</MovingSpeed>
+      <RotationSpeed>0.000000</RotationSpeed>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>9</GlobalID>
+      <Position>-24.3868,92.5837,74.5140</Position>
+      <Scale>5.0000,1.0000,11.0000</Scale>
+      <Orientation>-0.5000,-0.5000,0.5000,0.5000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>10</GlobalID>
+      <Position>-24.4928,94.5888,70.4854</Position>
+      <Scale>9.0000,1.0000,18.0000</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>11</GlobalID>
+      <Position>-23.8041,98.1307,65.5110</Position>
+      <Scale>7.5000,1.0000,19.0000</Scale>
+      <Orientation>0.5000,-0.5000,0.5000,-0.5000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Laser">
+      <GlobalID>12</GlobalID>
+      <Position>-31.2610,95.9481,74.0842</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,-0.7071,0.0000,-0.7071</Orientation>
+      <ObjectActivationId>6</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>1</OneTimeActivated>
+      <ShootingSpeed>-107374176.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>13</GlobalID>
+      <Position>-32.8422,97.9082,74.6887</Position>
+      <Scale>8.0000,1.0000,7.0000</Scale>
+      <Orientation>0.5000,-0.5000,0.5000,-0.5000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Cube_Thrower">
+      <GlobalID>14</GlobalID>
+      <Position>-31.2610,100.2244,67.4251</Position>
+      <Scale>1.0000,0.8000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ObjectActivationId>8</ObjectActivationId>
+      <ActivatedBy>   7,   0,   0,   0</ActivatedBy>
+      <PointingTo>-31.26,90.00,67.90</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>5.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>15</GlobalID>
+      <Position>-24.5688,95.7328,66.7746</Position>
+      <Scale>0.5000,1.4000,0.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Button2">
+      <GlobalID>16</GlobalID>
+      <Position>-24.5688,96.4217,66.7746</Position>
+      <Scale>0.3000,0.2000,0.3000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ObjectActivationId>7</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.800000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>-107374176.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Button1">
+      <GlobalID>17</GlobalID>
+      <Position>-20.7944,95.0503,67.0981</Position>
+      <Scale>1.5000,0.5000,1.5000</Scale>
+      <Orientation>0.0000,1.0000,0.0000,0.0000</Orientation>
+      <ObjectActivationId>9</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>-107374176.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Door1">
+      <GlobalID>18</GlobalID>
+      <Position>-14.6850,96.5043,70.4854</Position>
+      <Scale>9.0000,3.0000,0.7000</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ObjectActivationId>11</ObjectActivationId>
+      <ActivatedBy>   0,   9,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>-107374176.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>19</GlobalID>
+      <Position>-10.5106,94.5942,64.2460</Position>
+      <Scale>10.0000,1.0000,36.0000</Scale>
+      <Orientation>0.0000,0.0000,-1.0000,0.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>20</GlobalID>
+      <Position>-7.0901,95.7328,72.7431</Position>
+      <Scale>0.5000,1.4000,0.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Button2">
+      <GlobalID>21</GlobalID>
+      <Position>-7.0846,96.4217,72.7431</Position>
+      <Scale>0.3000,0.2000,0.3000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ObjectActivationId>13</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.800000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>-107374176.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_TransparrentDominoBase">
+      <GlobalID>22</GlobalID>
+      <Position>5.3300,99.6884,62.1642</Position>
+      <Scale>2.0000,0.5000,20.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>23</GlobalID>
+      <Position>-0.5204,94.9931,77.2420</Position>
+      <Scale>2.5000,0.5000,9.9000</Scale>
+      <Orientation>-0.0186,0.7069,0.0186,0.7069</Orientation>
+    </item>
+    <item archetype="GOC_Type_Sphere_Thrower">
+      <GlobalID>24</GlobalID>
+      <Position>5.8040,99.7433,47.2582</Position>
+      <Scale>0.5000,0.5000,0.5000</Scale>
+      <Orientation>0.8216,0.0000,0.0000,-0.5700</Orientation>
+      <ObjectActivationId>14</ObjectActivationId>
+      <ActivatedBy>  13,   0,   0,   0</ActivatedBy>
+      <PointingTo>5.30,101.50,53.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>12.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_HangingBall">
+      <GlobalID>25</GlobalID>
+      <Position>5.3300,100.3107,72.4509</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintId>20</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_TransparrentDominoBase">
+      <GlobalID>26</GlobalID>
+      <Position>5.3300,96.0678,58.2771</Position>
+      <Scale>2.0000,0.5000,14.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>27</GlobalID>
+      <Position>5.3564,95.2980,76.9948</Position>
+      <Scale>2.0000,0.5000,2.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Cube">
+      <GlobalID>28</GlobalID>
+      <Position>5.3295,96.0476,76.9970</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0003,0.0001,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_ObjectHolder">
+      <GlobalID>29</GlobalID>
+      <Position>5.3300,95.4111,76.9962</Position>
+      <Scale>1.5000,0.3000,1.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Button1">
+      <GlobalID>30</GlobalID>
+      <Position>-6.8849,95.0169,67.6762</Position>
+      <Scale>1.5000,0.5000,1.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ObjectActivationId>15</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>0.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Button3">
+      <GlobalID>31</GlobalID>
+      <Position>4.7635,93.2033,70.2449</Position>
+      <Scale>1.0000,0.5000,1.0000</Scale>
+      <Orientation>0.5000,-0.5000,-0.5000,-0.5000</Orientation>
+      <ObjectActivationId>18</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>16</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.500000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>0.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Sphere_Thrower">
+      <GlobalID>32</GlobalID>
+      <Position>6.5719,96.3758,70.2193</Position>
+      <Scale>0.5000,0.5000,0.5000</Scale>
+      <Orientation>0.0000,0.0000,-0.7895,-0.6138</Orientation>
+      <ObjectActivationId>19</ObjectActivationId>
+      <ActivatedBy>  18,   0,   0,   0</ActivatedBy>
+      <PointingTo>5.30,97.00,65.00</PointingTo>
+      <AttachedToId>16</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>10.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>33</GlobalID>
+      <Position>1.9442,98.0879,46.3325</Position>
+      <Scale>16.0000,1.0000,20.0000</Scale>
+      <Orientation>0.5000,-0.5000,0.5000,-0.5000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>34</GlobalID>
+      <Position>-3.7164,94.3441,81.9830</Position>
+      <Scale>15.0000,1.0000,30.0000</Scale>
+      <Orientation>0.5000,-0.5000,0.5000,-0.5000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>35</GlobalID>
+      <Position>-29.8361,94.3441,83.1953</Position>
+      <Scale>15.0000,1.0000,18.0000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,-0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>36</GlobalID>
+      <Position>-16.2369,94.3441,75.4171</Position>
+      <Scale>15.0000,1.0000,4.0000</Scale>
+      <Orientation>0.5000,-0.5000,0.5000,-0.5000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Cube">
+      <GlobalID>37</GlobalID>
+      <Position>5.3286,96.8176,51.0321</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>-0.0006,0.0000,-0.0001,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Door1">
+      <GlobalID>38</GlobalID>
+      <Position>-11.1823,96.5845,46.2939</Position>
+      <Scale>6.3000,3.0000,0.7000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ObjectActivationId>20</ObjectActivationId>
+      <ActivatedBy>  22,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>0.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_TransparrentDominoBase">
+      <GlobalID>39</GlobalID>
+      <Position>5.3300,94.5486,49.7835</Position>
+      <Scale>4.0000,0.5000,6.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Button1">
+      <GlobalID>40</GlobalID>
+      <Position>5.3300,94.7345,50.2632</Position>
+      <Scale>1.5000,0.5000,1.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ObjectActivationId>22</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>0.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_VerticalSlider">
+      <GlobalID>41</GlobalID>
+      <Position>5.3301,94.3741,70.2221</Position>
+      <Scale>1.3000,5.0000,1.3000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ObjectActivationId>16</ObjectActivationId>
+      <ActivatedBy>  15,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>17</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>0.000000</ShootingSpeed>
+      <AutoCanRotate>1</AutoCanRotate>
+      <AutoCanMove>1</AutoCanMove>
+      <MovingAxis>   0,   1,   0</MovingAxis>
+      <RotationPoint>   0,   0,   0</RotationPoint>
+      <RotationAxis>   0,   1,   0</RotationAxis>
+      <MovingSpeed>1.500000</MovingSpeed>
+      <RotationSpeed>1.500000</RotationSpeed>
+    </item>
+    <item archetype="GOC_Type_RestrictAutoMoving">
+      <GlobalID>42</GlobalID>
+      <Position>5.3300,97.9344,85.3843</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ObjectActivationId>17</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>1</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>0.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_RestrictAutoMoving">
+      <GlobalID>43</GlobalID>
+      <Position>-24.5783,95.0057,62.3789</Position>
+      <Scale>0.3000,0.1000,0.3000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ObjectActivationId>5</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>1</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>0.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Destroyer">
+      <GlobalID>44</GlobalID>
+      <Position>1.4655,91.4287,63.9861</Position>
+      <Scale>18.0000,1.0000,35.0000</Scale>
+      <Orientation>0.0000,0.0000,-1.0000,0.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>45</GlobalID>
+      <Position>-6.0772,92.2926,63.9861</Position>
+      <Scale>5.0000,1.0000,35.0000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>46</GlobalID>
+      <Position>10.7422,94.3441,63.9861</Position>
+      <Scale>15.0000,1.0000,35.0000</Scale>
+      <Orientation>0.7071,-0.7071,0.0000,0.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_EventTriggerBox">
+      <GlobalID>47</GlobalID>
+      <Position>-19.0542,96.5043,70.4854</Position>
+      <Scale>9.0000,3.0000,0.7000</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>48</GlobalID>
+      <Position>-14.7684,98.1095,55.9853</Position>
+      <Scale>7.5000,1.0000,20.0000</Scale>
+      <Orientation>0.7071,-0.7071,0.0000,0.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>49</GlobalID>
+      <Position>-11.1847,102.1915,46.3597</Position>
+      <Scale>6.2000,8.3000,0.9900</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Cube_Thrower">
+      <GlobalID>50</GlobalID>
+      <Position>-40.2281,98.3951,-1.7131</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.5171,-0.8559,0.0000</Orientation>
+      <ObjectActivationId>10</ObjectActivationId>
+      <ActivatedBy>  25,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>15.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Cube_Thrower">
+      <GlobalID>51</GlobalID>
+      <Position>-40.2281,98.3951,31.5163</Position>
+      <Scale>0.9000,1.0000,0.9000</Scale>
+      <Orientation>0.0000,0.5179,0.8555,0.0000</Orientation>
+      <ObjectActivationId>23</ObjectActivationId>
+      <ActivatedBy>  24,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>15.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>52</GlobalID>
+      <Position>-30.5192,95.6417,17.2065</Position>
+      <Scale>0.5000,1.4000,0.5000</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>53</GlobalID>
+      <Position>-30.5192,95.6417,11.7371</Position>
+      <Scale>0.5000,1.4000,0.5000</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_Button2">
+      <GlobalID>54</GlobalID>
+      <Position>-30.5192,96.3320,17.2065</Position>
+      <Scale>0.3000,0.2000,0.3000</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ObjectActivationId>24</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.800000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>0.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Button2">
+      <GlobalID>55</GlobalID>
+      <Position>-30.5192,96.3320,11.7371</Position>
+      <Scale>0.3000,0.2000,0.3000</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ObjectActivationId>25</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.800000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>0.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Wall">
+      <GlobalID>56</GlobalID>
+      <Position>-45.2311,102.8665,32.8488</Position>
+      <Scale>18.0000,1.0000,40.0000</Scale>
+      <Orientation>0.5000,-0.5000,-0.5000,0.5000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Wall">
+      <GlobalID>57</GlobalID>
+      <Position>-53.0321,102.8665,-2.7935</Position>
+      <Scale>18.0000,1.0000,56.0000</Scale>
+      <Orientation>0.5000,-0.5000,-0.5000,0.5000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>58</GlobalID>
+      <Position>-26.7787,98.0879,46.3568</Position>
+      <Scale>16.0000,1.0000,25.0000</Scale>
+      <Orientation>0.5000,-0.5000,-0.5000,0.5000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Laser">
+      <GlobalID>59</GlobalID>
+      <Position>-44.8796,101.9071,-0.3618</Position>
+      <Scale>1.0000,1.5000,1.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,-1.0000</Orientation>
+      <ObjectActivationId>26</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>0.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Laser">
+      <GlobalID>60</GlobalID>
+      <Position>-44.9248,101.8914,30.0783</Position>
+      <Scale>1.0000,1.5000,1.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,-1.0000</Orientation>
+      <ObjectActivationId>27</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>0.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_LightWithoutBulb">
+      <GlobalID>61</GlobalID>
+      <Position>4.0321,100.7908,50.9729</Position>
+      <Scale>0.5000,0.5000,0.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,0.7725,0.3137</Color>
+      <Fallout>7.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>62</GlobalID>
+      <Position>5.3300,100.6884,53.1642</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>1</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>63</GlobalID>
+      <Position>5.3300,100.6884,54.1642</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>2</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>64</GlobalID>
+      <Position>5.3300,100.6884,55.1642</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>3</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>65</GlobalID>
+      <Position>5.3300,100.6884,56.1642</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>4</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>66</GlobalID>
+      <Position>5.3300,100.6884,57.1642</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>5</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>67</GlobalID>
+      <Position>5.3300,100.6884,58.1642</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>6</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>68</GlobalID>
+      <Position>5.3300,100.6884,59.1642</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>7</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>69</GlobalID>
+      <Position>5.3300,100.6884,60.1642</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>8</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>70</GlobalID>
+      <Position>5.3300,100.6884,61.1642</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>9</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>71</GlobalID>
+      <Position>5.3300,100.6884,62.1642</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>10</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>72</GlobalID>
+      <Position>5.3300,100.6884,63.1642</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>11</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>73</GlobalID>
+      <Position>5.3300,100.6884,64.1642</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>12</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>74</GlobalID>
+      <Position>5.3300,100.6884,65.1642</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>13</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>75</GlobalID>
+      <Position>5.3300,100.6884,66.1642</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>14</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>76</GlobalID>
+      <Position>5.3300,100.6884,67.1642</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>15</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>77</GlobalID>
+      <Position>5.3300,100.6884,68.1642</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>16</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>78</GlobalID>
+      <Position>5.3300,100.6884,69.1642</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>17</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>79</GlobalID>
+      <Position>5.3300,100.6884,70.1642</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>18</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>80</GlobalID>
+      <Position>5.3300,100.6884,71.1642</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>19</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>81</GlobalID>
+      <Position>5.3300,97.0724,65.0118</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>21</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>82</GlobalID>
+      <Position>5.3300,97.0724,64.0118</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>22</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>83</GlobalID>
+      <Position>5.3300,97.0724,63.0118</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>23</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>84</GlobalID>
+      <Position>5.3300,97.0724,62.0118</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>24</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>85</GlobalID>
+      <Position>5.3300,97.0724,61.0118</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>25</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>86</GlobalID>
+      <Position>5.3300,97.0724,60.0118</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>26</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>87</GlobalID>
+      <Position>5.3300,97.0724,59.0118</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>27</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>88</GlobalID>
+      <Position>5.3300,97.0724,58.0118</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>28</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>89</GlobalID>
+      <Position>5.3300,97.0724,57.0118</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>29</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>90</GlobalID>
+      <Position>5.3300,97.0724,56.0118</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>30</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>91</GlobalID>
+      <Position>5.3300,97.0724,55.0118</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>31</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>92</GlobalID>
+      <Position>5.3300,97.0724,54.0118</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>32</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>93</GlobalID>
+      <Position>5.3300,97.0724,53.0118</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>33</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_Domino">
+      <GlobalID>94</GlobalID>
+      <Position>5.3300,97.0724,52.0118</Position>
+      <Scale>0.2000,1.5000,0.7500</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ConstraintId>34</ConstraintId>
+    </item>
+    <item archetype="GOC_Type_LightWithoutBulb">
+      <GlobalID>95</GlobalID>
+      <Position>6.5803,99.6884,57.8068</Position>
+      <Scale>0.3000,0.3000,0.3000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>0.1333,1.0000,1.0000</Color>
+      <Fallout>8.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_RotatingSlider1">
+      <GlobalID>96</GlobalID>
+      <Position>-61.0942,95.6284,14.6680</Position>
+      <Scale>2.0000,2.0000,2.0000</Scale>
+      <Orientation>0.0000,0.4117,0.0000,0.9113</Orientation>
+      <ObjectActivationId>28</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>0.000000</ShootingSpeed>
+      <AutoCanRotate>1</AutoCanRotate>
+      <AutoCanMove>1</AutoCanMove>
+      <MovingAxis>   0,   0,   0</MovingAxis>
+      <RotationPoint>   0,   0,   0</RotationPoint>
+      <RotationAxis>   0,   1,   0</RotationAxis>
+      <MovingSpeed>0.000000</MovingSpeed>
+      <RotationSpeed>1.000000</RotationSpeed>
+    </item>
+    <item archetype="GOC_Type_Laser">
+      <GlobalID>97</GlobalID>
+      <Position>-61.9046,95.8950,13.9586</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.9355,0.0000,0.3533</Orientation>
+      <ObjectActivationId>29</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>28</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>0.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Laser">
+      <GlobalID>98</GlobalID>
+      <Position>-60.3329,95.8950,15.3436</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.3533,0.0000,-0.9355</Orientation>
+      <ObjectActivationId>31</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>28</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>0.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_LightWithoutBulb">
+      <GlobalID>99</GlobalID>
+      <Position>5.5286,98.9174,76.6324</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,1.0000,1.0000</Color>
+      <Fallout>4.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightWithoutBulb">
+      <GlobalID>100</GlobalID>
+      <Position>3.6122,97.3428,70.5405</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,1.0000,1.0000</Color>
+      <Fallout>5.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightWithoutBulb">
+      <GlobalID>101</GlobalID>
+      <Position>6.4967,99.6884,67.8121</Position>
+      <Scale>0.3000,0.3000,0.3000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>0.1333,0.9020,1.0000</Color>
+      <Fallout>8.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>102</GlobalID>
+      <Position>5.9457,100.7908,80.8375</Position>
+      <Scale>0.5000,0.5000,0.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,0.7725,0.3137</Color>
+      <Fallout>7.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>103</GlobalID>
+      <Position>-22.5496,100.8504,66.3304</Position>
+      <Scale>0.5000,0.5000,0.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>0.4314,0.7059,0.3137</Color>
+      <Fallout>7.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>104</GlobalID>
+      <Position>-8.2340,98.3083,47.0163</Position>
+      <Scale>0.3000,0.3000,0.3000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>0.7882,0.8863,1.0000</Color>
+      <Fallout>5.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>105</GlobalID>
+      <Position>-14.0416,99.8762,62.8171</Position>
+      <Scale>0.3000,0.3000,0.3000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>0.7882,0.8863,1.0000</Color>
+      <Fallout>6.500000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>106</GlobalID>
+      <Position>-14.0371,98.2799,47.0244</Position>
+      <Scale>0.3000,0.3000,0.3000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>0.7882,0.8863,1.0000</Color>
+      <Fallout>5.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightWithoutBulb">
+      <GlobalID>107</GlobalID>
+      <Position>-31.1536,100.3513,70.1120</Position>
+      <Scale>0.5000,0.5000,0.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>0.9020,0.5882,0.1961</Color>
+      <Fallout>7.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightWithoutBulb">
+      <GlobalID>108</GlobalID>
+      <Position>2.7108,93.9744,52.0502</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,0.0000,0.0000</Color>
+      <Fallout>8.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightWithoutBulb">
+      <GlobalID>109</GlobalID>
+      <Position>1.7536,93.4753,62.9019</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,0.0000,0.0000</Color>
+      <Fallout>8.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightWithoutBulb">
+      <GlobalID>110</GlobalID>
+      <Position>0.4651,93.8562,73.3599</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,0.0000,0.0000</Color>
+      <Fallout>8.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightWithoutBulb">
+      <GlobalID>111</GlobalID>
+      <Position>1.8491,92.5129,80.2222</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,0.0000,0.0000</Color>
+      <Fallout>8.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightWithoutBulb">
+      <GlobalID>112</GlobalID>
+      <Position>6.1363,93.5772,66.8866</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,0.0000,0.0000</Color>
+      <Fallout>8.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightWithoutBulb">
+      <GlobalID>113</GlobalID>
+      <Position>-8.2029,99.5098,70.1819</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,1.0000,1.0000</Color>
+      <Fallout>6.500000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>114</GlobalID>
+      <Position>5.3564,101.6713,76.9948</Position>
+      <Scale>2.0000,2.0000,2.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_LevelBox">
+      <GlobalID>115</GlobalID>
+      <Position>-24.2333,95.2337,85.2076</Position>
+      <Scale>15.0000,30.0000,20.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <LevelBoxId>1</LevelBoxId>
+    </item>
+    <item archetype="GOC_Type_LevelBox">
+      <GlobalID>116</GlobalID>
+      <Position>-25.2537,95.2337,70.0270</Position>
+      <Scale>15.0000,30.0000,20.0000</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <LevelBoxId>2</LevelBoxId>
+    </item>
+    <item archetype="GOC_Type_LevelBox">
+      <GlobalID>117</GlobalID>
+      <Position>-1.3620,91.4287,64.4593</Position>
+      <Scale>30.0000,30.0000,38.0000</Scale>
+      <Orientation>0.0000,1.0000,0.0000,0.0000</Orientation>
+      <LevelBoxId>3</LevelBoxId>
+    </item>
+    <item archetype="GOC_Type_LevelBox">
+      <GlobalID>118</GlobalID>
+      <Position>-53.7447,92.5375,15.1571</Position>
+      <Scale>60.0000,40.0000,60.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,-1.0000</Orientation>
+      <LevelBoxId>6</LevelBoxId>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>119</GlobalID>
+      <Position>-25.9917,93.7707,74.9775</Position>
+      <Scale>0.2000,0.2000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,1.0000,1.0000</Color>
+      <Fallout>2.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>120</GlobalID>
+      <Position>-22.5477,91.6967,74.9775</Position>
+      <Scale>0.2000,0.2000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,1.0000,1.0000</Color>
+      <Fallout>2.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>121</GlobalID>
+      <Position>-22.5477,92.7602,74.9775</Position>
+      <Scale>0.2000,0.2000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,1.0000,1.0000</Color>
+      <Fallout>2.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>122</GlobalID>
+      <Position>-25.9917,92.7602,74.9775</Position>
+      <Scale>0.2000,0.2000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,1.0000,1.0000</Color>
+      <Fallout>2.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>123</GlobalID>
+      <Position>-22.5477,93.7707,74.9775</Position>
+      <Scale>0.2000,0.2000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,1.0000,1.0000</Color>
+      <Fallout>2.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>124</GlobalID>
+      <Position>-22.5477,94.6139,74.9775</Position>
+      <Scale>0.2000,0.2000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,1.0000,1.0000</Color>
+      <Fallout>2.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>125</GlobalID>
+      <Position>-25.9917,91.6967,74.9775</Position>
+      <Scale>0.2000,0.2000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,1.0000,1.0000</Color>
+      <Fallout>2.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>126</GlobalID>
+      <Position>-25.9917,94.6139,74.9775</Position>
+      <Scale>0.2000,0.2000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,1.0000,1.0000</Color>
+      <Fallout>2.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>127</GlobalID>
+      <Position>-19.3454,94.2516,87.9434</Position>
+      <Scale>0.5000,0.5000,0.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>0.9020,0.5882,0.1961</Color>
+      <Fallout>9.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>128</GlobalID>
+      <Position>-19.3454,100.4557,78.3857</Position>
+      <Scale>0.5000,0.5000,0.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>0.9020,0.5882,0.1961</Color>
+      <Fallout>6.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>129</GlobalID>
+      <Position>-15.5888,98.3598,74.8300</Position>
+      <Scale>0.5000,0.5000,0.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>0.9020,0.5882,0.1961</Color>
+      <Fallout>5.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>130</GlobalID>
+      <Position>-29.2143,100.4557,78.3857</Position>
+      <Scale>0.5000,0.5000,0.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>0.9020,0.5882,0.1961</Color>
+      <Fallout>6.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>131</GlobalID>
+      <Position>-29.2842,94.2516,87.9434</Position>
+      <Scale>0.5000,0.5000,0.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>0.9020,0.5882,0.1961</Color>
+      <Fallout>9.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>132</GlobalID>
+      <Position>-15.5888,98.3598,66.0007</Position>
+      <Scale>0.5000,0.5000,0.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>0.9020,0.5882,0.1961</Color>
+      <Fallout>5.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightWithoutBulb">
+      <GlobalID>133</GlobalID>
+      <Position>-25.6081,101.8914,30.0783</Position>
+      <Scale>0.5000,0.5000,0.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,0.3922,0.1961</Color>
+      <Fallout>0.800000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightWithoutBulb">
+      <GlobalID>134</GlobalID>
+      <Position>-25.6018,101.9071,-0.3618</Position>
+      <Scale>0.5000,0.5000,0.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,0.3922,0.1961</Color>
+      <Fallout>0.800000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_Button1">
+      <GlobalID>135</GlobalID>
+      <Position>-55.1000,95.2768,15.1256</Position>
+      <Scale>1.5000,0.5000,1.5000</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ObjectActivationId>12</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>0.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Button1">
+      <GlobalID>136</GlobalID>
+      <Position>-67.0539,95.2768,15.1256</Position>
+      <Scale>1.5000,0.5000,1.5000</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+      <ObjectActivationId>21</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>0.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_LightWithoutBulb">
+      <GlobalID>137</GlobalID>
+      <Position>-31.2610,95.9481,66.5648</Position>
+      <Scale>0.5000,0.5000,0.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,0.3922,0.1961</Color>
+      <Fallout>0.800000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_Door1">
+      <GlobalID>138</GlobalID>
+      <Position>-68.3181,96.5558,32.8141</Position>
+      <Scale>6.3000,3.0000,0.7000</Scale>
+      <Orientation>0.0000,1.0000,0.0000,0.0000</Orientation>
+      <ObjectActivationId>30</ObjectActivationId>
+      <ActivatedBy>  12,  21,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>0.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Wall">
+      <GlobalID>139</GlobalID>
+      <Position>-78.1266,102.8665,16.1730</Position>
+      <Scale>18.0000,1.0000,38.0000</Scale>
+      <Orientation>0.0000,0.0000,-0.7071,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_Wall">
+      <GlobalID>140</GlobalID>
+      <Position>-77.4407,102.8665,32.8478</Position>
+      <Scale>18.0000,1.0000,12.0000</Scale>
+      <Orientation>0.5000,-0.5000,-0.5000,0.5000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>141</GlobalID>
+      <Position>-53.0321,94.5886,16.2973</Position>
+      <Scale>56.0000,1.0000,38.0000</Scale>
+      <Orientation>-1.0000,0.0000,0.0000,0.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Ceiling">
+      <GlobalID>142</GlobalID>
+      <Position>-53.0321,110.5268,16.2973</Position>
+      <Scale>56.0000,1.0000,38.0000</Scale>
+      <Orientation>-1.0000,0.0000,0.0000,0.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Wall">
+      <GlobalID>143</GlobalID>
+      <Position>-45.3990,100.5229,-2.2101</Position>
+      <Scale>12.0000,1.0000,12.0000</Scale>
+      <Orientation>0.0000,0.0000,-0.7071,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_Wall">
+      <GlobalID>144</GlobalID>
+      <Position>-45.4318,100.5229,31.7028</Position>
+      <Scale>12.0000,1.0000,12.0000</Scale>
+      <Orientation>0.0000,0.0000,-0.7071,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_FieldBase">
+      <GlobalID>145</GlobalID>
+      <Position>-61.1012,97.6000,4.6192</Position>
+      <Scale>0.4000,6.0000,0.4000</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_FieldBase">
+      <GlobalID>146</GlobalID>
+      <Position>-52.4409,97.6000,9.6192</Position>
+      <Scale>0.4000,6.0000,0.4000</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_FieldBase">
+      <GlobalID>147</GlobalID>
+      <Position>-52.4409,97.6000,19.6191</Position>
+      <Scale>0.4000,6.0000,0.4000</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_FieldBase">
+      <GlobalID>148</GlobalID>
+      <Position>-61.1012,97.6000,24.6191</Position>
+      <Scale>0.4000,6.0000,0.4000</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_FieldBase">
+      <GlobalID>149</GlobalID>
+      <Position>-69.7615,97.6000,19.6191</Position>
+      <Scale>0.4000,6.0000,0.4000</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_FieldBase">
+      <GlobalID>150</GlobalID>
+      <Position>-69.7615,97.6000,9.6192</Position>
+      <Scale>0.4000,6.0000,0.4000</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_EventTriggerBox">
+      <GlobalID>151</GlobalID>
+      <Position>-56.7711,97.6000,7.1192</Position>
+      <Scale>10.0000,6.0000,0.2000</Scale>
+      <Orientation>0.0000,0.9659,0.0000,0.2588</Orientation>
+    </item>
+    <item archetype="GOC_Type_EventTriggerBox">
+      <GlobalID>152</GlobalID>
+      <Position>-52.4409,97.6000,14.6191</Position>
+      <Scale>10.0000,6.0000,0.2000</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_EventTriggerBox">
+      <GlobalID>153</GlobalID>
+      <Position>-56.7711,97.6000,22.1191</Position>
+      <Scale>10.0000,6.0000,0.2000</Scale>
+      <Orientation>0.0000,0.9659,0.0000,-0.2588</Orientation>
+    </item>
+    <item archetype="GOC_Type_EventTriggerBox">
+      <GlobalID>154</GlobalID>
+      <Position>-65.4313,97.6000,22.1191</Position>
+      <Scale>10.0000,6.0000,0.2000</Scale>
+      <Orientation>0.0000,0.2588,0.0000,-0.9659</Orientation>
+    </item>
+    <item archetype="GOC_Type_EventTriggerBox">
+      <GlobalID>155</GlobalID>
+      <Position>-69.7615,97.6000,14.6191</Position>
+      <Scale>10.0000,6.0000,0.2000</Scale>
+      <Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_EventTriggerBox">
+      <GlobalID>156</GlobalID>
+      <Position>-65.4313,97.6000,7.1192</Position>
+      <Scale>10.0000,6.0000,0.2000</Scale>
+      <Orientation>0.0000,-0.2588,0.0000,-0.9659</Orientation>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>157</GlobalID>
+      <Position>-25.0121,89.5166,89.8179</Position>
+      <Scale>0.2000,1.0000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>1</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>158</GlobalID>
+      <Position>-25.9654,89.5166,89.8179</Position>
+      <Scale>0.2000,1.0000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>1</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>159</GlobalID>
+      <Position>-26.9188,89.5166,89.8179</Position>
+      <Scale>0.2000,1.0000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>1</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>160</GlobalID>
+      <Position>-27.8721,89.5166,89.8179</Position>
+      <Scale>0.2000,1.0000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>1</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>161</GlobalID>
+      <Position>-28.8255,89.5166,89.8179</Position>
+      <Scale>0.2000,1.0000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>1</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>162</GlobalID>
+      <Position>-29.5743,91.3668,89.8179</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+      <GlowCylinderParentId>1</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>163</GlobalID>
+      <Position>-29.5743,91.3581,88.7795</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+      <GlowCylinderParentId>1</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>164</GlobalID>
+      <Position>-29.5743,90.6263,89.8179</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+      <GlowCylinderParentId>1</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>165</GlobalID>
+      <Position>-29.5743,91.3581,87.7411</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+      <GlowCylinderParentId>1</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>166</GlobalID>
+      <Position>-29.5743,91.3581,86.7027</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+      <GlowCylinderParentId>1</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>167</GlobalID>
+      <Position>-29.5743,91.3581,85.6643</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+      <GlowCylinderParentId>1</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>168</GlobalID>
+      <Position>-29.5743,91.3581,84.6259</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+      <GlowCylinderParentId>1</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>169</GlobalID>
+      <Position>-29.5743,91.3581,83.5875</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+      <GlowCylinderParentId>1</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>170</GlobalID>
+      <Position>-19.0047,94.0057,80.0545</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+      <GlowCylinderParentId>3</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>171</GlobalID>
+      <Position>-19.0047,94.0057,81.1333</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+      <GlowCylinderParentId>3</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>172</GlobalID>
+      <Position>-19.0047,94.0057,75.7392</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+      <GlowCylinderParentId>3</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>173</GlobalID>
+      <Position>-19.0047,94.0057,76.8180</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+      <GlowCylinderParentId>3</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>174</GlobalID>
+      <Position>-19.0047,94.0057,77.8969</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+      <GlowCylinderParentId>3</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>175</GlobalID>
+      <Position>-19.0047,94.0057,78.9757</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+      <GlowCylinderParentId>3</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>176</GlobalID>
+      <Position>-19.0047,93.0460,75.7392</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+      <GlowCylinderParentId>3</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>177</GlobalID>
+      <Position>-19.0047,91.1266,75.7392</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+      <GlowCylinderParentId>3</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>178</GlobalID>
+      <Position>-19.0047,92.0863,75.7392</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+      <GlowCylinderParentId>3</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>179</GlobalID>
+      <Position>-19.0047,90.1670,75.7392</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+      <GlowCylinderParentId>3</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>180</GlobalID>
+      <Position>-21.3375,89.5166,75.7392</Position>
+      <Scale>0.2000,1.0000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>3</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>181</GlobalID>
+      <Position>-20.2752,89.5166,75.7392</Position>
+      <Scale>0.2000,1.0000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>3</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>182</GlobalID>
+      <Position>-22.3997,89.5166,75.7392</Position>
+      <Scale>0.2000,1.0000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>3</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>183</GlobalID>
+      <Position>-16.3361,94.5575,16.0319</Position>
+      <Scale>20.0000,1.0000,17.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>184</GlobalID>
+      <Position>-14.9092,100.6888,26.1149</Position>
+      <Scale>20.0000,1.0000,40.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>185</GlobalID>
+      <Position>-7.0387,97.6914,25.9897</Position>
+      <Scale>15.0000,1.0000,40.0000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_Wall">
+      <GlobalID>186</GlobalID>
+      <Position>-24.5407,102.8665,25.1608</Position>
+      <Scale>18.0000,1.0000,18.0000</Scale>
+      <Orientation>0.0000,0.0000,-0.7071,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_Destroyer">
+      <GlobalID>187</GlobalID>
+      <Position>-11.4540,90.0855,31.6224</Position>
+      <Scale>15.0000,1.0000,10.0000</Scale>
+      <Orientation>0.7071,0.0000,0.7071,0.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>188</GlobalID>
+      <Position>-11.1475,91.0319,39.2116</Position>
+      <Scale>7.0000,1.0000,8.0000</Scale>
+      <Orientation>0.5000,-0.5000,-0.5000,0.5000</Orientation>
+    </item>
+    <item archetype="GOC_Type_LightWithoutBulb">
+      <GlobalID>189</GlobalID>
+      <Position>-11.8661,91.8678,34.6994</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,0.0000,0.0000</Color>
+      <Fallout>8.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightWithoutBulb">
+      <GlobalID>190</GlobalID>
+      <Position>-11.8129,91.8678,28.4496</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,0.0000,0.0000</Color>
+      <Fallout>8.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>191</GlobalID>
+      <Position>-11.1528,94.5787,42.6464</Position>
+      <Scale>10.0000,1.0000,8.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>192</GlobalID>
+      <Position>-11.1475,91.0319,23.8937</Position>
+      <Scale>7.0000,1.0000,8.0000</Scale>
+      <Orientation>0.5000,-0.5000,-0.5000,0.5000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>193</GlobalID>
+      <Position>-15.0243,97.6914,31.1826</Position>
+      <Scale>15.0000,1.0000,30.0000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_Teleporter">
+      <GlobalID>194</GlobalID>
+      <Position>-10.8243,94.6232,40.4626</Position>
+      <Scale>3.0000,1.0000,3.0000</Scale>
+      <Orientation>0.0000,0.4014,0.0000,0.9159</Orientation>
+      <ObjectActivationId>32</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>0.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Teleporter">
+      <GlobalID>195</GlobalID>
+      <Position>-10.8243,94.6232,21.3510</Position>
+      <Scale>3.0000,1.0000,3.0000</Scale>
+      <Orientation>0.0000,0.4014,0.0000,0.9159</Orientation>
+      <ObjectActivationId>33</ObjectActivationId>
+      <ActivatedBy>  32,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <ShootingSpeed>0.000000</ShootingSpeed>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>196</GlobalID>
+      <Position>-19.7814,97.6914,16.6546</Position>
+      <Scale>15.0000,1.0000,10.5000</Scale>
+      <Orientation>-0.5000,-0.5000,-0.5000,-0.5000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>197</GlobalID>
+      <Position>-15.0001,97.7037,9.1706</Position>
+      <Scale>15.0000,1.0000,20.0000</Scale>
+      <Orientation>-0.5000,-0.5000,-0.5000,-0.5000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Wall">
+      <GlobalID>198</GlobalID>
+      <Position>-24.5357,102.8665,2.1594</Position>
+      <Scale>18.0000,1.0000,15.0000</Scale>
+      <Orientation>0.0000,0.0000,-0.7071,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_Wall">
+      <GlobalID>199</GlobalID>
+      <Position>-24.5453,106.1334,13.1790</Position>
+      <Scale>12.0000,1.0000,7.0000</Scale>
+      <Orientation>0.0000,0.0000,-0.7071,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>200</GlobalID>
+      <Position>-33.8776,98.1540,69.9937</Position>
+      <Scale>10.0000,1.0000,10.0000</Scale>
+      <Orientation>0.0000,0.0000,0.7071,-0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_LevelBox">
+      <GlobalID>201</GlobalID>
+      <Position>-10.2345,92.1671,26.6250</Position>
+      <Scale>10.0000,30.0000,40.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <LevelBoxId>4</LevelBoxId>
+    </item>
+    <item archetype="GOC_Type_LevelBox">
+      <GlobalID>202</GlobalID>
+      <Position>-20.3754,92.1671,17.5430</Position>
+      <Scale>15.0000,30.0000,40.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <LevelBoxId>5</LevelBoxId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>203</GlobalID>
+      <Position>5.3300,94.7630,48.1554</Position>
+      <Scale>0.2000,0.1000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>204</GlobalID>
+      <Position>5.3300,94.7630,49.1198</Position>
+      <Scale>0.2000,0.1000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>205</GlobalID>
+      <Position>5.3300,94.7630,47.1910</Position>
+      <Scale>0.2000,0.1000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>206</GlobalID>
+      <Position>5.3300,95.7291,46.5872</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.7071,0.0000,0.0000,0.7071</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>207</GlobalID>
+      <Position>5.3300,96.7512,46.5950</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.7071,0.0000,0.0000,0.7071</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>208</GlobalID>
+      <Position>3.9576,96.7512,46.5950</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.7071,0.0000,0.0000,0.7071</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>209</GlobalID>
+      <Position>2.5852,96.7512,46.5950</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.7071,0.0000,0.0000,0.7071</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>210</GlobalID>
+      <Position>1.2128,96.7512,46.5950</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.7071,0.0000,0.0000,0.7071</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>211</GlobalID>
+      <Position>-0.1596,96.7512,46.5950</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.7071,0.0000,0.0000,0.7071</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>212</GlobalID>
+      <Position>-1.5320,96.7512,46.5950</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.7071,0.0000,0.0000,0.7071</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>213</GlobalID>
+      <Position>-2.9044,96.7512,46.5950</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.7071,0.0000,0.0000,0.7071</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>214</GlobalID>
+      <Position>-4.2768,96.7512,46.5950</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.7071,0.0000,0.0000,0.7071</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>215</GlobalID>
+      <Position>-5.6492,96.7512,46.5950</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.7071,0.0000,0.0000,0.7071</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>216</GlobalID>
+      <Position>-7.0216,96.7512,46.5950</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.7071,0.0000,0.0000,0.7071</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>217</GlobalID>
+      <Position>-30.5192,94.8493,10.8059</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>10</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>218</GlobalID>
+      <Position>-30.5192,94.8493,9.5961</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>10</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>219</GlobalID>
+      <Position>-30.5063,94.8523,31.4259</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>220</GlobalID>
+      <Position>-30.5063,98.0582,32.5913</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.7071,0.0000,0.0000,0.7071</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>221</GlobalID>
+      <Position>-30.5192,94.8493,1.1276</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>10</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>222</GlobalID>
+      <Position>-30.5192,94.8493,2.3374</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>10</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>223</GlobalID>
+      <Position>-30.5192,94.8493,3.5472</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>10</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>224</GlobalID>
+      <Position>-30.5192,94.8493,4.7569</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>10</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>225</GlobalID>
+      <Position>-30.5192,94.8493,5.9667</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>10</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>226</GlobalID>
+      <Position>-30.5192,94.8493,7.1765</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>10</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>227</GlobalID>
+      <Position>-30.5192,94.8493,8.3863</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>10</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>228</GlobalID>
+      <Position>-30.5192,94.8493,-0.0822</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>10</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>229</GlobalID>
+      <Position>-30.5192,94.8493,-1.2920</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>10</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>230</GlobalID>
+      <Position>-30.5063,94.8607,30.2771</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>231</GlobalID>
+      <Position>-30.5063,94.8607,29.0802</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>232</GlobalID>
+      <Position>-30.5063,94.8607,27.8834</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>233</GlobalID>
+      <Position>-30.5063,94.8607,26.6866</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>234</GlobalID>
+      <Position>-30.5063,94.8607,25.4897</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>235</GlobalID>
+      <Position>-30.5063,94.8607,24.2929</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>236</GlobalID>
+      <Position>-30.5063,94.8607,23.0961</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>237</GlobalID>
+      <Position>-30.5063,94.8607,21.8992</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>238</GlobalID>
+      <Position>-30.5063,94.8607,20.7024</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>239</GlobalID>
+      <Position>-30.5063,94.8607,19.5056</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>240</GlobalID>
+      <Position>-30.5063,94.8607,18.3087</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>241</GlobalID>
+      <Position>-30.5063,96.8970,32.5913</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.7071,0.0000,0.0000,0.7071</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>242</GlobalID>
+      <Position>-30.5063,95.7358,32.5913</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.7071,0.0000,0.0000,0.7071</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>243</GlobalID>
+      <Position>-31.7996,98.0582,32.5913</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.7071,0.0000,0.0000,0.7071</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>244</GlobalID>
+      <Position>-38.2660,98.0582,32.5913</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.7071,0.0000,0.0000,0.7071</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>245</GlobalID>
+      <Position>-35.6794,98.0582,32.5913</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.7071,0.0000,0.0000,0.7071</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>246</GlobalID>
+      <Position>-34.3862,98.0582,32.5913</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.7071,0.0000,0.0000,0.7071</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>247</GlobalID>
+      <Position>-33.0929,98.0582,32.5913</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.7071,0.0000,0.0000,0.7071</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>248</GlobalID>
+      <Position>-36.9727,98.0582,32.5913</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.7071,0.0000,0.0000,0.7071</Orientation>
+      <GlowCylinderParentId>24</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>249</GlobalID>
+      <Position>-30.5192,97.7681,-2.5207</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.7071,0.7071,0.0000</Orientation>
+      <GlowCylinderParentId>10</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>250</GlobalID>
+      <Position>-31.7998,97.7681,-2.5207</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.7071,0.7071,0.0000</Orientation>
+      <GlowCylinderParentId>10</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>251</GlobalID>
+      <Position>-33.0805,97.7681,-2.5207</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.7071,0.7071,0.0000</Orientation>
+      <GlowCylinderParentId>10</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>252</GlobalID>
+      <Position>-30.5192,96.6863,-2.5207</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.7071,0.7071,0.0000</Orientation>
+      <GlowCylinderParentId>10</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>253</GlobalID>
+      <Position>-30.5192,95.6046,-2.5207</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.7071,0.7071,0.0000</Orientation>
+      <GlowCylinderParentId>10</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>254</GlobalID>
+      <Position>-34.3611,97.7681,-2.5207</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.7071,0.7071,0.0000</Orientation>
+      <GlowCylinderParentId>10</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>255</GlobalID>
+      <Position>-35.6418,97.7681,-2.5207</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.7071,0.7071,0.0000</Orientation>
+      <GlowCylinderParentId>10</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>256</GlobalID>
+      <Position>-36.9224,97.7681,-2.5207</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.7071,0.7071,0.0000</Orientation>
+      <GlowCylinderParentId>10</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>257</GlobalID>
+      <Position>-39.7055,97.6723,-2.5207</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.7071,0.7071,0.0000</Orientation>
+      <GlowCylinderParentId>-1</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_ActivationGlowItem">
+      <GlobalID>258</GlobalID>
+      <Position>-38.2030,97.7681,-2.5207</Position>
+      <Scale>0.2000,0.5000,0.2000</Scale>
+      <Orientation>0.0000,0.7071,0.7071,0.0000</Orientation>
+      <GlowCylinderParentId>10</GlowCylinderParentId>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>259</GlobalID>
+      <Position>-45.4478,106.1446,3.9480</Position>
+      <Scale>0.5000,0.5000,0.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>0.0588,0.3922,0.9804</Color>
+      <Fallout>15.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>260</GlobalID>
+      <Position>-24.9720,99.3809,17.0873</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>0.9020,0.5882,0.1961</Color>
+      <Fallout>11.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>261</GlobalID>
+      <Position>-24.9093,99.3809,8.8345</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>0.9020,0.5882,0.1961</Color>
+      <Fallout>11.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>262</GlobalID>
+      <Position>-45.4478,105.9473,25.6351</Position>
+      <Scale>0.6000,0.6000,0.6000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>0.0588,0.3922,0.9804</Color>
+      <Fallout>15.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>263</GlobalID>
+      <Position>-57.3385,97.2099,17.6526</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,0.1961,0.1961</Color>
+      <Fallout>10.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>264</GlobalID>
+      <Position>-59.8093,104.2982,12.9354</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,0.1961,0.1961</Color>
+      <Fallout>10.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>265</GlobalID>
+      <Position>-59.4589,101.5642,9.4057</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,0.1961,0.1961</Color>
+      <Fallout>10.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>266</GlobalID>
+      <Position>-61.5280,101.9824,18.0090</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>1.0000,0.1961,0.1961</Color>
+      <Fallout>10.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>267</GlobalID>
+      <Position>-71.1063,100.9943,32.0499</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <Color>0.1961,1.0000,0.1961</Color>
+      <Fallout>12.000000</Fallout>
+      <LightCanMove>0</LightCanMove>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>268</GlobalID>
+      <Position>5.7050,99.9384,53.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>1</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>-1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>269</GlobalID>
+      <Position>4.9550,99.9384,53.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>1</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>-1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>270</GlobalID>
+      <Position>5.7050,99.9384,54.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>2</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>-1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>271</GlobalID>
+      <Position>4.9550,99.9384,54.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>2</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>-1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>272</GlobalID>
+      <Position>5.7050,99.9384,55.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>3</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>-1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>273</GlobalID>
+      <Position>4.9550,99.9384,55.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>3</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>-1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>274</GlobalID>
+      <Position>5.7050,99.9384,56.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>4</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>-1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>275</GlobalID>
+      <Position>4.9550,99.9384,56.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>4</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>-1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>276</GlobalID>
+      <Position>5.7050,99.9384,57.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>5</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>-1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>277</GlobalID>
+      <Position>4.9550,99.9384,57.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>5</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>-1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>278</GlobalID>
+      <Position>5.7050,99.9384,58.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>6</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>-1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>279</GlobalID>
+      <Position>4.9550,99.9384,58.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>6</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>-1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>280</GlobalID>
+      <Position>5.7050,99.9384,59.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>7</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>-1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>281</GlobalID>
+      <Position>4.9550,99.9384,59.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>7</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>-1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>282</GlobalID>
+      <Position>5.7050,99.9384,60.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>8</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>-1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>283</GlobalID>
+      <Position>4.9550,99.9384,60.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>8</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>-1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>284</GlobalID>
+      <Position>5.7050,99.9384,61.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>9</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>-1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>285</GlobalID>
+      <Position>4.9550,99.9384,61.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>9</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>-1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>286</GlobalID>
+      <Position>5.7050,99.9384,62.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>10</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>-1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>287</GlobalID>
+      <Position>4.9550,99.9384,62.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>10</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>-1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>288</GlobalID>
+      <Position>5.7050,99.9384,63.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>11</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>-1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>289</GlobalID>
+      <Position>4.9550,99.9384,63.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>11</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>-1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>290</GlobalID>
+      <Position>5.7050,99.9384,64.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>12</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>-1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>291</GlobalID>
+      <Position>4.9550,99.9384,64.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>12</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>-1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>292</GlobalID>
+      <Position>5.7050,99.9384,65.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>13</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>-1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>293</GlobalID>
+      <Position>4.9550,99.9384,65.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>13</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>-1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>294</GlobalID>
+      <Position>5.7050,99.9384,66.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>14</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>-1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>295</GlobalID>
+      <Position>4.9550,99.9384,66.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>14</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>-1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>296</GlobalID>
+      <Position>5.7050,99.9384,67.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>15</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>-1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>297</GlobalID>
+      <Position>4.9550,99.9384,67.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>15</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>-1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>298</GlobalID>
+      <Position>5.7050,99.9384,68.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>16</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>-1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>299</GlobalID>
+      <Position>4.9550,99.9384,68.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>16</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>-1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>300</GlobalID>
+      <Position>5.7050,99.9384,69.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>17</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>-1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>301</GlobalID>
+      <Position>4.9550,99.9384,69.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>17</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>-1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>302</GlobalID>
+      <Position>5.7050,99.9384,70.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>18</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>-1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>303</GlobalID>
+      <Position>4.9550,99.9384,70.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>18</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>-1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>304</GlobalID>
+      <Position>5.7050,99.9384,71.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>19</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>-1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>305</GlobalID>
+      <Position>4.9550,99.9384,71.2642</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>19</ConstraintAttachedToId>
+      <PositionRelative>-0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>-1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>306</GlobalID>
+      <Position>5.3300,100.5583,76.9962</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>20</ConstraintAttachedToId>
+      <PositionRelative>0.0000,0.0000,0.0000</PositionRelative>
+      <Multiplier>0,0,0</Multiplier>
+      <IsInsideBody>0</IsInsideBody>
+      <Err>4.500000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>307</GlobalID>
+      <Position>5.7050,96.3224,64.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>21</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>308</GlobalID>
+      <Position>4.9550,96.3224,64.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>21</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>309</GlobalID>
+      <Position>5.7050,96.3224,63.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>22</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>310</GlobalID>
+      <Position>4.9550,96.3224,63.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>22</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>311</GlobalID>
+      <Position>5.7050,96.3224,62.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>23</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>312</GlobalID>
+      <Position>4.9550,96.3224,62.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>23</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>313</GlobalID>
+      <Position>5.7050,96.3224,61.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>24</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>314</GlobalID>
+      <Position>4.9550,96.3224,61.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>24</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>315</GlobalID>
+      <Position>5.7050,96.3224,60.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>25</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>316</GlobalID>
+      <Position>4.9550,96.3224,60.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>25</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>317</GlobalID>
+      <Position>5.7050,96.3224,59.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>26</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>318</GlobalID>
+      <Position>4.9550,96.3224,59.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>26</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>319</GlobalID>
+      <Position>5.7050,96.3224,58.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>27</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>320</GlobalID>
+      <Position>4.9550,96.3224,58.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>27</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>321</GlobalID>
+      <Position>5.7050,96.3224,57.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>28</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>322</GlobalID>
+      <Position>4.9550,96.3224,57.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>28</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>323</GlobalID>
+      <Position>5.7050,96.3224,56.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>29</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>324</GlobalID>
+      <Position>4.9550,96.3224,56.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>29</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>325</GlobalID>
+      <Position>5.7050,96.3224,55.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>30</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>326</GlobalID>
+      <Position>4.9550,96.3224,55.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>30</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>327</GlobalID>
+      <Position>5.7050,96.3224,54.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>31</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>328</GlobalID>
+      <Position>4.9550,96.3224,54.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>31</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>329</GlobalID>
+      <Position>5.7050,96.3224,53.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>32</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>330</GlobalID>
+      <Position>4.9550,96.3224,53.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>32</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>331</GlobalID>
+      <Position>5.7050,96.3224,52.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>33</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>332</GlobalID>
+      <Position>4.9550,96.3224,52.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>33</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>333</GlobalID>
+      <Position>5.7050,96.3224,51.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>34</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,0.3750</PositionRelative>
+      <Multiplier>1,-1,1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+    <item archetype="GOC_Type_Constraint">
+      <GlobalID>334</GlobalID>
+      <Position>4.9550,96.3224,51.9118</Position>
+      <Scale>0.4000,0.4000,0.4000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ConstraintAttachedToId>34</ConstraintAttachedToId>
+      <PositionRelative>0.1000,-0.7500,-0.3750</PositionRelative>
+      <Multiplier>1,-1,-1</Multiplier>
+      <IsInsideBody>1</IsInsideBody>
+      <Err>0.001000</Err>
+    </item>
+  </items>
+</root>

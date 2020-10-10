@@ -1,0 +1,59 @@
+////////////////////////////////////////////////////////////////////////////////
+// Filename: glowmap.ps
+////////////////////////////////////////////////////////////////////////////////
+
+
+/////////////
+// GLOBALS //
+/////////////
+Texture2D shaderTexture : register(t0);
+Texture2D glowMapTexture : register(t1);
+SamplerState SampleType;
+
+
+//////////////
+// TYPEDEFS //
+//////////////
+struct PixelInputType
+{
+    float4 position : SV_POSITION;
+    float2 tex : TEXCOORD0;
+};
+
+struct Outs
+{
+	float4 GlowMap  : SV_Target0;
+	float4 TexColor : SV_Target1;
+};
+
+////////////////////////////////////////////////////////////////////////////////
+// Pixel Shader
+////////////////////////////////////////////////////////////////////////////////
+Outs GlowMapPixelShader(in PixelInputType input)
+{
+	float4 textureColor;
+	float4 glowMap;
+	float4 color;
+
+	Outs outs;
+
+	// Sample the pixel color from the texture using the sampler at this texture coordinate location.
+	textureColor = shaderTexture.Sample(SampleType, input.tex);
+
+	outs.TexColor = textureColor;
+
+	// Sample the glow map.
+	glowMap = glowMapTexture.Sample(SampleType, input.tex);
+
+	// If the glow map is black then return just black.  Otherwise if the glow map has color then return the color from the texture.
+	if((glowMap.r == 0.0f) && (glowMap.g == 0.0f) && (glowMap.b == 0.0f))
+	{
+		outs.GlowMap = float4(0.0f, 0.0f, 0.0f, 1.0f);
+	}
+	else
+	{
+		outs.GlowMap = textureColor;
+	}
+
+    return outs;
+}

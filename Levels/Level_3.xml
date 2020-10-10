@@ -1,0 +1,181 @@
+<root>
+  <items>
+    <item archetype="GOC_Type_Hero">
+      <GlobalID>1</GlobalID>
+      <Position>38.1638,106.2084,41.5386</Position>
+      <Scale>2.0000,2.0000,2.0000</Scale>
+      <Orientation>0.0007,-0.0011,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>2</GlobalID>
+      <Position>40.0978,116.2312,66.6225</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <DiffuseColor>1.0000,1.0000,1.0000,1.0000</DiffuseColor>
+      <SpecularColor>1.0000,1.0000,1.0000,1.0000</SpecularColor>
+      <AmbientColor>0.2000,0.2000,0.2000,1.0000</AmbientColor>
+      <SpecularPower>250.000000</SpecularPower>
+      <Attenuation0>0.057000</Attenuation0>
+      <Attenuation1>0.084000</Attenuation1>
+      <Attenuation2>0.000000</Attenuation2>
+      <CanCastShadow>1</CanCastShadow>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>3</GlobalID>
+      <Position>38.9832,104.7084,61.8012</Position>
+      <Scale>50.0000,1.0000,50.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Cube">
+      <GlobalID>4</GlobalID>
+      <Position>36.6466,113.3691,66.1375</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.3516,0.0003,0.9361,0.0010</Orientation>
+    </item>
+    <item archetype="GOC_Type_Wall">
+      <GlobalID>5</GlobalID>
+      <Position>38.6879,107.9378,66.3573</Position>
+      <Scale>1.0000,0.5000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Cube">
+      <GlobalID>6</GlobalID>
+      <Position>39.7826,113.3689,71.4660</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0006,0.0243,-0.0005,0.9997</Orientation>
+    </item>
+    <item archetype="GOC_Type_Cube">
+      <GlobalID>7</GlobalID>
+      <Position>38.0182,113.3690,67.9762</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>-0.0003,-0.0370,-0.0007,0.9993</Orientation>
+    </item>
+    <item archetype="GOC_Type_Cube">
+      <GlobalID>8</GlobalID>
+      <Position>40.2141,117.9662,67.4684</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0044,0.0647,-0.0031,0.9979</Orientation>
+    </item>
+    <item archetype="GOC_Type_Cube">
+      <GlobalID>9</GlobalID>
+      <Position>33.2700,111.8996,66.2334</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0008,0.4991,-0.0001,-0.8666</Orientation>
+    </item>
+    <item archetype="GOC_Type_Cube">
+      <GlobalID>10</GlobalID>
+      <Position>41.8714,113.3690,71.0026</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.6217,-0.3376,-0.3385,-0.6204</Orientation>
+    </item>
+    <item archetype="GOC_Type_Cube">
+      <GlobalID>11</GlobalID>
+      <Position>43.3766,114.3571,67.4742</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>-0.0004,-0.0518,0.0044,0.9986</Orientation>
+    </item>
+    <item archetype="GOC_Type_Cube">
+      <GlobalID>12</GlobalID>
+      <Position>41.4929,113.3691,65.5277</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>-0.0010,0.0032,0.0001,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Cube">
+      <GlobalID>13</GlobalID>
+      <Position>36.5893,113.3691,67.5367</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,-0.0513,0.0011,0.9987</Orientation>
+    </item>
+    <item archetype="GOC_Type_Cube">
+      <GlobalID>14</GlobalID>
+      <Position>38.4164,113.3690,66.3294</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>-0.5466,0.5477,-0.4484,0.4474</Orientation>
+    </item>
+    <item archetype="GOC_Type_Cube">
+      <GlobalID>15</GlobalID>
+      <Position>41.4916,113.3690,67.9553</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.7070,0.0055,-0.0040,0.7072</Orientation>
+    </item>
+    <item archetype="GOC_Type_Cube">
+      <GlobalID>16</GlobalID>
+      <Position>39.2220,113.3695,67.6180</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.4652,-0.4661,-0.5321,0.5322</Orientation>
+    </item>
+    <item archetype="GOC_Type_Cube">
+      <GlobalID>17</GlobalID>
+      <Position>49.6072,105.6543,61.1725</Position>
+      <Scale>4.1000,0.9000,4.6000</Scale>
+      <Orientation>-0.0005,-0.0005,0.0004,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Destroyer">
+      <GlobalID>18</GlobalID>
+      <Position>40.0714,105.2474,63.5731</Position>
+      <Scale>2.0000,0.2000,2.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ObjectActivationId>8</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>1</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+    </item>
+    <item archetype="GOC_Type_Door1">
+      <GlobalID>19</GlobalID>
+      <Position>31.0129,107.5922,60.7425</Position>
+      <Scale>5.0000,5.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ObjectActivationId>2</ObjectActivationId>
+      <ActivatedBy>   1,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+    </item>
+    <item archetype="GOC_Type_Button1">
+      <GlobalID>20</GlobalID>
+      <Position>36.4510,105.1143,50.3881</Position>
+      <Scale>2.0000,1.0000,2.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ObjectActivationId>1</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+    </item>
+    <item archetype="GOC_Type_Cube">
+      <GlobalID>21</GlobalID>
+      <Position>33.0523,105.7069,48.0437</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0006,0.4049,0.0005,0.9144</Orientation>
+    </item>
+    <item archetype="GOC_Type_RotatingSlider">
+      <GlobalID>22</GlobalID>
+      <Position>26.7437,107.0352,53.1624</Position>
+      <Scale>0.5000,2.0000,0.5000</Scale>
+      <Orientation>0.0000,0.0000,0.0170,0.9999</Orientation>
+      <ObjectActivationId>4</ObjectActivationId>
+      <ActivatedBy>   1,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+      <AutoMovingActive>0</AutoMovingActive>
+      <MovingAxis>   0,   0,   0</MovingAxis>
+      <RotationAxis>   0,   0,   1</RotationAxis>
+      <MovingSpeed>0.000000</MovingSpeed>
+      <RotationSpeed>2.000000</RotationSpeed>
+    </item>
+  </items>
+</root>

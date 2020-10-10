@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="source\AntTweakBar.h" />
+    <ClInclude Include="source\LevelEditor.h" />
+    <ClInclude Include="source\TweakBarManager.h" />
+    <ClInclude Include="source\Polynomial.h" />
+    <ClInclude Include="source\Torus.h" />
+    <ClInclude Include="source\TweakBarControl.h" />
+    <ClInclude Include="source\Axis.h" />
+    <ClInclude Include="source\EditorFunctionality.h" />
+    <ClInclude Include="source\DebugComponent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\LevelEditor.cpp" />
+    <ClCompile Include="source\TweakBarManager.cpp" />
+    <ClCompile Include="source\Polynomial.cc" />
+    <ClCompile Include="source\Torus.cpp" />
+    <ClCompile Include="source\TweakBarControl.cpp" />
+    <ClCompile Include="source\Axis.cpp" />
+    <ClCompile Include="source\EditorFunctionality.cpp" />
+    <ClCompile Include="source\DebugComponent.cpp" />
+  </ItemGroup>
+</Project>

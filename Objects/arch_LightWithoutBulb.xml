@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Archetypes>
+		<Archetype id ="GOC_Type_LightWithoutBulb">
+		  <Components>
+			<Component Type ="Transform"/>
+        <Component Type ="CollisionSphere">
+          <Radius>0.5</Radius>
+        </Component>
+		   <Alpha>0.5</Alpha>
+        <TexMultiplier>1</TexMultiplier>
+        <Component Type="LightComponent"></Component>>
+        <Component Type ="ModelComponent">
+          <ModelName>sphere</ModelName>
+          <TextureName>WhiteLight</TextureName>
+          <SwapTextureName>WhiteLight</SwapTextureName>
+          <Alpha>0.5</Alpha>
+          <TexMultiplier>1</TexMultiplier>
+        </Component>
+      </Components>
+		</Archetype>
+	</Archetypes>	
+</root>

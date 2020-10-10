@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Archetypes>
+		<Archetype id ="GOC_Type_Ellipsoid">
+		  <Components>
+			<Component Type ="Transform"/>
+        <Component Type ="CollisionEllipsoid">
+          <HalfSize>0.5,0.5,0.5</HalfSize>
+        </Component>
+			<Component Type ="ModelComponent">
+			  <ModelName>sphere</ModelName>
+        <TextureName>mandm</TextureName>
+        <SwapTextureName>dark_blue_trans</SwapTextureName>
+        <Alpha>0.5</Alpha>
+        <TexMultiplier>1</TexMultiplier>
+      </Component>
+			<Component Type="RigidBody">
+			  <density>20</density>
+			  <acceleration>0.0,-5.0,0.0</acceleration>
+			  <linearDamping>0.95</linearDamping>
+			  <angularDamping>0.95</angularDamping>
+			  <canSleep>1</canSleep>
+			  <isSleeping>0</isSleeping>
+			</Component>
+        <Component Type="Dying"></Component>
+      </Components>
+		</Archetype>
+	</Archetypes>	
+</root>

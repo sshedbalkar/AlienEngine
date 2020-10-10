@@ -1,0 +1,251 @@
+////////////////////////////////////////////////////////////////////////////////
+// Filename: bumpmap.ps
+////////////////////////////////////////////////////////////////////////////////
+
+/////////////
+// DEFINES //
+/////////////
+#define MAX_NUM_LIGHTS 9
+
+
+//////////////
+// TEXTURES //
+//////////////
+Texture2D ShaderTexture[2] : register(t0);
+
+
+
+///////////////////
+// SAMPLE STATES //
+///////////////////
+SamplerState SampleTypeWrap				: register(s0);
+SamplerComparisonState ShadowMapSampler : register(s1);
+SamplerState SampleTypeClamp            : register(s2);
+
+//////////////////////
+// CONSTANT BUFFERS //
+//////////////////////
+cbuffer LightBuffer : register (b0)
+{
+	float4 diffuseColor[MAX_NUM_LIGHTS];
+	float4 ambientColor;
+    float specularPower;	
+};
+
+cbuffer AttBuffer : register (b1)
+{
+	float4 attenuation[MAX_NUM_LIGHTS];
+};
+
+cbuffer MultiTextureTypeBuffer : register (b2)
+{
+	uint mtt;
+	float Transparency;
+	float TextMultiplier;
+	uint NUM_LIGHTS;
+};
+
+cbuffer MatrixBuffer : register (b3)
+{
+	matrix World;
+	matrix WorldView;
+    matrix WorldViewProjection;
+    matrix WorldViewInverseTranspose;
+	matrix WorldLightProjectionTexture[MAX_NUM_LIGHTS][6];
+};
+
+cbuffer LightPositionBuffer : register (b4)
+{
+	float4 ViewSpaceLightPosition[MAX_NUM_LIGHTS];
+}
+
+cbuffer ScBuffer : register (b5)
+{
+	float4 specularColor;
+}
+
+//////////////
+// TYPEDEFS //
+//////////////
+struct PSInput
+{
+    float4 viewClipSpacePosition				: SV_Position;
+	float4 position								: POSITION;
+	float3 normal								: Attrib0;
+	float3 view									: Attrib1;
+	float3 vsp									: Attrib2;
+	float2 tex									: TEXCOORD0;
+	float3 tangent								: TANGENT;
+	float3 binormal								: BINORMAL;
+};
+
+float3 CubeTextureCoord(uint face, float2 position)
+{
+	switch (face)
+	{
+		case 0: // +x
+		{
+			return float3(0.5f, position.y - 0.5f, 0.5f - position.x);
+		}
+		case 1: // -x
+		{
+			return float3(-0.5f, position.y - 0.5f, position.x - 0.5f);
+		}
+		case 2: // +y
+		{
+			return float3(position.x - 0.5f, 0.5f, 0.5f - position.y);			
+		}
+		case 3: // -y
+		{
+			return float3(position.x - 0.5f, -0.5f, position.y - 0.5f);
+		}
+		case 4: // +z 
+		{
+			return float3(position.x - 0.5f, position.y - 0.5f, 0.5f);			
+		}
+		case 5: // -z
+		{
+			return float3(0.5f - position.x, position.y - 0.5f, -0.5f);
+		}
+	}
+	return float3(0.0f, 0.0f, 0.0f);
+}
+
+float4 Lighting(PSInput input, float3 normal)
+{
+	float4 lightClipTextureSpacePositions[6]; // +x, -x, +y, -y, +z, -z
+	float3 light[MAX_NUM_LIGHTS];	
+	
+	float4 color = ambientColor;
+	
+	if(NUM_LIGHTS == 0)
+		return float4(0.2f, 0.2f, 0.2f, 0.2f);
+
+		
+
+	for(uint LightIndex = 0; LightIndex < NUM_LIGHTS; ++LightIndex)
+	{
+		float f = 0.0f;
+		light[LightIndex]  = ViewSpaceLightPosition[LightIndex].xyz - input.vsp;
+
+		float3 view		          = normalize(input.view);
+		float3 nlight              = normalize(light[LightIndex]);
+		float3 reflection         = reflect(-nlight, normal);
+
+		f = 1.0f;
+
+
+		// Atten is short for attenuation. It is a number between 1.0 and 0.0 which indicates the intensity of light.
+		// 1.0 is full intensity, while 0.0 is no intensity (no light). 
+		// For each vertex within the light's range, the Atten is applied, along with the vertex's normal, to determine how much illumination there is
+
+		// d in this function represents distance. This refers to the distance between the vertex and the light. 
+		// In the function it is multiplied by att1 and att2, which are constants I'll go over next.
+
+		// LightAttenuation0
+		// There are three constant values in this equation, att0, att1 and att2. If you look, you will see that att0 is not multiplied by anything. 
+		// This makes it a constant modifier. If you place a number in only this variable, you get a constant amount of light. 
+		// This means there is no attenuation at all. For example, if you put 0.5 in this value, you will get a half-lit light that will extend all the way to the maximum range of the light.
+		// BILL comments, put att1=1.5, att1=0.0, att2 = 0.0f to see this effect
+
+		// LightAttenuation1
+		// This is the second constant value. If used by itself, it is an inverse function, meaning that the light will dissipate more slowly as the distance increases. 
+		// This is probably the most realistic type of light. Usually you can get away with just setting this to 1.0 and the other two values to 0.0. 
+		// However, because of varying types of lights, this doesn't always work out.
+		// BILL comments, put att1=0, att1=0.01, att2 = 0.0f to see this effect
+
+		// LightAttenuation2
+		// This is the third constant value. If used by itself, it is an inverse square function, meaning that the light will not only dissipate more slowly as the distance increases, 
+		// but the dissipation will be very rapid at first, then sharply slow down. This type of attenuation has the effect of, say, a campfire at night. 
+		// It is very bright around the campfire. But if you walk fifty feet away, you can still see objects lit by the fire, but very dimly. 
+		// If you walk a hundred feet away, you'll still be able to see the light, and it probably won't get that much darker.
+		// BILL comments, put att1=0, att1=0, att2 = 0.01f to see this effect
+	
+
+		float lightDistance		  = length(light[LightIndex]); //Distance from pixel position to light position
+			
+		float  diffuseFactor	  = max(dot(nlight, normal), 0.0f);
+				
+		if( LightIndex == 0 )
+		{
+			float lightAttenuation	  = 1.0f / (attenuation[LightIndex].x + attenuation[LightIndex].y * lightDistance + attenuation[LightIndex].z * lightDistance * lightDistance);
+
+			float4 diffuseIntensity	  = lightAttenuation * diffuseFactor * (diffuseColor[LightIndex]);
+							
+			float  specularFactor     = pow(max(dot(reflection, view), 0.0f), specularPower);
+			float4 specularIntensity  = lightAttenuation * specularFactor * (specularColor);
+			if (dot(nlight, normal) < 0.0f)
+				specularIntensity	  = float4(0.0f, 0.0f, 0.0f, 1.0f);
+				
+			//color = color + (diffuseIntensity + specularIntensity) * f;
+			color = color + (diffuseIntensity + specularIntensity);
+		}
+		
+		else
+		{
+			float lightAttenuation	  = 1.0f / (attenuation[LightIndex].x + attenuation[LightIndex].y * lightDistance + attenuation[LightIndex].z * lightDistance * lightDistance);
+
+			float4 diffuseIntensity	  = lightAttenuation * diffuseFactor * (diffuseColor[LightIndex]);
+
+			color = color + diffuseIntensity;
+		}		
+	}
+	
+	return float4(color.rgb, 1.0f);
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// Pixel Shader
+////////////////////////////////////////////////////////////////////////////////
+float4 BumpMapPixelShader(PSInput input) : SV_TARGET
+{
+	float4 textureColor;
+	float4 color;
+
+	input.normal = normalize(input.normal);
+	input.binormal = normalize(input.binormal);
+	input.tangent = normalize(input.tangent);
+
+
+    // Sample the texture pixel at this location.
+    textureColor = ShaderTexture[0].Sample(SampleTypeWrap, input.tex);
+
+	// Multiply the texture pixel and the input color to get the textured result.
+	if( mtt == 0 ){ //SingleTexture
+		color = Lighting(input, input.normal) * textureColor;
+	}
+	else if( mtt == 8 ){ //BumpMap
+		float4 bumpMap;
+		float3 bumpNormal;
+		// Sample the pixel in the bump map.
+		bumpMap = ShaderTexture[1].Sample(SampleTypeWrap, input.tex);
+		// Expand the range of the normal value from (0, +1) to (-1, +1).
+		bumpMap = (bumpMap * 2.0f) - 1.0f;
+		// Calculate the normal from the data in the bump map.
+		bumpNormal = input.normal + bumpMap.x * input.tangent + bumpMap.y * input.binormal;
+		// Normalize the resulting bump normal.
+		bumpNormal = normalize(bumpNormal);
+		color = Lighting(input, bumpNormal) * textureColor;
+		color = saturate(color);
+	}
+	else if(mtt == 1){ //TextureBlend
+		float4 color2 = ShaderTexture[1].Sample(SampleTypeWrap, input.tex);
+		// Blend the two pixels together and multiply by the gamma value.
+		color = textureColor * color2 * 2.0;
+		// Saturate the final color.
+		color = saturate(color);
+	}
+	else if(mtt == 6){  //Transparent
+		color = textureColor;
+		color.a = Transparency;
+	}
+	else if(mtt == 18){  //TextureColorFR
+		color = textureColor;
+	}
+	else color = float4(1,0,0,1);
+
+	//if(TimePaused)
+	//	color.rgb = (color.r+color.g+color.b)/3.0f;
+		
+	return color;
+}

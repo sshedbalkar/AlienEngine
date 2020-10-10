@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Archetypes>
+		<Archetype id ="GOC_Type_Cube_Thrower_Periodic">
+		  <Components>
+			<Component Type ="Transform"/>
+			<Component Type ="CollisionBox">
+			  <HalfSize>0.5,0.5,0.5</HalfSize>
+			</Component>
+			<Component Type ="ModelComponent">
+			  <ModelName>cubethrower</ModelName>
+        <TextureName>CubeThrowerTexture</TextureName>
+        <Alpha>0.5</Alpha>
+        <TexMultiplier>1</TexMultiplier>
+			</Component>
+        <Component Type="ActivationProperties">
+          <ResetOnLoad>0</ResetOnLoad>
+        </Component>
+		  </Components>
+		</Archetype>
+	
+	</Archetypes>	
+</root>

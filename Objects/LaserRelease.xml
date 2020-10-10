@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Archetypes>
+		<Archetype id ="GOC_Type_Laser">
+		  <Components>
+			<Component Type ="Transform">
+			 <Scale>1,1,1</Scale>
+			</Component>
+      <Component Type ="CollisionBox">
+			  <HalfSize>0.5,0.5,0.5</HalfSize>
+			</Component>
+			<Component Type ="ModelComponent">
+			  <ModelName>laseremitter</ModelName>
+			  <TextureName>LaserEmitter</TextureName>
+        <Alpha>0.5</Alpha>
+        <TexMultiplier>1</TexMultiplier>
+			</Component>
+			<Component Type="RigidBody">
+			  <density>0</density>
+			  <acceleration>0.0,0.0,0.0</acceleration>
+			  <linearDamping>0.95</linearDamping>
+			  <angularDamping>0.8</angularDamping>
+			  <canSleep>1</canSleep>
+			  <isSleeping>0</isSleeping>
+			</Component>
+        <Component Type="ActivationProperties">
+          <ResetOnLoad>0</ResetOnLoad>
+        </Component>
+        <Component Type="Laser">
+        </Component>
+        <Component Type ="HistoryComponent"> </Component>
+        <Component Type="ParticleComponent">
+          <ParticleEmitterTypes>0</ParticleEmitterTypes>
+          <EmitterPeriod>0.001</EmitterPeriod>
+          <size>0.02, 0.02</size>
+          <duration>0.2</duration>
+          <velocityBase>1.0</velocityBase>
+          <colorBase>1.0, 0.0, 0.0, 1.0</colorBase>
+          <colorRange>1.0, 0.0, 0.0, 0.0</colorRange>
+          <sizeDecreasingRate>0.0001, 0.0001, 0.0001</sizeDecreasingRate>
+        </Component>
+		   </Components>
+		</Archetype>
+	</Archetypes>	
+</root>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <object id="backdrop_sky_bright">
+    <Position>200,0,910</Position>
+    <RotationX></RotationX>
+    <RotationY></RotationY>
+    <RotationZ>0</RotationZ>
+    <Scaling>1600,500,1</Scaling>
+    <RenderFlag></RenderFlag>
+    <Velocity></Velocity>
+    <RotatingVelocity></RotatingVelocity>
+  </object>
+  <object id="particle_sun">
+    <Position>290,100,900</Position>
+    <Scaling>14,14,1</Scaling>
+    <RotatingVelocity>0,0,31.415926535897932384626</RotatingVelocity>
+  </object>
+  
+  <object id="skyline_box">
+    <Position>500,-85,150</Position>
+    <Scaling>1600,40,1</Scaling>
+  </object>
+
+  <object id="skyline_box">
+    <Position>500,-120,400</Position>
+    <Scaling>1600,50,1</Scaling>
+  </object>
+
+  <object id="skyline_box">
+    <Position>500,-150,500</Position>
+    <Scaling>1600,75,1</Scaling>
+  </object>
+
+  <object id="clouds">
+    <Position>0.0,16.0,100.0</Position>
+    <Scaling>32.0,18.0,1.0</Scaling>
+  </object>
+
+  <!--<object id="water_box">
+    <Position>6.0, -5.0,0.0</Position>
+    <Scaling>2.0,1.5,1.0</Scaling>
+  </object>-->
+
+  
+  <object id="sprite_logo">
+    <Position>-100.0,-100.0,0</Position>
+    <Scaling>32.0,18.0,1.0</Scaling>
+  </object>
+
+  <object id="sprite_logo1">
+    <Position>-150.0,-100.0,0</Position>
+    <Scaling>31.9,17.94375,1.0</Scaling>
+  </object>
+  <object id="sprite_endgame">
+    <Position>-200.0,-100.0,0</Position>
+    <Scaling>31.9,17.94375,1.0</Scaling>
+  </object>
+  <object id="sprite_credits">
+    <Position>-250.0,-100.0,0</Position>
+    <Scaling>31.9,17.94375,1.0</Scaling>
+  </object>
+  <!--<object id="sprite_instruction_movement">
+    <Position>0,-1,0</Position>
+    <Scaling>5.0,5.0,1.0</Scaling>
+  </object>
+
+  <object id="sprite_instruction_jump">
+    <Position>-5,-1,0</Position>
+    <Scaling>5.0,5.0,1.0</Scaling>
+  </object>
+  <object id="sprite_instruction_shoot">
+    <Position>-10,-1,0</Position>
+    <Scaling>5.0,5.0,1.0</Scaling>
+  </object>
+  <object id="sprite_instruction_point">
+    <Position>-15,-1,0</Position>
+    <Scaling>5.0,5.0,1.0</Scaling>
+  </object>
+  <object id="sprite_instruction_teleport">
+    <Position>-20,-1,0</Position>
+    <Scaling>5.0,5.0,1.0</Scaling>
+  </object>-->
+</root>

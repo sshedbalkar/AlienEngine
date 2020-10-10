@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Archetypes>
+    <Archetype id="GOC_Type_Ceiling">
+      <Components>
+        <Component Type="Transform">
+          <Scale>10,1,10</Scale>
+        </Component>
+        <Component Type="CollisionBox">
+          <HalfSize>5,0.5,5</HalfSize>
+        </Component>
+        <Component Type="ModelComponent">
+          <ModelName>cube</ModelName>
+          <TextureName>ceiling</TextureName>
+          <Alpha>0.5</Alpha>
+          <TexMultiplier>2</TexMultiplier>
+        </Component>
+        <Component Type="RigidBody">
+          <density>0</density>
+          <acceleration>0.0,0.0,0.0</acceleration>
+          <linearDamping>0.95</linearDamping>
+          <angularDamping>0.8</angularDamping>
+          <canSleep>1</canSleep>
+          <isSleeping>0</isSleeping>
+        </Component>
+      </Components>
+    </Archetype>
+  </Archetypes>
+</root>

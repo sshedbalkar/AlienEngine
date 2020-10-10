@@ -1,0 +1,23 @@
+1/2 box scale
+Position to 0,0,0
+Assign material to each part
+Convert each part to editable poly
+Attach the parts (choose second option when window pops up)
+Group it
+Affect pivot to 0,0,0
+Pick unwrap uvw modifier
+Under Selection tab choose polygon
+Ensure map channel: 1 under Channel
+Open UV editor
+CTRL-A the viewport (everything becomes red in UV editor)
+Mapping > Flatten Mapping
+Close UV editor
+Rendering > Render To Texture
+Choose path
+Ensure Object: Use Exisiting Channel: 1 under Mapping Coordinates
+Add > Diffuse Map
+Choose file name
+Choose size
+Render
+Close RTT window
+Export FBX and use in game

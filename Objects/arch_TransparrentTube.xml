@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Archetypes>
+		<Archetype id ="GOC_Type_TransparrentTube">
+		  <Components>
+			<Component Type ="Transform">
+			 <Scale>1,1,1</Scale>
+			</Component>
+      <Component Type ="CollisionBox">
+			  <HalfSize>0.5,0.5,0.5</HalfSize>
+			</Component>
+			<Component Type ="ModelComponent">
+			  <ModelName>tube</ModelName>
+        <TextureName>transparentfloor</TextureName>
+        <Alpha>0.3</Alpha>
+        <TexMultiplier>2</TexMultiplier>
+			</Component>
+			
+		   </Components>
+		</Archetype>
+	</Archetypes>	
+</root>

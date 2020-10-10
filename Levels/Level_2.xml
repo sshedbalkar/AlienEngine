@@ -1,0 +1,162 @@
+<root>
+  <items>
+    <item archetype="GOC_Type_Hero">
+      <GlobalID>1</GlobalID>
+      <Position>-26.9352,92.3644,64.9045</Position>
+      <Scale>2.0000,2.0000,2.0000</Scale>
+      <Orientation>0.1166,0.3072,-0.0379,0.9437</Orientation>
+    </item>
+    <item archetype="GOC_Type_LightBulb">
+      <GlobalID>2</GlobalID>
+      <Position>40.0978,203.2556,66.6225</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <DiffuseColor>1.0000,1.0000,1.0000,1.0000</DiffuseColor>
+      <SpecularColor>1.0000,1.0000,1.0000,1.0000</SpecularColor>
+      <AmbientColor>0.2000,0.2000,0.2000,1.0000</AmbientColor>
+      <SpecularPower>250.000000</SpecularPower>
+      <Attenuation0>1.000000</Attenuation0>
+      <Attenuation1>0.000000</Attenuation1>
+      <Attenuation2>0.000000</Attenuation2>
+      <CanCastShadow>1</CanCastShadow>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>3</GlobalID>
+      <Position>-25.3049,90.8644,69.7693</Position>
+      <Scale>20.0000,1.0000,20.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>4</GlobalID>
+      <Position>-32.6851,93.6798,69.3068</Position>
+      <Scale>1.0000,5.0000,2.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Laser">
+      <GlobalID>5</GlobalID>
+      <Position>-32.1569,95.4466,69.2754</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ObjectActivationId>1</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>1</OneTimeActivated>
+    </item>
+    <item archetype="GOC_Type_Cube_Thrower">
+      <GlobalID>6</GlobalID>
+      <Position>-25.2968,99.9379,73.9099</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ObjectActivationId>2</ObjectActivationId>
+      <ActivatedBy>   7,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>7</GlobalID>
+      <Position>-21.8763,91.6958,75.2420</Position>
+      <Scale>0.6000,2.1000,0.6000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Button2">
+      <GlobalID>8</GlobalID>
+      <Position>-21.8763,92.7403,77.4366</Position>
+      <Scale>0.3000,0.1500,0.3000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ObjectActivationId>4</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.600000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>9</GlobalID>
+      <Position>14.8421,93.0503,67.6621</Position>
+      <Scale>20.0000,1.0000,20.0000</Scale>
+      <Orientation>0.0000,0.0000,-0.7071,0.7071</Orientation>
+    </item>
+    <item archetype="GOC_Type_Sphere_Thrower">
+      <GlobalID>10</GlobalID>
+      <Position>-31.1271,93.5359,85.3625</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.7817,0.0000,0.0000,0.6237</Orientation>
+      <ObjectActivationId>5</ObjectActivationId>
+      <ActivatedBy>   4,   0,   0,   0</ActivatedBy>
+      <PointingTo>-31.00,105.00,50.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>1.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>11</GlobalID>
+      <Position>-31.0739,93.8802,86.4385</Position>
+      <Scale>1.0000,5.0000,5.0000</Scale>
+      <Orientation>0.0027,-0.6615,0.0051,0.7499</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>12</GlobalID>
+      <Position>-31.1271,112.7826,49.9612</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Destroyer">
+      <GlobalID>13</GlobalID>
+      <Position>-18.2455,91.4935,71.6903</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ObjectActivationId>6</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>1</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.000000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+    </item>
+    <item archetype="GOC_Type_Cube">
+      <GlobalID>14</GlobalID>
+      <Position>-21.8177,93.9696,67.2202</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Floor">
+      <GlobalID>15</GlobalID>
+      <Position>-21.8763,91.6958,77.4294</Position>
+      <Scale>0.6000,2.1000,0.6000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+    <item archetype="GOC_Type_Button2">
+      <GlobalID>16</GlobalID>
+      <Position>-21.8763,92.7403,75.2108</Position>
+      <Scale>0.3000,0.1500,0.3000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+      <ObjectActivationId>7</ObjectActivationId>
+      <ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+      <PointingTo>0.00,0.00,0.00</PointingTo>
+      <AttachedToId>0</AttachedToId>
+      <NeverActivate>0</NeverActivate>
+      <RestrictedBy>0</RestrictedBy>
+      <TimeToStayActivated>0.600000</TimeToStayActivated>
+      <OneTimeActivated>0</OneTimeActivated>
+    </item>
+    <item archetype="GOC_Type_Cube">
+      <GlobalID>17</GlobalID>
+      <Position>-24.5811,93.7890,75.8838</Position>
+      <Scale>1.0000,1.0000,1.0000</Scale>
+      <Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+    </item>
+  </items>
+</root>

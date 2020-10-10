@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8AAAE19C-9805-4DC8-85B7-DAF7762252FC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>AlienEngine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>LevelEditor\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ShowIncludes>false</ShowIncludes>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>dxgi.lib;dxerr.lib;d3d11.lib;d3dx10.lib;d3dx11.lib;d3dcompiler.lib;fmodex_vc.lib;winmm.lib;AntTweakBar.lib;AntTweakBar64.lib;LevelEditor_$(ConfigurationName).lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>Lua\References\luabind\msvc-10.0-x86;Lua\References\lua\msvc-10.0-x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>LevelEditor\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d11.lib;d3dcompiler.lib;dxgi.lib;dxerr.lib;d3dx10.lib;d3dx11.lib;fmodex_vc.lib;winmm.lib;LevelEditor_$(ConfigurationName).lib;AntTweakBar.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>Lua\References\luabind\msvc-10.0-x86;Lua\References\lua\msvc-10.0-x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="source\ActivationProperties.cpp" />
+    <ClCompile Include="source\Allocator.cpp" />
+    <ClCompile Include="source\AllocatorDebug.cpp" />
+    <ClCompile Include="source\AllocatorRelease.cpp" />
+    <ClCompile Include="source\alphamapshaderclass.cpp" />
+    <ClCompile Include="source\AnimateShaderClass.cpp" />
+    <ClCompile Include="source\Animation.cpp" />
+    <ClCompile Include="source\Blur.cpp" />
+    <ClCompile Include="source\Cone.cpp" />
+    <ClCompile Include="source\Cylinder.cpp" />
+    <ClCompile Include="source\Deferred.cpp" />
+    <ClCompile Include="source\Ellipsoid.cpp" />
+    <ClCompile Include="source\EventTrigger.cpp" />
+    <ClCompile Include="source\Archetype.cpp" />
+    <ClCompile Include="source\Assert.cpp" />
+    <ClCompile Include="source\Audio.cpp" />
+    <ClCompile Include="source\BasicLevels.cpp" />
+    <ClCompile Include="source\bitmapclass.cpp" />
+    <ClCompile Include="source\BoomBoom.cpp" />
+    <ClCompile Include="source\bumpmapshaderclass.cpp" />
+    <ClCompile Include="source\cameraclass.cpp" />
+    <ClCompile Include="source\clipplaneshaderclass.cpp" />
+    <ClCompile Include="source\Collisions.cpp" />
+    <ClCompile Include="source\colorshaderclass.cpp" />
+    <ClCompile Include="source\Connector.cpp" />
+    <ClCompile Include="source\ConnectorComponent.cpp" />
+    <ClCompile Include="source\ConstraintsComponent.cpp" />
+    <ClCompile Include="source\Contacts.cpp" />
+    <ClCompile Include="source\d3dclass.cpp" />
+    <ClCompile Include="source\debugGeometry.cpp" />
+    <ClCompile Include="source\DebugPrint.cpp" />
+    <ClCompile Include="source\DebugTools.cpp" />
+    <ClCompile Include="source\debugwindowclass.cpp" />
+    <ClCompile Include="source\depthshaderclass.cpp" />
+    <ClCompile Include="source\DominoComponent.cpp" />
+    <ClCompile Include="source\Dying.cpp" />
+    <ClCompile Include="source\fadeshaderclass.cpp" />
+    <ClCompile Include="source\FileRW.cpp" />
+    <ClCompile Include="source\fogshaderclass.cpp" />
+    <ClCompile Include="source\fontclass.cpp" />
+    <ClCompile Include="source\fontshaderclass.cpp" />
+    <ClCompile Include="source\ForceGenerator.cpp" />
+    <ClCompile Include="source\frustumclass.cpp" />
+    <ClCompile Include="source\GameHistory.cpp" />
+    <ClCompile Include="source\Box.cpp" />
+    <ClCompile Include="source\GlowingCylinder.cpp" />
+    <ClCompile Include="source\glowmapshaderclass.cpp" />
+    <ClCompile Include="source\glowshaderclass.cpp" />
+    <ClCompile Include="source\Level_3.cpp" />
+    <ClCompile Include="source\Level_4.cpp" />
+    <ClCompile Include="source\Level_5.cpp" />
+    <ClCompile Include="source\Level_6.cpp" />
+    <ClCompile Include="source\MemAllocatorGen.cpp" />
+    <ClCompile Include="source\MemBank_Pooled.cpp" />
+    <ClCompile Include="source\MemUtility.cpp" />
+    <ClCompile Include="source\Page.cpp" />
+    <ClCompile Include="source\Pool.cpp" />
+    <ClCompile Include="source\RawMemory.cpp" />
+    <ClCompile Include="source\Sphere.cpp" />
+    <ClCompile Include="source\CollisionPrimitive.cpp" />
+    <ClCompile Include="source\GJK.cpp" />
+    <ClCompile Include="source\glassshaderclass.cpp" />
+    <ClCompile Include="source\Global.cpp" />
+    <ClCompile Include="source\GraphicsAssetsLoader.cpp" />
+    <ClCompile Include="source\GraphicsInitialize.cpp" />
+    <ClCompile Include="source\GraphicsUpdate.cpp" />
+    <ClCompile Include="source\GravityGun.cpp" />
+    <ClCompile Include="source\GSM.cpp" />
+    <ClCompile Include="source\Hero.cpp" />
+    <ClCompile Include="source\HistoryComponent.cpp" />
+    <ClCompile Include="source\horizontalblurshaderclass.cpp" />
+    <ClCompile Include="source\InteractiveObject.cpp" />
+    <ClCompile Include="source\Joints.cpp" />
+    <ClCompile Include="source\Laser.cpp" />
+    <ClCompile Include="source\Level_1.cpp" />
+    <ClCompile Include="source\Level_2.cpp" />
+    <ClCompile Include="source\lightclass.cpp" />
+    <ClCompile Include="source\LightComponent.cpp" />
+    <ClCompile Include="source\lightmapshaderclass.cpp" />
+    <ClCompile Include="source\LineDrawer .cpp" />
+    <ClCompile Include="source\LoadLevelClass.cpp" />
+    <ClCompile Include="source\Composition.cpp" />
+    <ClCompile Include="source\Core.cpp" />
+    <ClCompile Include="source\Factory.cpp" />
+    <ClCompile Include="source\FilePath.cpp" />
+    <ClCompile Include="source\GameData.cpp" />
+    <ClCompile Include="source\GameLogic.cpp" />
+    <ClCompile Include="source\Graphics.cpp" />
+    <ClCompile Include="source\LogicCollisionResolve.cpp" />
+    <ClCompile Include="source\LogicComponentManager.cpp" />
+    <ClCompile Include="source\Magnet.cpp" />
+    <ClCompile Include="source\MainMenu.cpp" />
+    <ClCompile Include="source\Matrix3.cpp" />
+    <ClCompile Include="source\Matrix4.cpp" />
+    <ClCompile Include="source\Menu.cpp" />
+    <ClCompile Include="source\ModelClassBinary.cpp" />
+    <ClCompile Include="source\ModelClass.cpp" />
+    <ClCompile Include="source\ModelClassTangent.cpp" />
+    <ClCompile Include="source\MPR.cpp" />
+    <ClCompile Include="source\MsgRecvrComponent.cpp" />
+    <ClCompile Include="source\ObjectActivator.cpp" />
+    <ClCompile Include="source\orthowindowclass.cpp" />
+    <ClCompile Include="source\Particle.cpp" />
+    <ClCompile Include="source\ParticleComponent.cpp" />
+    <ClCompile Include="source\ParticleContacts.cpp" />
+    <ClCompile Include="source\ParticleForceGenerator.cpp" />
+    <ClCompile Include="source\ParticleLinks.cpp" />
+    <ClCompile Include="source\particleshaderclass.cpp" />
+    <ClCompile Include="source\particlesystemclass.cpp" />
+    <ClCompile Include="source\ParticleVisual.cpp" />
+    <ClCompile Include="source\ParticleWorld.cpp" />
+    <ClCompile Include="source\Physics.cpp" />
+    <ClCompile Include="source\PickedObjectHolder.cpp" />
+    <ClCompile Include="source\PostProcessor.cpp" />
+    <ClCompile Include="source\PostProcessorBase.cpp" />
+    <ClCompile Include="source\PowerGun.cpp" />
+    <ClCompile Include="source\Precompiled.cpp" />
+    <ClCompile Include="source\Quaternion.cpp" />
+    <ClCompile Include="source\rendertexturebitmapclass.cpp" />
+    <ClCompile Include="source\rendertextureclass.cpp" />
+    <ClCompile Include="source\ReversePhysics.cpp" />
+    <ClCompile Include="source\ComplexObject.cpp" />
+    <ClCompile Include="source\RigidBody.cpp" />
+    <ClCompile Include="source\AutoMovingComponent.cpp" />
+    <ClCompile Include="source\RopeComponent.cpp" />
+    <ClCompile Include="source\SaveLevelClass.cpp" />
+    <ClCompile Include="source\ShaderCompilation.cpp" />
+    <ClCompile Include="source\SimpleButton.cpp" />
+    <ClCompile Include="source\specmapshaderclass.cpp" />
+    <ClCompile Include="source\SweepPrune.cpp" />
+    <ClCompile Include="source\textclass.cpp" />
+    <ClCompile Include="source\TextDisplay.cpp" />
+    <ClCompile Include="source\TextDisplayWrapper.cpp" />
+    <ClCompile Include="source\TextSerialization.cpp" />
+    <ClCompile Include="source\texturearrayclass.cpp" />
+    <ClCompile Include="source\TextureDraw.cpp" />
+    <ClCompile Include="source\textureshaderclass.cpp" />
+    <ClCompile Include="source\TimeCalculator.cpp" />
+    <ClCompile Include="source\TimeMechanicManager.cpp" />
+    <ClCompile Include="source\timerclass.cpp" />
+    <ClCompile Include="source\Tracker.cpp" />
+    <ClCompile Include="source\Transform.cpp" />
+    <ClCompile Include="source\Utility.cpp" />
+    <ClCompile Include="source\Vector3.cpp" />
+    <ClCompile Include="source\ModelComponent.cpp" />
+    <ClCompile Include="source\verticalblurshaderclass.cpp" />
+    <ClCompile Include="source\WindowsSystem.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\XMLSerialization.cpp" />
+    <ClCompile Include="source\xnaCollision.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\ActivationProperties.h" />
+    <ClInclude Include="source\Allocator.h" />
+    <ClInclude Include="source\AllocatorDebug.h" />
+    <ClInclude Include="source\AllocatorRelease.h" />
+    <ClInclude Include="source\alphamapshaderclass.h" />
+    <ClInclude Include="source\AnimateShaderClass.h" />
+    <ClInclude Include="source\Animation.h" />
+    <ClInclude Include="source\Blur.h" />
+    <ClInclude Include="source\Deferred.h" />
+    <ClInclude Include="source\EventTrigger.h" />
+    <ClInclude Include="source\Archetype.h" />
+    <ClInclude Include="source\Assert.h" />
+    <ClInclude Include="source\Asset.hpp" />
+    <ClInclude Include="source\Audio.h" />
+    <ClInclude Include="source\BasicLevels.h" />
+    <ClInclude Include="source\bitmapclass.h" />
+    <ClInclude Include="source\BoomBoom.h" />
+    <ClInclude Include="source\bumpmapshaderclass.h" />
+    <ClInclude Include="source\cameraclass.h" />
+    <ClInclude Include="source\ChunkReader.h" />
+    <ClInclude Include="source\clipplaneshaderclass.h" />
+    <ClInclude Include="source\Collisions.h" />
+    <ClInclude Include="source\colorshaderclass.h" />
+    <ClInclude Include="source\ComponentCreator.h" />
+    <ClInclude Include="source\ComponentTypeIdsName.h" />
+    <ClInclude Include="source\CompositionTypeIdsName.h" />
+    <ClInclude Include="source\Connector.h" />
+    <ClInclude Include="source\ConnectorComponent.h" />
+    <ClInclude Include="source\ConstraintsComponent.h" />
+    <ClInclude Include="source\Contacts.h" />
+    <ClInclude Include="source\d3dclass.h" />
+    <ClInclude Include="source\DebugDiagnostic.h" />
+    <ClInclude Include="source\debugGeometry.h" />
+    <ClInclude Include="source\DebugPrint.h" />
+    <ClInclude Include="source\DebugTools.h" />
+    <ClInclude Include="source\debugwindowclass.h" />
+    <ClInclude Include="source\depthshaderclass.h" />
+    <ClInclude Include="source\DirectXIncludes.h" />
+    <ClInclude Include="source\DominoComponent.h" />
+    <ClInclude Include="source\Dying.h" />
+    <ClInclude Include="source\fadeshaderclass.h" />
+    <ClInclude Include="source\FileElements.hpp" />
+    <ClInclude Include="source\FileRW.h" />
+    <ClInclude Include="source\fogshaderclass.h" />
+    <ClInclude Include="source\fontclass.h" />
+    <ClInclude Include="source\fontshaderclass.h" />
+    <ClInclude Include="source\ForceGenerator.h" />
+    <ClInclude Include="source\frustumclass.h" />
+    <ClInclude Include="source\FunctionBind.h" />
+    <ClInclude Include="source\GameHistory.h" />
+    <ClInclude Include="source\glassshaderclass.h" />
+    <ClInclude Include="source\Global.h" />
+    <ClInclude Include="source\GlowingCylinder.h" />
+    <ClInclude Include="source\glowmapshaderclass.h" />
+    <ClInclude Include="source\glowshaderclass.h" />
+    <ClInclude Include="source\GraphicsAssetsLoader.h" />
+    <ClInclude Include="source\GravityGun.h" />
+    <ClInclude Include="source\GSM.h" />
+    <ClInclude Include="source\Hero.h" />
+    <ClInclude Include="source\HistoryComponent.h" />
+    <ClInclude Include="source\horizontalblurshaderclass.h" />
+    <ClInclude Include="source\ILevel.h" />
+    <ClInclude Include="source\InteractiveObject.h" />
+    <ClInclude Include="source\Joints.h" />
+    <ClInclude Include="source\Laser.h" />
+    <ClInclude Include="source\Level_1.h" />
+    <ClInclude Include="source\Level_2.h" />
+    <ClInclude Include="source\Level_3.h" />
+    <ClInclude Include="source\Level_4.h" />
+    <ClInclude Include="source\Level_5.h" />
+    <ClInclude Include="source\Level_6.h" />
+    <ClInclude Include="source\lightclass.h" />
+    <ClInclude Include="source\LightComponent.h" />
+    <ClInclude Include="source\lightmapshaderclass.h" />
+    <ClInclude Include="source\LineDrawer.h" />
+    <ClInclude Include="source\LoadLevelClass.h" />
+    <ClInclude Include="source\binaryIO.h" />
+    <ClInclude Include="source\Component.h" />
+    <ClInclude Include="source\ComponentTypeIds.h" />
+    <ClInclude Include="source\Composition.h" />
+    <ClInclude Include="source\Containers.h" />
+    <ClInclude Include="source\Core.h" />
+    <ClInclude Include="source\Engine.h" />
+    <ClInclude Include="source\Factory.h" />
+    <ClInclude Include="source\FilePath.h" />
+    <ClInclude Include="source\GameData.h" />
+    <ClInclude Include="source\GameLogic.h" />
+    <ClInclude Include="source\Graphics.h" />
+    <ClInclude Include="source\LogicCollisionResolve.h" />
+    <ClInclude Include="source\LogicComponentManager.h" />
+    <ClInclude Include="source\Magnet.h" />
+    <ClInclude Include="source\MainMenu.h" />
+    <ClInclude Include="source\mallocator.hpp" />
+    <ClInclude Include="source\Matrix3.h" />
+    <ClInclude Include="source\Matrix4.h" />
+    <ClInclude Include="source\MemAllocatorGen.h" />
+    <ClInclude Include="source\MemBank.h" />
+    <ClInclude Include="source\MemBank_Pooled.h" />
+    <ClInclude Include="source\MemDefines.h" />
+    <ClInclude Include="source\MemUtility.h" />
+    <ClInclude Include="source\Menu.h" />
+    <ClInclude Include="source\ModelClassBinary.h" />
+    <ClInclude Include="source\Message.h" />
+    <ClInclude Include="source\ModelClassTangent.h" />
+    <ClInclude Include="source\ModelClass.h" />
+    <ClInclude Include="source\ModelInfo.h" />
+    <ClInclude Include="source\MsgRecvrComponent.h" />
+    <ClInclude Include="source\ObjectActivator.h" />
+    <ClInclude Include="source\ObjectLinkedList.h" />
+    <ClInclude Include="source\orthowindowclass.h" />
+    <ClInclude Include="source\Page.h" />
+    <ClInclude Include="source\Particle.h" />
+    <ClInclude Include="source\ParticleComponent.h" />
+    <ClInclude Include="source\ParticleContacts.h" />
+    <ClInclude Include="source\ParticleForceGenerator.h" />
+    <ClInclude Include="source\ParticleLinks.h" />
+    <ClInclude Include="source\particleshaderclass.h" />
+    <ClInclude Include="source\particlesystemclass.h" />
+    <ClInclude Include="source\ParticleVisual.h" />
+    <ClInclude Include="source\ParticleWorld.h" />
+    <ClInclude Include="source\Physics.h" />
+    <ClInclude Include="source\PhysicsMath.h" />
+    <ClInclude Include="source\PickedObjectHolder.h" />
+    <ClInclude Include="source\Pool.h" />
+    <ClInclude Include="source\PostProcessor.h" />
+    <ClInclude Include="source\PostProcessorBase.h" />
+    <ClInclude Include="source\PowerGun.h" />
+    <ClInclude Include="source\Precision.h" />
+    <ClInclude Include="source\Precompiled.h" />
+    <ClInclude Include="source\Quaternion.h" />
+    <ClInclude Include="source\rapidxml.hpp" />
+    <ClInclude Include="source\rapidxml_iterators.hpp" />
+    <ClInclude Include="source\rapidxml_print.hpp" />
+    <ClInclude Include="source\rapidxml_utils.hpp" />
+    <ClInclude Include="source\RawMemory.h" />
+    <ClInclude Include="source\rendertexturebitmapclass.h" />
+    <ClInclude Include="source\rendertextureclass.h" />
+    <ClInclude Include="source\ReturnCodes.h" />
+    <ClInclude Include="source\ReturnNames.h" />
+    <ClInclude Include="source\ComplexObject.h" />
+    <ClInclude Include="source\RigidBody.h" />
+    <ClInclude Include="source\AutoMovingComponent.h" />
+    <ClInclude Include="source\HistoryData.h" />
+    <ClInclude Include="source\RopeComponent.h" />
+    <ClInclude Include="source\SaveLevelClass.h" />
+    <ClInclude Include="source\Serialization.h" />
+    <ClInclude Include="source\ShaderCompilation.h" />
+    <ClInclude Include="source\SimpleButton.h" />
+    <ClInclude Include="source\Singleton.h" />
+    <ClInclude Include="source\specmapshaderclass.h" />
+    <ClInclude Include="source\System.h" />
+    <ClInclude Include="source\textclass.h" />
+    <ClInclude Include="source\TextDisplay.h" />
+    <ClInclude Include="source\TextDisplayWrapper.h" />
+    <ClInclude Include="source\TextSerialization.h" />
+    <ClInclude Include="source\texturearrayclass.h" />
+    <ClInclude Include="source\TextureDraw.h" />
+    <ClInclude Include="source\textureshaderclass.h" />
+    <ClInclude Include="source\TimeCalculator.h" />
+    <ClInclude Include="source\TimeMechanicManager.h" />
+    <ClInclude Include="source\timerclass.h" />
+    <ClInclude Include="source\Tracker.h" />
+    <ClInclude Include="source\Transform.h" />
+    <ClInclude Include="source\Utility.h" />
+    <ClInclude Include="source\Variant.h" />
+    <ClInclude Include="source\Vector3.h" />
+    <ClInclude Include="source\VertexTypes.h" />
+    <ClInclude Include="source\ModelComponent.h" />
+    <ClInclude Include="source\verticalblurshaderclass.h" />
+    <ClInclude Include="source\VMath.h" />
+    <ClInclude Include="source\WindowsIncludes.h" />
+    <ClInclude Include="source\WindowsSystem.h" />
+    <ClInclude Include="source\XMLSerialization.h" />
+    <ClInclude Include="source\xnaCollision.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\GraphicsAssets.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Assets\textures\icon.ico" />
+    <None Include="Levels\Level_0.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Levels\Level_1.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Levels\Level_2.xml" />
+    <None Include="Levels\Level_3.xml" />
+    <None Include="Levels\Level_4.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Levels\Level_5.xml" />
+    <None Include="Levels\Level_6.xml" />
+    <None Include="Objects\arch_ActivationGlow.xml" />
+    <None Include="Objects\arch_ActivationGlow1.xml" />
+    <None Include="Objects\arch_Animation1.xml" />
+    <None Include="Objects\arch_Basic.xml" />
+    <None Include="Objects\arch_Bridge.xml" />
+    <None Include="Objects\arch_BridgeRigid.xml" />
+    <None Include="Objects\arch_Bullet.xml" />
+    <None Include="Objects\arch_Button1.xml" />
+    <None Include="Objects\arch_Button2.xml" />
+    <None Include="Objects\arch_Button3.xml" />
+    <None Include="Objects\arch_CanonBall.xml" />
+    <None Include="Objects\arch_Ceiling.xml" />
+    <None Include="Objects\arch_CollisionBox.xml" />
+    <None Include="Objects\arch_CollisionSphere.xml" />
+    <None Include="Objects\arch_ComplexTest.xml" />
+    <None Include="Objects\arch_ConeTest.xml" />
+    <None Include="Objects\arch_ConvBelt.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Objects\arch_Cube.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Objects\arch_CubeGlow.xml" />
+    <None Include="Objects\arch_CubeST.xml" />
+    <None Include="Objects\arch_CubeTest.xml" />
+    <None Include="Objects\arch_CubeThrower.xml" />
+    <None Include="Objects\arch_CubeThrowerPeriodic.xml" />
+    <None Include="Objects\arch_Cylinder.xml" />
+    <None Include="Objects\arch_CylinderTest.xml" />
+    <None Include="Objects\arch_DebugCube.xml" />
+    <None Include="Objects\arch_DebugSphere.xml" />
+    <None Include="Objects\arch_Destroyer.xml" />
+    <None Include="Objects\arch_Domino.xml" />
+    <None Include="Objects\arch_Door1.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Objects\arch_Ellipsoid.xml" />
+    <None Include="Objects\arch_EventTriggerBox.xml" />
+    <None Include="Objects\arch_FieldBase.xml" />
+    <None Include="Objects\arch_Floor.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Objects\arch_Glass.xml" />
+    <None Include="Objects\arch_Gun.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Objects\arch_HangingBall.xml" />
+    <None Include="Objects\arch_Hero.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Objects\arch_Hex.xml" />
+    <None Include="Objects\arch_Laser.xml" />
+    <None Include="Objects\arch_PillarForButton.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Objects\arch_LaserLight.xml" />
+    <None Include="Objects\arch_LevelBox.xml" />
+    <None Include="Objects\arch_LightBulb.xml" />
+    <None Include="Objects\arch_LightBulbWithMass.xml" />
+    <None Include="Objects\arch_LightWithoutBulb.xml" />
+    <None Include="Objects\arch_MetalPlate.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Objects\arch_NonRotatingCube.xml" />
+    <None Include="Objects\arch_ObjectHolder.xml" />
+    <None Include="Objects\arch_PillarForGun.xml" />
+    <None Include="Objects\arch_Quad.xml" />
+    <None Include="Objects\arch_Ramp.xml" />
+    <None Include="Objects\arch_RestrictAutoMoving.xml" />
+    <None Include="Objects\arch_Rope.xml" />
+    <None Include="Objects\arch_RopeKnot.xml" />
+    <None Include="Objects\arch_RopePart.xml" />
+    <None Include="Objects\arch_RopePoint.xml" />
+    <None Include="Objects\arch_RotatingSlider.xml" />
+    <None Include="Objects\arch_RotatingSlider1.xml" />
+    <None Include="Objects\arch_RotatingSword.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Objects\arch_Sphere.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Objects\arch_Constraint.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Objects\arch_SphereThrower.xml" />
+    <None Include="Objects\arch_TableLeg.xml" />
+    <None Include="Objects\arch_TableTop.xml" />
+    <None Include="Objects\arch_Teleporter.xml" />
+    <None Include="Objects\arch_TimeCancelField.xml" />
+    <None Include="Objects\arch_TransparentWall.xml" />
+    <None Include="Objects\arch_TransparrentDominoBase.xml" />
+    <None Include="Objects\arch_VerticalSlider.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Objects\arch_Wall.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Objects\arch_Wall_Sellectable.xml" />
+    <None Include="Shaders\alphamap.ps" />
+    <None Include="Shaders\alphamap.vs" />
+    <None Include="Shaders\animated.ps" />
+    <None Include="Shaders\animated.vs" />
+    <None Include="Shaders\bumpmap.ps" />
+    <None Include="Shaders\bumpmap.vs" />
+    <None Include="Shaders\clipplane.ps" />
+    <None Include="Shaders\clipplane.vs" />
+    <None Include="Shaders\color.ps" />
+    <None Include="Shaders\color.vs" />
+    <None Include="Shaders\depth.gs" />
+    <None Include="Shaders\depth.vs" />
+    <None Include="Shaders\fade.ps" />
+    <None Include="Shaders\fade.vs" />
+    <None Include="Shaders\fog.ps" />
+    <None Include="Shaders\fog.vs" />
+    <None Include="Shaders\font.ps" />
+    <None Include="Shaders\font.vs" />
+    <None Include="Shaders\GBuffer.hlsl" />
+    <None Include="Shaders\glass.ps" />
+    <None Include="Shaders\glass.vs" />
+    <None Include="Shaders\glow.ps" />
+    <None Include="Shaders\glow.vs" />
+    <None Include="Shaders\glowmap.ps" />
+    <None Include="Shaders\glowmap.vs" />
+    <None Include="Shaders\horizontalblur.ps" />
+    <None Include="Shaders\horizontalblur.vs" />
+    <None Include="Shaders\Lighting.hlsl" />
+    <None Include="Shaders\lightmap.ps" />
+    <None Include="Shaders\lightmap.vs" />
+    <None Include="Shaders\LightTiles.hlsl" />
+    <None Include="Shaders\Particle.fx" />
+    <None Include="Shaders\particle.ps" />
+    <None Include="Shaders\particle.vs" />
+    <None Include="Shaders\PostProcessing.hlsl" />
+    <None Include="Shaders\PPIncludes.hlsl" />
+    <None Include="Shaders\Quad.hlsl" />
+    <None Include="Shaders\shadow.ps" />
+    <None Include="Shaders\shadow.vs" />
+    <None Include="Shaders\specmap.ps" />
+    <None Include="Shaders\specmap.vs" />
+    <None Include="Shaders\texture.ps" />
+    <None Include="Shaders\texture.vs" />
+    <None Include="Shaders\verticalblur.ps" />
+    <None Include="Shaders\verticalblur.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AlienEngine.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

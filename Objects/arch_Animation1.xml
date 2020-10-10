@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Archetypes>
+		<Archetype id ="GOC_Type_Animation1">
+		  <Components>
+			<Component Type ="Transform"/>
+			<Component Type ="CollisionBox">
+			  <HalfSize>11,11,11</HalfSize>
+			</Component>
+			<Component Type ="ModelComponent">
+			  <ModelName>goober@walk</ModelName>
+				 <TextureName>goober_UV</TextureName>
+				<SwapTextureName>transparentcube</SwapTextureName>
+				<Alpha>1.0</Alpha>
+			   <TexMultiplier>1</TexMultiplier>
+			</Component>
+		  </Components>
+		</Archetype>
+	
+	</Archetypes>	
+</root>

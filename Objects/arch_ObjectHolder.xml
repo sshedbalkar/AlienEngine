@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Archetypes>
+		<Archetype id ="GOC_Type_ObjectHolder">
+		  <Components>
+        <Component Type ="Transform">
+          <Scale>3,1,3</Scale>
+        </Component>
+        <Component Type ="CollisionBox">
+          <HalfSize>1.5,0.5,1.5</HalfSize>
+        </Component>
+        <Component Type ="ModelComponent">
+		      <ModelName>cylinder</ModelName>
+        <TextureName>teleporter</TextureName>
+         <TexMultiplier>1</TexMultiplier>
+       	</Component>
+
+        
+        <Component Type ="PickedObjectHolder">	</Component>
+      </Components>
+      </Archetype>
+	</Archetypes>	
+</root>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Archetypes>
+		<Archetype id ="GOC_Type_LightBulbWithMass">
+		  <Components>
+			<Component Type ="Transform"/>
+        <Component Type ="CollisionSphere">
+          <Radius>0.5</Radius>
+        </Component>
+			<Component Type ="ModelComponent">
+			  <ModelName>sphere</ModelName>
+        <TextureName>WhiteLight</TextureName>
+        <SwapTextureName>WhiteLight</SwapTextureName>
+        <Alpha>0.5</Alpha>
+        <TexMultiplier>1</TexMultiplier>
+      </Component>
+        <Component Type="RigidBody">
+          <density>10</density>
+          <acceleration>0.0,-10.0,0.0</acceleration>
+          <linearDamping>0.95</linearDamping>
+          <angularDamping>0.8</angularDamping>
+          <canSleep>0</canSleep>
+          <isSleeping>0</isSleeping>
+        </Component>
+        <Component Type="LightComponent"></Component>>
+      </Components>
+		</Archetype>
+	</Archetypes>	
+</root>

@@ -1,0 +1,1649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="10_Utility">
+      <UniqueIdentifier>{dbf237ba-b0e3-471c-b25e-774a37321792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_BaseEngine">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="00_BaseEngine\Factory">
+      <UniqueIdentifier>{0af72e60-de13-47fd-a5e1-1017105f3cd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_BaseEngine\Composition">
+      <UniqueIdentifier>{a7dba8e0-0fd8-4fa7-9613-f29a30de89c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_BaseEngine\Headers">
+      <UniqueIdentifier>{7bef87bf-b547-4dba-979a-adf2d22820db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_BaseEngine\File">
+      <UniqueIdentifier>{aa57226c-db28-40b0-8e4f-e966cb06514d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_BaseEngine\Serialization">
+      <UniqueIdentifier>{4a7e84df-f8a5-4078-9429-0a9750211162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_BaseEngine\Serialization\RapidXML">
+      <UniqueIdentifier>{ec9547c0-b641-42db-8f31-efc0a3bf6192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_BaseEngine\Engine">
+      <UniqueIdentifier>{ccce5645-1581-4759-880a-3a62b7e497be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_BaseEngine\Core">
+      <UniqueIdentifier>{704d4474-ffcd-413a-aba5-ce7fb93aa0fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems">
+      <UniqueIdentifier>{0f12c8ff-5932-4c5f-86b7-a66f2c817159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics">
+      <UniqueIdentifier>{45915576-b611-40ff-a7a2-3edd5edee1c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\System">
+      <UniqueIdentifier>{d1acea69-6903-4682-8b19-0fbb175e2aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Physics">
+      <UniqueIdentifier>{e1bd7215-2044-4cc5-8a0c-babf0905569d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Physics\Dynamics">
+      <UniqueIdentifier>{473c2692-accf-4b9f-a10b-e14a39c9d99e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Physics\System">
+      <UniqueIdentifier>{db3ac90a-3b21-418f-90e1-ded5da255be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Windows">
+      <UniqueIdentifier>{870d5bf9-68c7-4077-aba8-2bd27f85c1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Sound">
+      <UniqueIdentifier>{95eb4883-9776-4d11-9958-c561459621e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels">
+      <UniqueIdentifier>{f869f90e-9578-4412-87be-1038551dcc2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07_Precompiled">
+      <UniqueIdentifier>{4a658feb-0655-4664-81bf-c9ce0f592a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="08_Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="09_Objects">
+      <UniqueIdentifier>{e38dd620-87e5-4d0d-9e54-6037cfea4f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_BaseEngine\Debug">
+      <UniqueIdentifier>{ab34a803-db07-42bb-a634-cb85f9d29647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11_LuaScripts">
+      <UniqueIdentifier>{2040f59e-edbb-4a7b-b73a-ae57050f91f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Model">
+      <UniqueIdentifier>{1f177e8c-70cf-4a09-ba9f-9471ce83ccfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Bitmap">
+      <UniqueIdentifier>{469364d2-e8c9-4c9b-8561-d8a04e7219e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Frustum Culling">
+      <UniqueIdentifier>{c91bfc7e-d277-470a-bcf8-4f6b16f367d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\DrawLine">
+      <UniqueIdentifier>{a1829601-0d3d-4f13-ab83-6e4b3e081ced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Multitexturing">
+      <UniqueIdentifier>{c6883263-0aa3-45de-823d-391f8136b188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Physics\math">
+      <UniqueIdentifier>{9b6936e2-0ed2-4bfb-8ffa-7b625199983d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Physics\math\header files">
+      <UniqueIdentifier>{fd004a87-3a3b-41bf-8eba-f6c352da868f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Physics\math\source files">
+      <UniqueIdentifier>{11673ff1-e422-4c8f-8697-33536bc09ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Physics\Particle Physics">
+      <UniqueIdentifier>{f9a74404-c67d-446f-b140-47c3fb8050d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Physics\Rigid Body Physics">
+      <UniqueIdentifier>{ed530cc5-9a59-4b94-aaa4-ba0e61668954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Physics\Rigid Body Physics\header files">
+      <UniqueIdentifier>{ac90f4a2-52c6-4a49-8663-d6cf37200dc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Physics\Rigid Body Physics\Source files">
+      <UniqueIdentifier>{6ffbaa0e-18af-4a35-8685-738ee1a0404d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Physics\Particle Physics\header files">
+      <UniqueIdentifier>{39673310-4bd8-4932-b885-6c210a803c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Physics\Particle Physics\source files">
+      <UniqueIdentifier>{5cb7e37d-9a90-4617-875e-18b8005ec748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Transform">
+      <UniqueIdentifier>{1ab5f843-f3e6-42e1-a3a9-a8206afaa8b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Light Maps">
+      <UniqueIdentifier>{ec4f6bcb-102f-46f9-b78b-73c8caf4cf0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Alpha Blending">
+      <UniqueIdentifier>{ac45c2da-4882-4ac5-8451-3453c81511a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Bump Maps">
+      <UniqueIdentifier>{e8c53184-0c92-412f-9235-5c154a953aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Header">
+      <UniqueIdentifier>{dc2e8f62-afb7-4d1e-9bde-70bf11082682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Animation">
+      <UniqueIdentifier>{2acae7cf-ad15-42ac-a1b9-8d2dda834b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_Common">
+      <UniqueIdentifier>{2a3b36a3-ef20-4ff1-9449-ef8998265ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Specular Maps">
+      <UniqueIdentifier>{212afbc7-f540-4037-b2a9-512402a83c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Render to Texture">
+      <UniqueIdentifier>{93e4e91c-ef95-4685-9a73-9e479644e7ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\GraphicsAssetsLoader">
+      <UniqueIdentifier>{61c99080-cb6e-457e-8f3d-41fc733ca508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Fog">
+      <UniqueIdentifier>{4271e6a1-d0ed-490c-8eb8-4b2bfc02f782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Shaders">
+      <UniqueIdentifier>{a1c05095-2191-4935-b831-28a85c449c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Clip Plane">
+      <UniqueIdentifier>{3e152456-ca1c-497f-bc00-4269696a980e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Text">
+      <UniqueIdentifier>{df3cc586-425d-4bdd-b020-b58318bda800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Lighting">
+      <UniqueIdentifier>{ff1319c9-6c6f-4495-95d5-04690dd22a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Fade">
+      <UniqueIdentifier>{8deed574-bf02-4ab1-96a2-43182da4fe45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Texture Shading">
+      <UniqueIdentifier>{814f7ead-5465-44c9-b667-7dfb8ff48164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Shadow Maps">
+      <UniqueIdentifier>{f927c671-3419-428f-96d2-c039b2f9d763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Glass and Ice">
+      <UniqueIdentifier>{e23c307d-1123-4e9a-baec-e47391f9ae65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="12_Levels">
+      <UniqueIdentifier>{5328d24c-a4e2-413c-8229-d421400ee1a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\ParticleSystem">
+      <UniqueIdentifier>{df772d57-9a38-4144-aee5-91db48761ad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\LightComponent">
+      <UniqueIdentifier>{3a271b73-08a4-4a99-8178-7d5408b31402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Physics\Event Triggers">
+      <UniqueIdentifier>{265193a8-c0de-4204-895c-956656086c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_BaseEngine\Text Display">
+      <UniqueIdentifier>{51f17e08-4da0-4efc-8f24-92c56801ccd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Physics\ComplexObject">
+      <UniqueIdentifier>{f1561481-2c6f-4d6f-8728-f1ef980e6806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Physics\Broad Phase Collision">
+      <UniqueIdentifier>{31a5ed66-d1d7-4f0d-bb79-000d554144e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Physics\Narrow Phase Collision">
+      <UniqueIdentifier>{813a1679-0d2c-409d-b762-030155c76424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Deferred">
+      <UniqueIdentifier>{4c6de0a0-ff3b-4a0d-a033-6fb57923ea08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Post Process">
+      <UniqueIdentifier>{dec172d1-6170-48ab-917c-da2508902763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Blur">
+      <UniqueIdentifier>{ac5a6b2f-9a74-41b1-99f7-ae74c6613348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Physics\Shapes">
+      <UniqueIdentifier>{627b2599-42ea-4aeb-bc50-0a75e12034aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic">
+      <UniqueIdentifier>{9eb82ddb-3604-4b17-a8a0-4ccf2bb2c690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\ObjectActivator">
+      <UniqueIdentifier>{e918774d-3986-44c3-ade5-9090d90b7915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\BoomBoom">
+      <UniqueIdentifier>{3952a383-7eed-47b9-973f-3f2a831c6245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\Magnet">
+      <UniqueIdentifier>{4710c336-efaa-4129-8592-c0c7390a3b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\PowerGun">
+      <UniqueIdentifier>{7dcf29aa-1f59-4ab8-b197-4d5be33a95d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\Hero">
+      <UniqueIdentifier>{84ea2e2c-587f-4601-ac1e-e39c26694ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\GravityGun">
+      <UniqueIdentifier>{bd6e4dd8-d868-4d6c-9d4e-a9f8f9bfa914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\LaserComponent">
+      <UniqueIdentifier>{2a3c5eed-1665-4f94-8c3d-54bef11fb112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\ActivationPropertiesComponent">
+      <UniqueIdentifier>{df1cc382-811d-4055-a690-f33f898f1b28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\Connector">
+      <UniqueIdentifier>{ad47584d-34b1-4960-bd50-a0b0c7153c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\LogicCollision">
+      <UniqueIdentifier>{a698d72c-09c1-4940-a560-3caa0f25b5f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\DyingComponent">
+      <UniqueIdentifier>{70ab1483-e8c0-44c8-8736-acf339cf6faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\Domino">
+      <UniqueIdentifier>{e73b6589-4b1c-48f1-a101-a126ac967199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\Constraints/Joints">
+      <UniqueIdentifier>{733ebef2-027a-4516-8dc6-ed97b06d7c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\Menu">
+      <UniqueIdentifier>{b559f0e7-5a9b-4574-b490-014342d5aecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\AutoMoving">
+      <UniqueIdentifier>{c9333233-e9c6-43a5-8b86-5b05ab96428f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\RopeComponent">
+      <UniqueIdentifier>{dc2d2a8f-8340-4497-9c37-0c9ec07fe658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\HistoryComponent">
+      <UniqueIdentifier>{76d02802-7a92-47bf-8c2a-ef3d9f97deb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\TimeMechanicManager">
+      <UniqueIdentifier>{4b0b0970-2f96-42d4-8601-6d68926a8241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\GameHistory">
+      <UniqueIdentifier>{87f555cc-595b-4446-b9d9-be194c4c994a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\PickedObjectHolder">
+      <UniqueIdentifier>{6e6907fd-3675-4c40-9710-e8710ea9d11b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\LogicComponentManager">
+      <UniqueIdentifier>{ae0001f1-781a-4377-91eb-a801005565e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Systems\Graphics\Glow">
+      <UniqueIdentifier>{945859ee-de1a-4138-ae23-c65db33c6e6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\GlowCylinders">
+      <UniqueIdentifier>{cbe8a60c-d1e3-401b-8f6f-f29b2a3a3c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Levels\02_GameLogic\Levels">
+      <UniqueIdentifier>{2244fa07-c404-4a76-87a8-57a75d10c16f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{c9827626-6c8a-4139-a94a-9596161296ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Physics.cpp">
+      <Filter>01_Systems\Physics\System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WindowsSystem.cpp">
+      <Filter>01_Systems\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Precompiled.cpp">
+      <Filter>07_Precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Composition.cpp">
+      <Filter>00_BaseEngine\Composition</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Core.cpp">
+      <Filter>00_BaseEngine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Factory.cpp">
+      <Filter>00_BaseEngine\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FilePath.cpp">
+      <Filter>00_BaseEngine\File</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TextSerialization.cpp">
+      <Filter>00_BaseEngine\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Transform.cpp">
+      <Filter>01_Systems\Graphics\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>08_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="source\XMLSerialization.cpp">
+      <Filter>00_BaseEngine\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Utility.cpp">
+      <Filter>10_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Archetype.cpp">
+      <Filter>00_BaseEngine\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Audio.cpp">
+      <Filter>01_Systems\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LoadLevelClass.cpp">
+      <Filter>03_Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GSM.cpp">
+      <Filter>00_BaseEngine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BasicLevels.cpp">
+      <Filter>00_BaseEngine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameData.cpp">
+      <Filter>03_Levels\02_GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameLogic.cpp">
+      <Filter>03_Levels\02_GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DebugTools.cpp">
+      <Filter>00_BaseEngine\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DebugPrint.cpp">
+      <Filter>00_BaseEngine\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="source\debugGeometry.cpp">
+      <Filter>00_BaseEngine\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="source\cameraclass.cpp">
+      <Filter>01_Systems\Graphics\System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\d3dclass.cpp">
+      <Filter>01_Systems\Graphics\System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Graphics.cpp">
+      <Filter>01_Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\bitmapclass.cpp">
+      <Filter>01_Systems\Graphics\Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModelComponent.cpp">
+      <Filter>01_Systems\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="source\frustumclass.cpp">
+      <Filter>01_Systems\Graphics\Frustum Culling</Filter>
+    </ClCompile>
+    <ClCompile Include="source\texturearrayclass.cpp">
+      <Filter>01_Systems\Graphics\Multitexturing</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Vector3.cpp">
+      <Filter>01_Systems\Physics\math\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Matrix3.cpp">
+      <Filter>01_Systems\Physics\math\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Matrix4.cpp">
+      <Filter>01_Systems\Physics\math\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Quaternion.cpp">
+      <Filter>01_Systems\Physics\math\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ForceGenerator.cpp">
+      <Filter>01_Systems\Physics\Rigid Body Physics\Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Contacts.cpp">
+      <Filter>01_Systems\Physics\Rigid Body Physics\Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RigidBody.cpp">
+      <Filter>01_Systems\Physics\Rigid Body Physics\Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Particle.cpp">
+      <Filter>01_Systems\Physics\Particle Physics\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ParticleWorld.cpp">
+      <Filter>01_Systems\Physics\Particle Physics\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ParticleContacts.cpp">
+      <Filter>01_Systems\Physics\Particle Physics\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ParticleForceGenerator.cpp">
+      <Filter>01_Systems\Physics\Particle Physics\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ParticleLinks.cpp">
+      <Filter>01_Systems\Physics\Particle Physics\source files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lightmapshaderclass.cpp">
+      <Filter>01_Systems\Graphics\Light Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\alphamapshaderclass.cpp">
+      <Filter>01_Systems\Graphics\Alpha Blending</Filter>
+    </ClCompile>
+    <ClCompile Include="source\bumpmapshaderclass.cpp">
+      <Filter>01_Systems\Graphics\Bump Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LineDrawer .cpp">
+      <Filter>01_Systems\Graphics\System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lightclass.cpp">
+      <Filter>01_Systems\Graphics\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AnimateShaderClass.cpp">
+      <Filter>01_Systems\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Animation.cpp">
+      <Filter>01_Systems\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FileRW.cpp">
+      <Filter>10_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="source\specmapshaderclass.cpp">
+      <Filter>01_Systems\Graphics\Specular Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\debugwindowclass.cpp">
+      <Filter>01_Systems\Graphics\Render to Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rendertextureclass.cpp">
+      <Filter>01_Systems\Graphics\Render to Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GraphicsAssetsLoader.cpp">
+      <Filter>01_Systems\Graphics\GraphicsAssetsLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="source\fogshaderclass.cpp">
+      <Filter>01_Systems\Graphics\Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="source\clipplaneshaderclass.cpp">
+      <Filter>01_Systems\Graphics\Clip Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="source\fontclass.cpp">
+      <Filter>01_Systems\Graphics\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="source\fontshaderclass.cpp">
+      <Filter>01_Systems\Graphics\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="source\textclass.cpp">
+      <Filter>01_Systems\Graphics\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ActivationProperties.cpp">
+      <Filter>03_Levels\02_GameLogic\ActivationPropertiesComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObjectActivator.cpp">
+      <Filter>03_Levels\02_GameLogic\ObjectActivator</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SaveLevelClass.cpp">
+      <Filter>03_Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BoomBoom.cpp">
+      <Filter>03_Levels\02_GameLogic\BoomBoom</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Magnet.cpp">
+      <Filter>03_Levels\02_GameLogic\Magnet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PowerGun.cpp">
+      <Filter>03_Levels\02_GameLogic\PowerGun</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Connector.cpp">
+      <Filter>03_Levels\02_GameLogic\Connector</Filter>
+    </ClCompile>
+    <ClCompile Include="source\fadeshaderclass.cpp">
+      <Filter>01_Systems\Graphics\Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="source\timerclass.cpp">
+      <Filter>01_Systems\Graphics\Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rendertexturebitmapclass.cpp">
+      <Filter>01_Systems\Graphics\Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GraphicsInitialize.cpp">
+      <Filter>01_Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GraphicsUpdate.cpp">
+      <Filter>01_Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModelClassTangent.cpp">
+      <Filter>01_Systems\Graphics\Bump Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModelClass.cpp">
+      <Filter>01_Systems\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ModelClassBinary.cpp">
+      <Filter>01_Systems\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="source\textureshaderclass.cpp">
+      <Filter>01_Systems\Graphics\Texture Shading</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Hero.cpp">
+      <Filter>03_Levels\02_GameLogic\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GravityGun.cpp">
+      <Filter>03_Levels\02_GameLogic\GravityGun</Filter>
+    </ClCompile>
+    <ClCompile Include="source\depthshaderclass.cpp">
+      <Filter>01_Systems\Graphics\Shadow Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glassshaderclass.cpp">
+      <Filter>01_Systems\Graphics\Glass and Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TimeCalculator.cpp">
+      <Filter>10_Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Assert.cpp">
+      <Filter>04_Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Global.cpp">
+      <Filter>04_Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Laser.cpp">
+      <Filter>03_Levels\02_GameLogic\LaserComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LogicCollisionResolve.cpp">
+      <Filter>03_Levels\02_GameLogic\LogicCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Dying.cpp">
+      <Filter>03_Levels\02_GameLogic\DyingComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="source\particleshaderclass.cpp">
+      <Filter>01_Systems\Graphics\ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\colorshaderclass.cpp">
+      <Filter>01_Systems\Graphics\Fog</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Joints.cpp">
+      <Filter>01_Systems\Physics\Rigid Body Physics\Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DominoComponent.cpp">
+      <Filter>03_Levels\02_GameLogic\Domino</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ConstraintsComponent.cpp">
+      <Filter>03_Levels\02_GameLogic\Constraints/Joints</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Menu.cpp">
+      <Filter>03_Levels\02_GameLogic\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AutoMovingComponent.cpp">
+      <Filter>03_Levels\02_GameLogic\AutoMoving</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RopeComponent.cpp">
+      <Filter>03_Levels\02_GameLogic\RopeComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="source\xnaCollision.cpp">
+      <Filter>01_Systems\Graphics\Frustum Culling</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TextureDraw.cpp">
+      <Filter>01_Systems\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="source\InteractiveObject.cpp">
+      <Filter>04_Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MsgRecvrComponent.cpp">
+      <Filter>04_Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SimpleButton.cpp">
+      <Filter>04_Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MainMenu.cpp">
+      <Filter>03_Levels\02_GameLogic\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ConnectorComponent.cpp">
+      <Filter>03_Levels\02_GameLogic\Connector</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LightComponent.cpp">
+      <Filter>01_Systems\Graphics\LightComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="source\HistoryComponent.cpp">
+      <Filter>03_Levels\02_GameLogic\HistoryComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TimeMechanicManager.cpp">
+      <Filter>03_Levels\02_GameLogic\TimeMechanicManager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\particlesystemclass.cpp">
+      <Filter>01_Systems\Graphics\ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ParticleComponent.cpp">
+      <Filter>01_Systems\Graphics\ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameHistory.cpp">
+      <Filter>03_Levels\02_GameLogic\GameHistory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ParticleVisual.cpp">
+      <Filter>01_Systems\Graphics\ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ReversePhysics.cpp">
+      <Filter>01_Systems\Physics\System</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EventTrigger.cpp">
+      <Filter>01_Systems\Physics\Event Triggers</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TextDisplay.cpp">
+      <Filter>00_BaseEngine\Text Display</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TextDisplayWrapper.cpp">
+      <Filter>00_BaseEngine\Text Display</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ComplexObject.cpp">
+      <Filter>01_Systems\Physics\ComplexObject</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PickedObjectHolder.cpp">
+      <Filter>03_Levels\02_GameLogic\PickedObjectHolder</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SweepPrune.cpp">
+      <Filter>01_Systems\Physics\Broad Phase Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Collisions.cpp">
+      <Filter>01_Systems\Physics\Narrow Phase Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GJK.cpp">
+      <Filter>01_Systems\Physics\Narrow Phase Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LogicComponentManager.cpp">
+      <Filter>03_Levels\02_GameLogic\LogicComponentManager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ShaderCompilation.cpp">
+      <Filter>01_Systems\Graphics\Deferred</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Deferred.cpp">
+      <Filter>01_Systems\Graphics\Deferred</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PostProcessor.cpp">
+      <Filter>01_Systems\Graphics\Post Process</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PostProcessorBase.cpp">
+      <Filter>01_Systems\Graphics\Post Process</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MPR.cpp">
+      <Filter>01_Systems\Physics\Narrow Phase Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="source\verticalblurshaderclass.cpp">
+      <Filter>01_Systems\Graphics\Blur</Filter>
+    </ClCompile>
+    <ClCompile Include="source\orthowindowclass.cpp">
+      <Filter>01_Systems\Graphics\Blur</Filter>
+    </ClCompile>
+    <ClCompile Include="source\horizontalblurshaderclass.cpp">
+      <Filter>01_Systems\Graphics\Blur</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Blur.cpp">
+      <Filter>01_Systems\Graphics\Blur</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Box.cpp">
+      <Filter>01_Systems\Physics\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Sphere.cpp">
+      <Filter>01_Systems\Physics\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CollisionPrimitive.cpp">
+      <Filter>01_Systems\Physics\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Cylinder.cpp">
+      <Filter>01_Systems\Physics\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glowshaderclass.cpp">
+      <Filter>01_Systems\Graphics\Glow</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glowmapshaderclass.cpp">
+      <Filter>01_Systems\Graphics\Glow</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GlowingCylinder.cpp">
+      <Filter>03_Levels\02_GameLogic\GlowCylinders</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ellipsoid.cpp">
+      <Filter>01_Systems\Physics\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Cone.cpp">
+      <Filter>01_Systems\Physics\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Level_1.cpp">
+      <Filter>03_Levels\02_GameLogic\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Level_2.cpp">
+      <Filter>03_Levels\02_GameLogic\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Level_3.cpp">
+      <Filter>03_Levels\02_GameLogic\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Level_4.cpp">
+      <Filter>03_Levels\02_GameLogic\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Level_5.cpp">
+      <Filter>03_Levels\02_GameLogic\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Level_6.cpp">
+      <Filter>03_Levels\02_GameLogic\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MemUtility.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Allocator.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AllocatorDebug.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AllocatorRelease.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MemAllocatorGen.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MemBank_Pooled.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Page.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Pool.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RawMemory.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Tracker.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Physics.h">
+      <Filter>01_Systems\Physics\System</Filter>
+    </ClInclude>
+    <ClInclude Include="source\WindowsSystem.h">
+      <Filter>01_Systems\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Precompiled.h">
+      <Filter>07_Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Component.h">
+      <Filter>00_BaseEngine\Composition</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Composition.h">
+      <Filter>00_BaseEngine\Composition</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Core.h">
+      <Filter>00_BaseEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ComponentTypeIds.h">
+      <Filter>00_BaseEngine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Engine.h">
+      <Filter>00_BaseEngine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Message.h">
+      <Filter>00_BaseEngine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\System.h">
+      <Filter>00_BaseEngine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Factory.h">
+      <Filter>00_BaseEngine\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\FilePath.h">
+      <Filter>00_BaseEngine\File</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Serialization.h">
+      <Filter>00_BaseEngine\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TextSerialization.h">
+      <Filter>00_BaseEngine\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Transform.h">
+      <Filter>01_Systems\Graphics\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Containers.h">
+      <Filter>00_BaseEngine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ObjectLinkedList.h">
+      <Filter>00_BaseEngine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\VMath.h">
+      <Filter>00_BaseEngine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\WindowsIncludes.h">
+      <Filter>00_BaseEngine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rapidxml.hpp">
+      <Filter>00_BaseEngine\Serialization\RapidXML</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rapidxml_iterators.hpp">
+      <Filter>00_BaseEngine\Serialization\RapidXML</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rapidxml_print.hpp">
+      <Filter>00_BaseEngine\Serialization\RapidXML</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rapidxml_utils.hpp">
+      <Filter>00_BaseEngine\Serialization\RapidXML</Filter>
+    </ClInclude>
+    <ClInclude Include="source\XMLSerialization.h">
+      <Filter>00_BaseEngine\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Utility.h">
+      <Filter>10_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Archetype.h">
+      <Filter>00_BaseEngine\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\binaryIO.h">
+      <Filter>00_BaseEngine\File</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Audio.h">
+      <Filter>01_Systems\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LoadLevelClass.h">
+      <Filter>03_Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GSM.h">
+      <Filter>00_BaseEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ILevel.h">
+      <Filter>00_BaseEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BasicLevels.h">
+      <Filter>00_BaseEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameData.h">
+      <Filter>03_Levels\02_GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ComponentCreator.h">
+      <Filter>00_BaseEngine\Composition</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DebugDiagnostic.h">
+      <Filter>00_BaseEngine\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DebugTools.h">
+      <Filter>00_BaseEngine\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DebugPrint.h">
+      <Filter>00_BaseEngine\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="source\debugGeometry.h">
+      <Filter>00_BaseEngine\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="source\cameraclass.h">
+      <Filter>01_Systems\Graphics\System</Filter>
+    </ClInclude>
+    <ClInclude Include="source\d3dclass.h">
+      <Filter>01_Systems\Graphics\System</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DirectXIncludes.h">
+      <Filter>01_Systems\Graphics\System</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Graphics.h">
+      <Filter>01_Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\bitmapclass.h">
+      <Filter>01_Systems\Graphics\Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModelComponent.h">
+      <Filter>01_Systems\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="source\frustumclass.h">
+      <Filter>01_Systems\Graphics\Frustum Culling</Filter>
+    </ClInclude>
+    <ClInclude Include="source\colorshaderclass.h">
+      <Filter>01_Systems\Graphics\DrawLine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ComponentTypeIdsName.h">
+      <Filter>00_BaseEngine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CompositionTypeIdsName.h">
+      <Filter>00_BaseEngine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="source\texturearrayclass.h">
+      <Filter>01_Systems\Graphics\Multitexturing</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Matrix3.h">
+      <Filter>01_Systems\Physics\math\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Matrix4.h">
+      <Filter>01_Systems\Physics\math\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PhysicsMath.h">
+      <Filter>01_Systems\Physics\math\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Precision.h">
+      <Filter>01_Systems\Physics\math\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Quaternion.h">
+      <Filter>01_Systems\Physics\math\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Vector3.h">
+      <Filter>01_Systems\Physics\math\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Contacts.h">
+      <Filter>01_Systems\Physics\Rigid Body Physics\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ForceGenerator.h">
+      <Filter>01_Systems\Physics\Rigid Body Physics\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RigidBody.h">
+      <Filter>01_Systems\Physics\Rigid Body Physics\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Particle.h">
+      <Filter>01_Systems\Physics\Particle Physics\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ParticleContacts.h">
+      <Filter>01_Systems\Physics\Particle Physics\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ParticleForceGenerator.h">
+      <Filter>01_Systems\Physics\Particle Physics\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ParticleLinks.h">
+      <Filter>01_Systems\Physics\Particle Physics\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ParticleWorld.h">
+      <Filter>01_Systems\Physics\Particle Physics\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lightmapshaderclass.h">
+      <Filter>01_Systems\Graphics\Light Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="source\alphamapshaderclass.h">
+      <Filter>01_Systems\Graphics\Alpha Blending</Filter>
+    </ClInclude>
+    <ClInclude Include="source\bumpmapshaderclass.h">
+      <Filter>01_Systems\Graphics\Bump Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LineDrawer.h">
+      <Filter>01_Systems\Graphics\System</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Asset.hpp">
+      <Filter>01_Systems\Graphics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\VertexTypes.h">
+      <Filter>01_Systems\Graphics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ChunkReader.h">
+      <Filter>01_Systems\Graphics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\FileElements.hpp">
+      <Filter>01_Systems\Graphics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="source\lightclass.h">
+      <Filter>01_Systems\Graphics\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Animation.h">
+      <Filter>01_Systems\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AnimateShaderClass.h">
+      <Filter>01_Systems\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="source\FunctionBind.h">
+      <Filter>04_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ReturnCodes.h">
+      <Filter>04_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ReturnNames.h">
+      <Filter>04_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Variant.h">
+      <Filter>04_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\FileRW.h">
+      <Filter>10_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Singleton.h">
+      <Filter>04_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\specmapshaderclass.h">
+      <Filter>01_Systems\Graphics\Specular Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="source\debugwindowclass.h">
+      <Filter>01_Systems\Graphics\Render to Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendertextureclass.h">
+      <Filter>01_Systems\Graphics\Render to Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GraphicsAssetsLoader.h">
+      <Filter>01_Systems\Graphics\GraphicsAssetsLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\fogshaderclass.h">
+      <Filter>01_Systems\Graphics\Fog</Filter>
+    </ClInclude>
+    <ClInclude Include="source\clipplaneshaderclass.h">
+      <Filter>01_Systems\Graphics\Clip Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="source\fontclass.h">
+      <Filter>01_Systems\Graphics\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="source\fontshaderclass.h">
+      <Filter>01_Systems\Graphics\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="source\textclass.h">
+      <Filter>01_Systems\Graphics\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ActivationProperties.h">
+      <Filter>03_Levels\02_GameLogic\ActivationPropertiesComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ObjectActivator.h">
+      <Filter>03_Levels\02_GameLogic\ObjectActivator</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SaveLevelClass.h">
+      <Filter>03_Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModelInfo.h">
+      <Filter>01_Systems\Graphics\GraphicsAssetsLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BoomBoom.h">
+      <Filter>03_Levels\02_GameLogic\BoomBoom</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Magnet.h">
+      <Filter>03_Levels\02_GameLogic\Magnet</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PowerGun.h">
+      <Filter>03_Levels\02_GameLogic\PowerGun</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Connector.h">
+      <Filter>03_Levels\02_GameLogic\Connector</Filter>
+    </ClInclude>
+    <ClInclude Include="source\fadeshaderclass.h">
+      <Filter>01_Systems\Graphics\Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="source\timerclass.h">
+      <Filter>01_Systems\Graphics\Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rendertexturebitmapclass.h">
+      <Filter>01_Systems\Graphics\Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModelClassTangent.h">
+      <Filter>01_Systems\Graphics\Bump Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModelClass.h">
+      <Filter>01_Systems\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ModelClassBinary.h">
+      <Filter>01_Systems\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="source\textureshaderclass.h">
+      <Filter>01_Systems\Graphics\Texture Shading</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Hero.h">
+      <Filter>03_Levels\02_GameLogic\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GravityGun.h">
+      <Filter>03_Levels\02_GameLogic\GravityGun</Filter>
+    </ClInclude>
+    <ClInclude Include="source\depthshaderclass.h">
+      <Filter>01_Systems\Graphics\Shadow Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="source\glassshaderclass.h">
+      <Filter>01_Systems\Graphics\Glass and Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TimeCalculator.h">
+      <Filter>10_Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Assert.h">
+      <Filter>04_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Global.h">
+      <Filter>04_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Laser.h">
+      <Filter>03_Levels\02_GameLogic\LaserComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LogicCollisionResolve.h">
+      <Filter>03_Levels\02_GameLogic\LogicCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Dying.h">
+      <Filter>03_Levels\02_GameLogic\DyingComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="source\particleshaderclass.h">
+      <Filter>01_Systems\Graphics\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameLogic.h">
+      <Filter>03_Levels\02_GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Joints.h">
+      <Filter>01_Systems\Physics\Rigid Body Physics\header files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DominoComponent.h">
+      <Filter>03_Levels\02_GameLogic\Domino</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ConstraintsComponent.h">
+      <Filter>03_Levels\02_GameLogic\Constraints/Joints</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Menu.h">
+      <Filter>03_Levels\02_GameLogic\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AutoMovingComponent.h">
+      <Filter>03_Levels\02_GameLogic\AutoMoving</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RopeComponent.h">
+      <Filter>03_Levels\02_GameLogic\RopeComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="source\xnaCollision.h">
+      <Filter>01_Systems\Graphics\Frustum Culling</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TextureDraw.h">
+      <Filter>01_Systems\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="source\InteractiveObject.h">
+      <Filter>04_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MsgRecvrComponent.h">
+      <Filter>04_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SimpleButton.h">
+      <Filter>04_Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MainMenu.h">
+      <Filter>03_Levels\02_GameLogic\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ConnectorComponent.h">
+      <Filter>03_Levels\02_GameLogic\Connector</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LightComponent.h">
+      <Filter>01_Systems\Graphics\LightComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="source\HistoryComponent.h">
+      <Filter>03_Levels\02_GameLogic\HistoryComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="source\HistoryData.h">
+      <Filter>03_Levels\02_GameLogic\HistoryComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TimeMechanicManager.h">
+      <Filter>03_Levels\02_GameLogic\TimeMechanicManager</Filter>
+    </ClInclude>
+    <ClInclude Include="source\particlesystemclass.h">
+      <Filter>01_Systems\Graphics\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ParticleComponent.h">
+      <Filter>01_Systems\Graphics\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameHistory.h">
+      <Filter>03_Levels\02_GameLogic\GameHistory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ParticleVisual.h">
+      <Filter>01_Systems\Graphics\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EventTrigger.h">
+      <Filter>01_Systems\Physics\Event Triggers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TextDisplay.h">
+      <Filter>00_BaseEngine\Text Display</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TextDisplayWrapper.h">
+      <Filter>00_BaseEngine\Text Display</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ComplexObject.h">
+      <Filter>01_Systems\Physics\ComplexObject</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PickedObjectHolder.h">
+      <Filter>03_Levels\02_GameLogic\PickedObjectHolder</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Collisions.h">
+      <Filter>01_Systems\Physics\Narrow Phase Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LogicComponentManager.h">
+      <Filter>03_Levels\02_GameLogic\LogicComponentManager</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ShaderCompilation.h">
+      <Filter>01_Systems\Graphics\Deferred</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Deferred.h">
+      <Filter>01_Systems\Graphics\Deferred</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PostProcessor.h">
+      <Filter>01_Systems\Graphics\Post Process</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PostProcessorBase.h">
+      <Filter>01_Systems\Graphics\Post Process</Filter>
+    </ClInclude>
+    <ClInclude Include="source\orthowindowclass.h">
+      <Filter>01_Systems\Graphics\Blur</Filter>
+    </ClInclude>
+    <ClInclude Include="source\verticalblurshaderclass.h">
+      <Filter>01_Systems\Graphics\Blur</Filter>
+    </ClInclude>
+    <ClInclude Include="source\horizontalblurshaderclass.h">
+      <Filter>01_Systems\Graphics\Blur</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Blur.h">
+      <Filter>01_Systems\Graphics\Blur</Filter>
+    </ClInclude>
+    <ClInclude Include="source\glowshaderclass.h">
+      <Filter>01_Systems\Graphics\Glow</Filter>
+    </ClInclude>
+    <ClInclude Include="source\glowmapshaderclass.h">
+      <Filter>01_Systems\Graphics\Glow</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GlowingCylinder.h">
+      <Filter>03_Levels\02_GameLogic\GlowCylinders</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Level_2.h">
+      <Filter>03_Levels\02_GameLogic\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Level_1.h">
+      <Filter>03_Levels\02_GameLogic\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Level_3.h">
+      <Filter>03_Levels\02_GameLogic\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Level_4.h">
+      <Filter>03_Levels\02_GameLogic\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Level_5.h">
+      <Filter>03_Levels\02_GameLogic\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Level_6.h">
+      <Filter>03_Levels\02_GameLogic\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MemDefines.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MemUtility.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Allocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AllocatorDebug.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AllocatorRelease.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\mallocator.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MemAllocatorGen.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MemBank.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MemBank_Pooled.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Page.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Pool.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RawMemory.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Tracker.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\textures\icon.ico" />
+    <None Include="Shaders\animated.vs">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\color.vs">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\color.ps">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\lightmap.ps">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\lightmap.vs">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\alphamap.vs">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\alphamap.ps">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\bumpmap.ps">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\bumpmap.vs">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\specmap.ps">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\specmap.vs">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\fog.ps">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\fog.vs">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\clipplane.ps">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\clipplane.vs">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\font.ps">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\font.vs">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\fade.ps">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\fade.vs">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\texture.ps">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\texture.vs">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Objects\arch_Bridge.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Button1.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Cube.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Floor.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_NonRotatingCube.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Quad.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Sphere.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Wall.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Wall_Sellectable.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Assets\GraphicsAssets.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Hero.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Door1.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Shaders\shadow.ps">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\shadow.vs">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\depth.vs">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Objects\arch_CubeThrower.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_TransparentWall.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Shaders\glass.ps">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\glass.vs">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Objects\arch_Glass.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Shaders\animated.ps">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Objects\arch_Gun.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_ConvBelt.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Laser.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Destroyer.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_CubeThrowerPeriodic.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Ramp.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Shaders\depth.gs">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Objects\arch_Domino.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_CollisionBox.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_BridgeRigid.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_RotatingSword.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_VerticalSlider.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Rope.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_HangingBall.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_MetalPlate.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Constraint.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_DebugCube.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_DebugSphere.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_RopeKnot.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_RopePoint.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_RopePart.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Levels\Level_4.xml">
+      <Filter>12_Levels</Filter>
+    </None>
+    <None Include="Levels\Level_0.xml">
+      <Filter>12_Levels</Filter>
+    </None>
+    <None Include="Levels\Level_1.xml">
+      <Filter>12_Levels</Filter>
+    </None>
+    <None Include="Levels\Level_2.xml">
+      <Filter>12_Levels</Filter>
+    </None>
+    <None Include="Levels\Level_3.xml">
+      <Filter>12_Levels</Filter>
+    </None>
+    <None Include="Objects\arch_TransparrentDominoBase.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_SphereThrower.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_CollisionSphere.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_LaserLight.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Teleporter.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_LightBulb.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_LightBulbWithMass.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_CanonBall.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_RotatingSlider.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_EventTriggerBox.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Cylinder.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Shaders\Particle.fx">
+      <Filter>01_Systems\Graphics\ParticleSystem</Filter>
+    </None>
+    <None Include="Shaders\particle.ps">
+      <Filter>01_Systems\Graphics\ParticleSystem</Filter>
+    </None>
+    <None Include="Shaders\particle.vs">
+      <Filter>01_Systems\Graphics\ParticleSystem</Filter>
+    </None>
+    <None Include="Objects\arch_Basic.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Bullet.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Button2.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_ObjectHolder.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_ComplexTest.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Levels\Level_5.xml">
+      <Filter>12_Levels</Filter>
+    </None>
+    <None Include="Objects\arch_TableLeg.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_TableTop.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_TimeCancelField.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Levels\Level_6.xml">
+      <Filter>12_Levels</Filter>
+    </None>
+    <None Include="Objects\arch_CubeTest.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_RestrictAutoMoving.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Shaders\GBuffer.hlsl">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Lighting.hlsl">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\LightTiles.hlsl">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\PostProcessing.hlsl">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\PPIncludes.hlsl">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\Quad.hlsl">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Objects\arch_LightWithoutBulb.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_RotatingSlider1.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_LevelBox.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Hex.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Shaders\horizontalblur.ps">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\horizontalblur.vs">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\verticalblur.ps">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\verticalblur.vs">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Objects\arch_CylinderTest.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Animation1.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Shaders\glowmap.ps">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\glowmap.vs">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\glow.vs">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Shaders\glow.ps">
+      <Filter>01_Systems\Graphics\Shaders</Filter>
+    </None>
+    <None Include="Objects\arch_CubeST.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_CubeGlow.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_ActivationGlow.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_FieldBase.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Button3.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Ellipsoid.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_Ceiling.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_ConeTest.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_PillarForButton.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_PillarForGun.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+    <None Include="Objects\arch_ActivationGlow1.xml">
+      <Filter>09_Objects</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AlienEngine.rc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Archetypes>
+    <Archetype id ="GOC_Type_LaserLight">
+      <Components>
+        <Component Type ="Transform">
+          <Scale>1,1,1</Scale>
+        </Component>
+        <Component Type ="CollisionBox">
+          <HalfSize>0.5,0.5,0.5</HalfSize>
+        </Component>
+        <Component Type ="ModelComponent">
+          <ModelName>cylinder</ModelName>
+          <TextureName>lasercolor</TextureName>
+          <TexMultiplier>1</TexMultiplier>
+        </Component>
+        <Component Type="ParticleComponent">
+          <ParticleEmitterTypes>0</ParticleEmitterTypes>
+          <EmitterPeriod>0.1</EmitterPeriod>
+          <size>0.05, 0.05</size>
+          <duration>1.5</duration>
+          <velocityBase>1.0</velocityBase>
+          <colorBase>0.0, 0.0, 0.0, 1.0</colorBase>
+          <colorRange>1.0, 0.0, 0.0, 0.0</colorRange>
+          <sizeDecreasingRate>0.05, 0.05, 0.05</sizeDecreasingRate>
+        </Component>
+      </Components>
+    </Archetype>
+  </Archetypes>
+</root>

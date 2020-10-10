@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--<Models>
+    <Model id="Cube">
+     <texture1>Assets//textures//cube.png</texture1>
+	   <bin>Assets//models//cube.bin</bin>
+	  <textureType>SingleTexture</textureType>
+    </Model>
+    <Model id="Cube2">
+      <texture1>Assets//textures//poisonous.png</texture1>
+      <bin>Assets//models//cube2.bin</bin>
+      <textureType>SingleTexture</textureType>
+    </Model>
+      <Model id="Cube3">
+        <texture1>Assets//textures//brick.png</texture1>
+        <bin>Assets//models//cube3.bin</bin>
+        <textureType>SingleTexture</textureType>
+      </Model>
+    <Model id="Invisible">
+      <texture1>Assets//textures//red.png</texture1>
+      <bin>Assets//models//Invisible.bin</bin>
+      <textureType>Invisible</textureType>
+    </Model>
+    <Model id="Button">
+      <texture1>Assets//textures//red.png</texture1>
+      <bin>Assets//models//button.bin</bin>
+      <textureType>SingleTexture</textureType>
+    </Model>
+	<Model id="Door">
+      <texture1>Assets//textures//doortest.png</texture1>
+      <bin>Assets//models//door.bin</bin>
+      <textureType>SingleTexture</textureType>
+    </Model>
+    <Model id="Sphere">
+      <texture1>Assets//textures//dark_blue.png</texture1>
+      <bin>Assets//models//sphere.bin</bin>
+      <textureType>SingleTexture</textureType>
+    </Model>
+	  <Model id="Quad">
+      <texture1>Assets//textures//green.png</texture1>
+	   <bin>Assets//models//quad.bin</bin>
+	  <textureType>SingleTexture</textureType>
+    </Model>
+    <Model id="WallUnselected">
+      <texture1>Assets//textures//whitewall.jpg</texture1>
+      <bin>Assets//models//wallunselected.bin</bin>
+      <textureType>SingleTexture</textureType>
+    </Model>
+
+    <Model id="WallSelected">
+      <texture1>Assets//textures//whitewall.jpg</texture1>
+      <texture2>Assets//textures//darkblue.png</texture2>
+      <bin>Assets//models//wallselected.bin</bin>
+      <textureType>TextureBlend</textureType>
+    </Model>
+
+    <Model id="TransparentBridge">
+      <texture1>Assets//textures//blueTile.jpg</texture1>
+      <bin>Assets//models//transparentbridge.bin</bin>
+      <textureType>Transparent</textureType>
+    </Model>
+	
+	<Model id="TransparentWall">
+      <texture1>Assets//textures//mirror.jpg</texture1>
+      <bin>Assets//models//wall1.bin</bin>
+      <textureType>Transparent</textureType>
+    </Model>
+
+    <Model id="Floor">
+      <texture1>Assets//textures//Seamless.png</texture1>
+      <bin>Assets//models//floor.bin</bin>
+      <textureType>SingleTexture</textureType>
+    </Model>
+	
+	<Model id="Floor1">
+      <texture1>Assets//textures//TileFloorTexture.jpg</texture1>
+      <bin>Assets//models//floor1.bin</bin>
+      <textureType>SingleTexture</textureType>
+    </Model>
+	
+	<Model id="Glass">
+      <texture1>Assets//textures//glass01.dds</texture1>
+	  <texture2>Assets//textures//bump03.dds</texture2>
+      <bin>Assets//models//glass.bin</bin>
+      <textureType>Glass</textureType>
+    </Model>
+
+  </Models> 
+   
+   <Models2>
+     <Model2 id="Wall">
+       <texture1>Assets//textures//stone01.dds</texture1>
+       <texture2>Assets//textures//bump01.dds</texture2>
+       <bin>Assets//models//wall.txt</bin>
+       <textureType>Bump</textureType>
+     </Model2>
+   </Models2> -->
+</root>
+
+
+
+
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <Archetypes>
+    <Archetype id ="GOC_Type_CylinderTest">
+      <Components>
+        <Component Type ="Transform">
+          <Scale>1,1,1</Scale>
+        </Component>
+        
+        <Component Type ="CollisionCylinder">
+          <Radius>0.5</Radius>
+          <Height>1.0</Height>
+        </Component>
+        
+        <Component Type ="ModelComponent">
+          <ModelName>cylinder</ModelName>
+          <TextureName>red</TextureName>
+          <SwapTextureName>dark_blue_trans</SwapTextureName>
+          <Alpha>0.4</Alpha>
+          <TexMultiplier>1</TexMultiplier>
+        </Component>
+
+        <Component Type="RigidBody">
+          <density>50</density>
+          <acceleration>0.0,-4.0,0.0</acceleration>
+          <linearDamping>0.95</linearDamping>
+          <angularDamping>0.8</angularDamping>
+          <canSleep>1</canSleep>
+          <isSleeping>0</isSleeping>
+        </Component>
+        
+      </Components>
+    </Archetype>
+  </Archetypes>
+</root>

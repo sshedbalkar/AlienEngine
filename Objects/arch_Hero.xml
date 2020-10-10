@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Archetypes>
+		<Archetype id ="GOC_Type_Hero">
+		  <Components>
+			<Component Type ="Transform">
+			 <Scale>1.0,1.0,1.0</Scale>
+			</Component> 
+			<Component Type ="CollisionSphere">
+			  <Radius>1.00</Radius>
+			</Component>
+        <!--<Component Type ="ModelComponent">
+          <ModelName>sphere</ModelName>
+        </Component>-->
+			<Component Type="RigidBody">
+			  <density>1</density>
+			  <acceleration>0.0,-10.0,0.0</acceleration>
+			  <linearDamping>0.95</linearDamping>
+			  <angularDamping>0.8</angularDamping>
+			  <canSleep>0</canSleep>
+        <isSleeping>0</isSleeping>
+        <canRotate>0</canRotate>
+			</Component>
+        <Component Type ="ModelComponent">
+          <ModelName>hero</ModelName>
+          <TextureName>GunTexture</TextureName>
+          <SwapTextureName>invisible</SwapTextureName>
+
+          <!--<SwapTextureName>transparentbridge</SwapTextureName>-->
+        </Component>
+        <Component Type="ParticleComponent">
+            <ParticleEmitterTypes>1</ParticleEmitterTypes>
+            <EmitterPeriod>0.01</EmitterPeriod>
+            <duration>0.15</duration>
+            <velocityBase>1.5</velocityBase>
+            <size>0.01, 0.01</size>
+            <colorBase>0.0, 0.0, 0.0, 1.0</colorBase>
+        </Component>
+		  </Components>
+		</Archetype>	
+	</Archetypes>	
+</root>

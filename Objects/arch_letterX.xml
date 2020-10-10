@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Archetypes>
+		<Archetype id ="GOC_Type_LetterX">
+		  <Components>
+			<Component Type ="Transform">
+			 <Scale>1.0,1.0,1.0</Scale>
+			</Component>
+      <Component Type ="CollisionBox">
+        <HalfSize>0.5,0.5,0.5</HalfSize>
+      </Component>
+        <Component Type ="ModelComponent">
+          <ModelName>letterx</ModelName>
+          <TextureName>glowinactive1</TextureName>
+          <SwapTextureName>glowactive1</SwapTextureName>
+          <TexMultiplier>1</TexMultiplier>
+         
+        </Component>
+        <Component Type ="GlowingCylinders"> </Component>
+        
+		  </Components>
+		</Archetype>	
+	</Archetypes>	
+</root>

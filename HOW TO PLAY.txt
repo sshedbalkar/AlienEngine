@@ -1,0 +1,22 @@
+Double click AlienEngine.exe In AlienEngine Folder
+
+
+Make sure CAPS LOCK is off.
+
+Press 1 To select the power that makes bridges
+Press 2 To select the power that magnetises objects
+
+Both Powers work the same way, press Left click to select first object, press left click again to select second object.
+If a connection is possible it will happen, otherwise nothing will happen. There is no indicator right now that tells if 2 objects can connect.
+
+Press Right Click to cancel the selected power.
+
+Press "e" to pick up object, press "e" again to drop it.
+
+To play with the lights, point at them and right click.
+
+
+NOTE: The button that turns the lava into ice, has a timer, about 4 seconds. It will reset to lava after that. There is no indicator
+that's why I wrote this here.
+
+ESC brings up the menu

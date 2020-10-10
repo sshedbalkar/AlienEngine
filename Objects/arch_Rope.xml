@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Archetypes>
+		<Archetype id ="GOC_Type_Rope">
+		  <Components>
+			<Component Type ="Transform"/>
+			<Component Type ="CollisionBox">
+			  <HalfSize>0.5,0.5,0.5</HalfSize>
+			</Component>
+			<Component Type ="ModelComponent">
+			  <ModelName>cube</ModelName>
+        <TextureName>rope</TextureName>
+        <SwapTextureName>transparentrope</SwapTextureName>
+        <TexMultiplier>10</TexMultiplier>
+			</Component>
+			<Component Type="RigidBody">
+			  <density>0.1</density>
+			  <acceleration>0.0,0.0,0.0</acceleration>
+			  <linearDamping>0.95</linearDamping>
+			  <angularDamping>0.8</angularDamping>
+			  <canSleep>0</canSleep>
+			  <isSleeping>0</isSleeping>
+			</Component>
+		<Component Type="ActivationProperties">
+          <ResetOnLoad>0</ResetOnLoad>
+        </Component>
+       <Component Type ="Dying"> </Component>
+		  </Components>
+		</Archetype>
+	
+	</Archetypes>	
+</root>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Archetypes>
+		<Archetype id ="GOC_Type_Basic">
+		  <Components>
+        <Component Type ="Transform">
+          <Scale>1,1,1</Scale>
+        </Component>
+      </Components>
+		</Archetype>
+	</Archetypes>	
+</root>

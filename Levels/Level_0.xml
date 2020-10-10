@@ -1,0 +1,914 @@
+<root>
+	<constants>
+		<BloomThreshold>3.500000</BloomThreshold>
+		<BloomMagnitude>0.900000</BloomMagnitude>
+		<BloomBlurSigma>0.800000</BloomBlurSigma>
+		<AdaptationRate>0.000000</AdaptationRate>
+		<ExposureKeyValue>0.015000</ExposureKeyValue>
+		<SpecularIntensity>0.001000</SpecularIntensity>
+		<SpecularR>1.000000</SpecularR>
+		<SpecularG>1.000000</SpecularG>
+		<SpecularB>1.000000</SpecularB>
+		<Balance>0.500000</Balance>
+		<Roughness>1.000000</Roughness>
+		<ConstAmbient>0.3922,0.3922,0.3922,1.0000</ConstAmbient>
+		<SkyColor>1.0000,1.0000,1.0000,1.0000</SkyColor>
+		<GroundColor>0.2350,0.2350,0.2940,1.0000</GroundColor>
+		<HemiIntensity>1.000000</HemiIntensity>
+	</constants>
+	<items>
+		<item archetype="GOC_Type_Hero">
+			<GlobalID>1</GlobalID>
+			<Position>62.9319,107.4808,107.1291</Position>
+			<Scale>2.0000,2.0000,2.0000</Scale>
+			<Orientation>-0.0419,-0.9505,0.1475,-0.2701</Orientation>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>2</GlobalID>
+			<Position>40.0978,203.2556,66.6225</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.0000,0.0000,0.0000</Color>
+			<Fallout>0.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_Floor">
+			<GlobalID>3</GlobalID>
+			<Position>58.9482,104.8389,105.8391</Position>
+			<Scale>60.0000,1.0000,28.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>4</GlobalID>
+			<Position>65.6434,112.9506,95.2041</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.9687,0.7747,0.2340</Color>
+			<Fallout>14.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_Ceiling">
+			<GlobalID>5</GlobalID>
+			<Position>47.9841,123.3892,105.8391</Position>
+			<Scale>45.0000,1.0000,28.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+		</item>
+		<item archetype="GOC_Type_Wall">
+			<GlobalID>6</GlobalID>
+			<Position>58.6145,112.8536,115.2270</Position>
+			<Scale>40.0000,1.0000,60.0000</Scale>
+			<Orientation>-0.5000,0.5000,0.5000,-0.5000</Orientation>
+		</item>
+		<item archetype="GOC_Type_Wall">
+			<GlobalID>7</GlobalID>
+			<Position>30.5910,112.8536,104.8189</Position>
+			<Scale>20.0000,1.0000,20.0000</Scale>
+			<Orientation>0.0000,0.0000,0.7071,-0.7071</Orientation>
+		</item>
+		<item archetype="GOC_Type_Wall">
+			<GlobalID>8</GlobalID>
+			<Position>62.1732,112.8536,94.3728</Position>
+			<Scale>40.0000,1.0000,67.0000</Scale>
+			<Orientation>-0.5000,0.5000,0.5000,-0.5000</Orientation>
+		</item>
+		<item archetype="GOC_Type_Floor">
+			<GlobalID>9</GlobalID>
+			<Position>68.5209,105.4808,105.8391</Position>
+			<Scale>30.0000,2.0000,28.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+		</item>
+		<item archetype="GOC_Type_PillarForGun">
+			<GlobalID>10</GlobalID>
+			<Position>86.5018,113.6363,104.8235</Position>
+			<Scale>1.0000,3.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<ObjectActivationId>14</ObjectActivationId>
+			<ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+			<PointingTo>0.00,0.00,0.00</PointingTo>
+			<AttachedToId>0</AttachedToId>
+			<NeverActivate>1</NeverActivate>
+			<RestrictedBy>0</RestrictedBy>
+			<TimeToStayActivated>0.000000</TimeToStayActivated>
+			<OneTimeActivated>1</OneTimeActivated>
+			<ShootingSpeed>0.000000</ShootingSpeed>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>11</GlobalID>
+			<Position>40.9559,112.9506,114.3277</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.9687,0.7747,0.2340</Color>
+			<Fallout>12.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>12</GlobalID>
+			<Position>40.9559,112.9506,95.2041</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.9687,0.7747,0.2340</Color>
+			<Fallout>12.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>13</GlobalID>
+			<Position>53.2996,112.9506,95.2041</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.9687,0.7747,0.2340</Color>
+			<Fallout>12.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>14</GlobalID>
+			<Position>65.6434,112.9506,114.3277</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.9687,0.7747,0.2340</Color>
+			<Fallout>14.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>15</GlobalID>
+			<Position>53.2996,112.9506,114.3277</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.9687,0.7747,0.2340</Color>
+			<Fallout>12.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_Floor">
+			<GlobalID>16</GlobalID>
+			<Position>93.5380,109.8595,103.3426</Position>
+			<Scale>45.0000,8.0000,50.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+		</item>
+		<item archetype="GOC_Type_VerticalSlider">
+			<GlobalID>17</GlobalID>
+			<Position>68.3512,106.3498,104.8111</Position>
+			<Scale>5.0000,0.5000,5.0000</Scale>
+			<Orientation>0.0000,0.7071,0.0000,0.7071</Orientation>
+			<ObjectActivationId>9</ObjectActivationId>
+			<ActivatedBy>  11,   0,   0,   0</ActivatedBy>
+			<PointingTo>0.00,0.00,0.00</PointingTo>
+			<AttachedToId>0</AttachedToId>
+			<NeverActivate>0</NeverActivate>
+			<RestrictedBy>6</RestrictedBy>
+			<TimeToStayActivated>0.000000</TimeToStayActivated>
+			<OneTimeActivated>0</OneTimeActivated>
+			<ShootingSpeed>0.000000</ShootingSpeed>
+			<AutoCanRotate>0</AutoCanRotate>
+			<AutoCanMove>1</AutoCanMove>
+			<MovingAxis>   0,   1,   0</MovingAxis>
+			<RotationPoint>   0,   0,   0</RotationPoint>
+			<RotationAxis>   0,   0,   0</RotationAxis>
+			<MovingSpeed>1.500000</MovingSpeed>
+			<RotationSpeed>0.000000</RotationSpeed>
+		</item>
+		<item archetype="GOC_Type_PillarForButton">
+			<GlobalID>18</GlobalID>
+			<Position>68.1866,107.2897,102.6798</Position>
+			<Scale>0.5000,1.5000,0.5000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<ObjectActivationId>10</ObjectActivationId>
+			<ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+			<PointingTo>0.00,0.00,0.00</PointingTo>
+			<AttachedToId>9</AttachedToId>
+			<NeverActivate>1</NeverActivate>
+			<RestrictedBy>0</RestrictedBy>
+			<TimeToStayActivated>0.000000</TimeToStayActivated>
+			<OneTimeActivated>0</OneTimeActivated>
+			<ShootingSpeed>0.000000</ShootingSpeed>
+		</item>
+		<item archetype="GOC_Type_Button2">
+			<GlobalID>19</GlobalID>
+			<Position>68.1866,108.0340,102.6798</Position>
+			<Scale>0.3000,0.2000,0.3000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<ObjectActivationId>11</ObjectActivationId>
+			<ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+			<PointingTo>0.00,0.00,0.00</PointingTo>
+			<AttachedToId>9</AttachedToId>
+			<NeverActivate>0</NeverActivate>
+			<RestrictedBy>0</RestrictedBy>
+			<TimeToStayActivated>8.000000</TimeToStayActivated>
+			<OneTimeActivated>0</OneTimeActivated>
+			<ShootingSpeed>0.000000</ShootingSpeed>
+		</item>
+		<item archetype="GOC_Type_VerticalSlider">
+			<GlobalID>20</GlobalID>
+			<Position>71.5510,113.9014,92.9098</Position>
+			<Scale>1.0000,0.2000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<ObjectActivationId>6</ObjectActivationId>
+			<ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+			<PointingTo>0.00,0.00,0.00</PointingTo>
+			<AttachedToId>0</AttachedToId>
+			<NeverActivate>1</NeverActivate>
+			<RestrictedBy>0</RestrictedBy>
+			<TimeToStayActivated>0.000000</TimeToStayActivated>
+			<OneTimeActivated>0</OneTimeActivated>
+			<ShootingSpeed>0.000000</ShootingSpeed>
+			<AutoCanRotate>0</AutoCanRotate>
+			<AutoCanMove>0</AutoCanMove>
+			<MovingAxis>   0,   0,   0</MovingAxis>
+			<RotationPoint>   0,   0,   0</RotationPoint>
+			<RotationAxis>   0,   0,   0</RotationAxis>
+			<MovingSpeed>0.000000</MovingSpeed>
+			<RotationSpeed>0.000000</RotationSpeed>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>21</GlobalID>
+			<Position>71.0604,113.3856,106.8961</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.1961,0.1961,0.7843</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>22</GlobalID>
+			<Position>71.0604,111.9156,106.8961</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,-1.0000</Orientation>
+			<Color>0.1961,0.1961,0.7843</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>23</GlobalID>
+			<Position>71.0604,110.4456,106.8961</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,-1.0000</Orientation>
+			<Color>0.1961,0.1961,0.7843</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>24</GlobalID>
+			<Position>71.0604,108.9755,106.8961</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,-1.0000</Orientation>
+			<Color>0.1961,0.1961,0.7843</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>25</GlobalID>
+			<Position>71.0604,107.5055,106.8961</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,-1.0000</Orientation>
+			<Color>0.1961,0.1961,0.7843</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>26</GlobalID>
+			<Position>71.0604,113.3856,102.5583</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.1961,0.1961,0.7843</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>27</GlobalID>
+			<Position>71.0471,111.9156,102.5877</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.1961,0.1961,0.7843</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>28</GlobalID>
+			<Position>71.0471,110.4456,102.5645</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.1961,0.1961,0.7843</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>29</GlobalID>
+			<Position>71.0471,108.9755,102.5855</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.1961,0.1961,0.7843</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>30</GlobalID>
+			<Position>71.0471,107.5055,102.6995</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.1961,0.1961,0.7843</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>31</GlobalID>
+			<Position>74.4705,113.8460,106.8961</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.1176,0.1961,0.7843</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>32</GlobalID>
+			<Position>85.8193,113.8460,106.8961</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.1176,0.1961,0.7843</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>33</GlobalID>
+			<Position>72.2008,113.8460,106.8961</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.1176,0.1961,0.9804</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>34</GlobalID>
+			<Position>76.7403,113.8460,106.8961</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.1176,0.1961,0.7843</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>35</GlobalID>
+			<Position>81.2798,113.8460,106.8961</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.1176,0.1961,0.7843</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>36</GlobalID>
+			<Position>79.0100,113.8460,106.8961</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.1176,0.1961,0.7843</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>37</GlobalID>
+			<Position>83.5496,113.8460,106.8961</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.1176,0.1961,0.7843</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>38</GlobalID>
+			<Position>72.2008,113.8460,102.5583</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.1176,0.1961,0.9804</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>39</GlobalID>
+			<Position>74.4705,113.8460,102.5583</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.1176,0.1961,0.9804</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>40</GlobalID>
+			<Position>76.7403,113.8460,102.5583</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.1176,0.1961,0.9804</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>41</GlobalID>
+			<Position>79.0100,113.8460,102.5583</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.1176,0.1961,0.9804</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>42</GlobalID>
+			<Position>81.2798,113.8460,102.5583</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.1176,0.1961,0.9804</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>43</GlobalID>
+			<Position>83.5496,113.8460,102.5583</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.1176,0.1961,0.9804</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>44</GlobalID>
+			<Position>85.8193,113.8460,102.5583</Position>
+			<Scale>0.2000,0.2000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.1176,0.1961,0.9804</Color>
+			<Fallout>2.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_Gun">
+			<GlobalID>45</GlobalID>
+			<Position>86.5018,115.3224,104.2035</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>-0.7071,0.0000,0.0000,-0.7071</Orientation>
+		</item>
+		<item archetype="GOC_Type_Ceiling">
+			<GlobalID>46</GlobalID>
+			<Position>70.3200,127.8406,100.8470</Position>
+			<Scale>10.0000,2.0000,28.0000</Scale>
+			<Orientation>0.7071,-0.7071,0.0000,0.0000</Orientation>
+		</item>
+		<item archetype="GOC_Type_Ceiling">
+			<GlobalID>47</GlobalID>
+			<Position>93.5433,133.0353,102.2466</Position>
+			<Scale>50.0000,1.0000,60.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+		</item>
+		<item archetype="GOC_Type_LightWithoutBulb">
+			<GlobalID>48</GlobalID>
+			<Position>89.6002,119.5350,107.3085</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.0784,0.1961,0.7843</Color>
+			<Fallout>10.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightWithoutBulb">
+			<GlobalID>49</GlobalID>
+			<Position>89.6431,119.5350,103.3196</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.0784,0.7843,0.7843</Color>
+			<Fallout>10.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>50</GlobalID>
+			<Position>76.0690,122.0993,114.3277</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.9687,0.7747,0.2340</Color>
+			<Fallout>10.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>51</GlobalID>
+			<Position>76.0690,122.0993,95.2041</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.9687,0.7747,0.2340</Color>
+			<Fallout>10.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_Cylinder">
+			<GlobalID>52</GlobalID>
+			<Position>101.0200,116.9043,86.3863</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+		</item>
+		<item archetype="GOC_Type_Cube">
+			<GlobalID>53</GlobalID>
+			<Position>99.0197,114.3593,86.1678</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>-0.6983,-0.1117,-0.1115,0.6982</Orientation>
+		</item>
+		<item archetype="GOC_Type_ConeTest">
+			<GlobalID>54</GlobalID>
+			<Position>96.2277,114.3594,88.4322</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>-0.0000,-0.0000,0.0000,1.0000</Orientation>
+		</item>
+		<item archetype="GOC_Type_Ellipsoid">
+			<GlobalID>55</GlobalID>
+			<Position>100.4739,114.3594,85.2210</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>-0.8443,0.3734,0.1533,-0.3524</Orientation>
+		</item>
+		<item archetype="GOC_Type_Sphere">
+			<GlobalID>56</GlobalID>
+			<Position>99.4153,114.3594,85.2219</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>-0.0989,0.3383,-0.8482,0.3955</Orientation>
+		</item>
+		<item archetype="GOC_Type_Wall">
+			<GlobalID>57</GlobalID>
+			<Position>92.8041,122.8512,89.5398</Position>
+			<Scale>20.0000,1.0000,10.1000</Scale>
+			<Orientation>0.0000,0.0000,0.7071,-0.7071</Orientation>
+		</item>
+		<item archetype="GOC_Type_Wall">
+			<GlobalID>58</GlobalID>
+			<Position>103.0301,122.8786,84.2210</Position>
+			<Scale>20.0000,1.0000,24.0000</Scale>
+			<Orientation>-0.5000,0.5000,0.5000,-0.5000</Orientation>
+		</item>
+		<item archetype="GOC_Type_Wall">
+			<GlobalID>59</GlobalID>
+			<Position>115.2578,122.8786,97.2463</Position>
+			<Scale>20.0000,1.0000,30.0000</Scale>
+			<Orientation>0.0000,0.0000,0.7071,-0.7071</Orientation>
+		</item>
+		<item archetype="GOC_Type_LightBulbWithMass">
+			<GlobalID>60</GlobalID>
+			<Position>97.0542,114.3595,87.5294</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>-0.3217,0.5628,-0.7406,0.1767</Orientation>
+			<Color>0.5908,0.8945,0.9995</Color>
+			<Fallout>8.000000</Fallout>
+			<LightCanMove>1</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_LightBulb">
+			<GlobalID>61</GlobalID>
+			<Position>114.1510,120.2240,85.4571</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<Color>0.3922,0.3922,1.0000</Color>
+			<Fallout>14.000000</Fallout>
+			<LightCanMove>0</LightCanMove>
+		</item>
+		<item archetype="GOC_Type_ActivationGlowItem1">
+			<GlobalID>62</GlobalID>
+			<Position>107.3892,117.8523,84.7093</Position>
+			<Scale>0.2000,8.0000,0.2000</Scale>
+			<Orientation>-0.7071,0.7071,0.0000,0.0000</Orientation>
+			<GlowCylinderParentId>1</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_ActivationGlowItem1">
+			<GlobalID>63</GlobalID>
+			<Position>104.1263,117.3104,84.7093</Position>
+			<Scale>0.2000,2.0000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.8913,-0.4534</Orientation>
+			<GlowCylinderParentId>1</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_ActivationGlowItem1">
+			<GlobalID>64</GlobalID>
+			<Position>104.1263,118.4482,84.7093</Position>
+			<Scale>0.2000,2.0000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,-0.8861,-0.4634</Orientation>
+			<GlowCylinderParentId>1</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_ActivationGlowItem1">
+			<GlobalID>65</GlobalID>
+			<Position>114.6801,117.8897,101.2040</Position>
+			<Scale>0.2000,8.0000,0.2000</Scale>
+			<Orientation>-0.5000,0.5000,0.5000,-0.5000</Orientation>
+			<GlowCylinderParentId>1</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_ActivationGlowItem1">
+			<GlobalID>66</GlobalID>
+			<Position>114.6801,118.5740,98.0275</Position>
+			<Scale>0.2000,2.0000,0.2000</Scale>
+			<Orientation>-0.6302,0.3206,-0.6302,0.3206</Orientation>
+			<GlowCylinderParentId>1</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_ActivationGlowItem1">
+			<GlobalID>67</GlobalID>
+			<Position>114.6801,117.2810,98.0275</Position>
+			<Scale>0.2000,2.0000,0.2000</Scale>
+			<Orientation>-0.6266,-0.3277,-0.6266,-0.3277</Orientation>
+			<GlowCylinderParentId>1</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_ActivationGlowItem1">
+			<GlobalID>68</GlobalID>
+			<Position>104.9188,113.9273,108.9993</Position>
+			<Scale>0.2000,8.0000,0.2000</Scale>
+			<Orientation>-0.5000,0.5000,0.5000,-0.5000</Orientation>
+			<GlowCylinderParentId>-1</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_ActivationGlowItem1">
+			<GlobalID>69</GlobalID>
+			<Position>105.4847,113.9273,112.1863</Position>
+			<Scale>0.2000,2.0000,0.2000</Scale>
+			<Orientation>0.3412,-0.3391,0.6218,-0.6180</Orientation>
+			<GlowCylinderParentId>-1</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_ActivationGlowItem1">
+			<GlobalID>70</GlobalID>
+			<Position>104.3795,113.9273,112.1346</Position>
+			<Scale>0.2000,2.0000,0.2000</Scale>
+			<Orientation>-0.6180,-0.6218,-0.3391,-0.3412</Orientation>
+			<GlowCylinderParentId>-1</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_Wall">
+			<GlobalID>71</GlobalID>
+			<Position>88.1261,122.8378,122.4136</Position>
+			<Scale>20.0000,1.0000,15.0000</Scale>
+			<Orientation>0.0000,0.0000,0.7071,-0.7071</Orientation>
+		</item>
+		<item archetype="GOC_Type_ActivationGlowItem1">
+			<GlobalID>72</GlobalID>
+			<Position>40.5163,105.3419,104.9550</Position>
+			<Scale>0.2000,8.0000,0.2000</Scale>
+			<Orientation>0.0000,0.0000,0.7071,-0.7071</Orientation>
+			<GlowCylinderParentId>1</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_ActivationGlowItem1">
+			<GlobalID>73</GlobalID>
+			<Position>43.7329,105.3419,105.5020</Position>
+			<Scale>0.2000,2.0000,0.2000</Scale>
+			<Orientation>-0.1972,-0.1984,-0.6768,-0.6810</Orientation>
+			<GlowCylinderParentId>1</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_ActivationGlowItem1">
+			<GlobalID>74</GlobalID>
+			<Position>43.7032,105.3419,104.3662</Position>
+			<Scale>0.2000,2.0000,0.2000</Scale>
+			<Orientation>-0.6810,0.6768,-0.1984,0.1972</Orientation>
+			<GlowCylinderParentId>1</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_LetterS">
+			<GlobalID>75</GlobalID>
+			<Position>51.6826,105.3213,106.4502</Position>
+			<Scale>0.5000,0.5000,0.5000</Scale>
+			<Orientation>0.5000,0.5000,-0.5000,0.5000</Orientation>
+			<GlowCylinderParentId>2</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_LetterP">
+			<GlobalID>76</GlobalID>
+			<Position>51.6826,105.3213,105.2590</Position>
+			<Scale>0.5000,0.5000,0.5000</Scale>
+			<Orientation>0.5000,0.5000,-0.5000,0.5000</Orientation>
+			<GlowCylinderParentId>2</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_LetterA">
+			<GlobalID>77</GlobalID>
+			<Position>51.6826,105.3213,104.0677</Position>
+			<Scale>0.5000,0.5000,0.5000</Scale>
+			<Orientation>0.5000,0.5000,-0.5000,0.5000</Orientation>
+			<GlowCylinderParentId>2</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_LetterC">
+			<GlobalID>78</GlobalID>
+			<Position>51.6826,105.3213,102.8765</Position>
+			<Scale>0.5000,0.5000,0.5000</Scale>
+			<Orientation>0.5000,0.5000,-0.5000,0.5000</Orientation>
+			<GlowCylinderParentId>2</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_LetterE">
+			<GlobalID>79</GlobalID>
+			<Position>51.6826,105.3213,101.6853</Position>
+			<Scale>0.5000,0.5000,0.5000</Scale>
+			<Orientation>0.5000,0.5000,-0.5000,0.5000</Orientation>
+			<GlowCylinderParentId>2</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_LetterA">
+			<GlobalID>80</GlobalID>
+			<Position>40.4388,105.3057,102.6228</Position>
+			<Scale>0.5000,0.5000,0.5000</Scale>
+			<Orientation>0.5000,0.5000,-0.5000,0.5000</Orientation>
+			<GlowCylinderParentId>1</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_LetterW">
+			<GlobalID>81</GlobalID>
+			<Position>42.4277,105.3057,102.6228</Position>
+			<Scale>0.5000,0.5000,0.5000</Scale>
+			<Orientation>0.5000,0.5000,-0.5000,0.5000</Orientation>
+			<GlowCylinderParentId>1</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_LetterD">
+			<GlobalID>82</GlobalID>
+			<Position>38.4499,105.3057,102.6228</Position>
+			<Scale>0.5000,0.5000,0.5000</Scale>
+			<Orientation>0.5000,0.5000,-0.5000,0.5000</Orientation>
+			<GlowCylinderParentId>1</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_LetterS">
+			<GlobalID>83</GlobalID>
+			<Position>36.7887,105.3057,102.6228</Position>
+			<Scale>0.5000,0.5000,0.5000</Scale>
+			<Orientation>0.5000,0.5000,-0.5000,0.5000</Orientation>
+			<GlowCylinderParentId>1</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_LetterE">
+			<GlobalID>84</GlobalID>
+			<Position>67.3276,106.4648,99.1406</Position>
+			<Scale>0.5000,0.5000,0.5000</Scale>
+			<Orientation>0.0000,0.7071,-0.7071,0.0000</Orientation>
+			<GlowCylinderParentId>3</GlowCylinderParentId>
+		</item>
+		<item archetype="GOC_Type_VerticalSlider">
+			<GlobalID>85</GlobalID>
+			<Position>37.6079,108.7785,92.5054</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<ObjectActivationId>1</ObjectActivationId>
+			<ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+			<PointingTo>0.00,0.00,0.00</PointingTo>
+			<AttachedToId>0</AttachedToId>
+			<NeverActivate>1</NeverActivate>
+			<RestrictedBy>0</RestrictedBy>
+			<TimeToStayActivated>0.000000</TimeToStayActivated>
+			<OneTimeActivated>0</OneTimeActivated>
+			<ShootingSpeed>0.000000</ShootingSpeed>
+			<AutoCanRotate>0</AutoCanRotate>
+			<AutoCanMove>0</AutoCanMove>
+			<MovingAxis>   0,   0,   0</MovingAxis>
+			<RotationPoint>-431602080,-431602080,-431602080</RotationPoint>
+			<RotationAxis>   0,   0,   0</RotationAxis>
+			<MovingSpeed>0.000000</MovingSpeed>
+			<RotationSpeed>0.000000</RotationSpeed>
+		</item>
+		<item archetype="GOC_Type_VerticalSlider">
+			<GlobalID>86</GlobalID>
+			<Position>41.2164,108.0673,92.5346</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<ObjectActivationId>2</ObjectActivationId>
+			<ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+			<PointingTo>0.00,0.00,0.00</PointingTo>
+			<AttachedToId>0</AttachedToId>
+			<NeverActivate>1</NeverActivate>
+			<RestrictedBy>0</RestrictedBy>
+			<TimeToStayActivated>0.000000</TimeToStayActivated>
+			<OneTimeActivated>0</OneTimeActivated>
+			<ShootingSpeed>0.000000</ShootingSpeed>
+			<AutoCanRotate>0</AutoCanRotate>
+			<AutoCanMove>0</AutoCanMove>
+			<MovingAxis>   0,   0,   0</MovingAxis>
+			<RotationPoint>-431602080,-431602080,-431602080</RotationPoint>
+			<RotationAxis>   0,   0,   0</RotationAxis>
+			<MovingSpeed>0.000000</MovingSpeed>
+			<RotationSpeed>0.000000</RotationSpeed>
+		</item>
+		<item archetype="GOC_Type_VerticalSlider">
+			<GlobalID>87</GlobalID>
+			<Position>42.8732,109.3529,92.5221</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<ObjectActivationId>3</ObjectActivationId>
+			<ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+			<PointingTo>0.00,0.00,0.00</PointingTo>
+			<AttachedToId>0</AttachedToId>
+			<NeverActivate>1</NeverActivate>
+			<RestrictedBy>0</RestrictedBy>
+			<TimeToStayActivated>0.000000</TimeToStayActivated>
+			<OneTimeActivated>0</OneTimeActivated>
+			<ShootingSpeed>0.000000</ShootingSpeed>
+			<AutoCanRotate>0</AutoCanRotate>
+			<AutoCanMove>0</AutoCanMove>
+			<MovingAxis>   0,   0,   0</MovingAxis>
+			<RotationPoint>-431602080,-431602080,-431602080</RotationPoint>
+			<RotationAxis>   0,   0,   0</RotationAxis>
+			<MovingSpeed>0.000000</MovingSpeed>
+			<RotationSpeed>0.000000</RotationSpeed>
+		</item>
+		<item archetype="GOC_Type_VerticalSlider">
+			<GlobalID>88</GlobalID>
+			<Position>48.3652,107.8411,92.5691</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<ObjectActivationId>4</ObjectActivationId>
+			<ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+			<PointingTo>0.00,0.00,0.00</PointingTo>
+			<AttachedToId>0</AttachedToId>
+			<NeverActivate>1</NeverActivate>
+			<RestrictedBy>0</RestrictedBy>
+			<TimeToStayActivated>0.000000</TimeToStayActivated>
+			<OneTimeActivated>0</OneTimeActivated>
+			<ShootingSpeed>0.000000</ShootingSpeed>
+			<AutoCanRotate>0</AutoCanRotate>
+			<AutoCanMove>0</AutoCanMove>
+			<MovingAxis>   0,   0,   0</MovingAxis>
+			<RotationPoint>-431602080,-431602080,-431602080</RotationPoint>
+			<RotationAxis>   0,   0,   0</RotationAxis>
+			<MovingSpeed>0.000000</MovingSpeed>
+			<RotationSpeed>0.000000</RotationSpeed>
+		</item>
+		<item archetype="GOC_Type_VerticalSlider">
+			<GlobalID>89</GlobalID>
+			<Position>51.9603,108.1955,92.5856</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<ObjectActivationId>5</ObjectActivationId>
+			<ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+			<PointingTo>0.00,0.00,0.00</PointingTo>
+			<AttachedToId>0</AttachedToId>
+			<NeverActivate>1</NeverActivate>
+			<RestrictedBy>0</RestrictedBy>
+			<TimeToStayActivated>0.000000</TimeToStayActivated>
+			<OneTimeActivated>0</OneTimeActivated>
+			<ShootingSpeed>0.000000</ShootingSpeed>
+			<AutoCanRotate>0</AutoCanRotate>
+			<AutoCanMove>0</AutoCanMove>
+			<MovingAxis>   0,   0,   0</MovingAxis>
+			<RotationPoint>-431602080,-431602080,-431602080</RotationPoint>
+			<RotationAxis>   0,   0,   0</RotationAxis>
+			<MovingSpeed>0.000000</MovingSpeed>
+			<RotationSpeed>0.000000</RotationSpeed>
+		</item>
+		<item archetype="GOC_Type_VerticalSlider">
+			<GlobalID>90</GlobalID>
+			<Position>57.0179,106.2673,92.5991</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<ObjectActivationId>6</ObjectActivationId>
+			<ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+			<PointingTo>0.00,0.00,0.00</PointingTo>
+			<AttachedToId>0</AttachedToId>
+			<NeverActivate>1</NeverActivate>
+			<RestrictedBy>0</RestrictedBy>
+			<TimeToStayActivated>0.000000</TimeToStayActivated>
+			<OneTimeActivated>0</OneTimeActivated>
+			<ShootingSpeed>0.000000</ShootingSpeed>
+			<AutoCanRotate>0</AutoCanRotate>
+			<AutoCanMove>0</AutoCanMove>
+			<MovingAxis>   0,   0,   0</MovingAxis>
+			<RotationPoint>-431602080,-431602080,-431602080</RotationPoint>
+			<RotationAxis>   0,   0,   0</RotationAxis>
+			<MovingSpeed>0.000000</MovingSpeed>
+			<RotationSpeed>0.000000</RotationSpeed>
+		</item>
+		<item archetype="GOC_Type_VerticalSlider">
+			<GlobalID>91</GlobalID>
+			<Position>59.2725,108.4872,92.6051</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<ObjectActivationId>7</ObjectActivationId>
+			<ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+			<PointingTo>0.00,0.00,0.00</PointingTo>
+			<AttachedToId>0</AttachedToId>
+			<NeverActivate>1</NeverActivate>
+			<RestrictedBy>0</RestrictedBy>
+			<TimeToStayActivated>0.000000</TimeToStayActivated>
+			<OneTimeActivated>0</OneTimeActivated>
+			<ShootingSpeed>0.000000</ShootingSpeed>
+			<AutoCanRotate>0</AutoCanRotate>
+			<AutoCanMove>0</AutoCanMove>
+			<MovingAxis>   0,   0,   0</MovingAxis>
+			<RotationPoint>-431602080,-431602080,-431602080</RotationPoint>
+			<RotationAxis>   0,   0,   0</RotationAxis>
+			<MovingSpeed>0.000000</MovingSpeed>
+			<RotationSpeed>0.000000</RotationSpeed>
+		</item>
+		<item archetype="GOC_Type_VerticalSlider">
+			<GlobalID>92</GlobalID>
+			<Position>64.7730,106.5291,93.4145</Position>
+			<Scale>1.0000,1.0000,1.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<ObjectActivationId>8</ObjectActivationId>
+			<ActivatedBy>   0,   0,   0,   0</ActivatedBy>
+			<PointingTo>0.00,0.00,0.00</PointingTo>
+			<AttachedToId>0</AttachedToId>
+			<NeverActivate>1</NeverActivate>
+			<RestrictedBy>0</RestrictedBy>
+			<TimeToStayActivated>0.000000</TimeToStayActivated>
+			<OneTimeActivated>0</OneTimeActivated>
+			<ShootingSpeed>0.000000</ShootingSpeed>
+			<AutoCanRotate>0</AutoCanRotate>
+			<AutoCanMove>0</AutoCanMove>
+			<MovingAxis>   0,   0,   0</MovingAxis>
+			<RotationPoint>-431602080,-431602080,-431602080</RotationPoint>
+			<RotationAxis>   0,   0,   0</RotationAxis>
+			<MovingSpeed>0.000000</MovingSpeed>
+			<RotationSpeed>0.000000</RotationSpeed>
+		</item>
+		<item archetype="GOC_Type_TutorialBox">
+			<GlobalID>93</GlobalID>
+			<Position>38.0249,110.7237,104.6134</Position>
+			<Scale>15.0000,15.0000,20.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<LevelBoxId>1</LevelBoxId>
+		</item>
+		<item archetype="GOC_Type_TutorialBox">
+			<GlobalID>94</GlobalID>
+			<Position>48.8941,111.3918,104.8209</Position>
+			<Scale>9.0000,15.0000,20.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<LevelBoxId>2</LevelBoxId>
+		</item>
+		<item archetype="GOC_Type_TutorialBox">
+			<GlobalID>95</GlobalID>
+			<Position>68.3054,107.9863,104.8803</Position>
+			<Scale>5.0000,3.0000,5.0000</Scale>
+			<Orientation>0.0000,0.0000,0.0000,1.0000</Orientation>
+			<LevelBoxId>3</LevelBoxId>
+		</item>
+	</items>
+</root>

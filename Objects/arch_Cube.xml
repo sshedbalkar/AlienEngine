@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Archetypes>
+		<Archetype id ="GOC_Type_Cube">
+		  <Components>
+			<Component Type ="Transform"/>
+			<Component Type ="CollisionBox">
+			  <HalfSize>0.5,0.5,0.5</HalfSize>
+			</Component>
+			<Component Type ="ModelComponent">
+			  <ModelName>robocube</ModelName>
+        <TextureName>CubeTexture</TextureName>
+        <SwapTextureName>transparentcube</SwapTextureName>
+        <Alpha>0.6</Alpha>
+        <TexMultiplier>1</TexMultiplier>
+			</Component>
+			<Component Type="RigidBody">
+			  <density>500</density>
+			  <acceleration>0.0,-4.0,0.0</acceleration>
+			  <linearDamping>0.95</linearDamping>
+			  <angularDamping>0.8</angularDamping>
+			  <canSleep>1</canSleep>
+			  <isSleeping>0</isSleeping>
+			</Component>
+       <Component Type ="Dying"> </Component>
+       <Component Type ="HistoryComponent"> </Component>
+		  </Components>
+		</Archetype>
+	
+	</Archetypes>	
+</root>
